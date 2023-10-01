@@ -14,7 +14,7 @@ export default hopeTheme({
 
   logo: "/logo.png",
 
-  repo: "https://github.com/the-lazy-me",
+  repo: "https://github.com/the-lazy-me/QChatGPT-Wiki",
 
   docsDir: "src",
 
@@ -66,6 +66,7 @@ export default hopeTheme({
       katex: true,
       mark: true,
       mermaid: true,
+      //card:true,
       playground: {
         presets: ["ts", "vue"],
       },

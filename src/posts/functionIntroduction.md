@@ -8,7 +8,11 @@ category:
   - 使用指南
 ---
 
-> [QChatGPT项目](https://github.com/RockChinQ/QChatGPT)的功能介绍
+> 此页面是[QChatGPT项目](https://github.com/RockChinQ/QChatGPT)的功能介绍
+
+:::info 目录
+[[toc]]
+:::
 
 ## 选择不同的登录器
 
@@ -406,5 +410,7 @@ process_message_timeout = 30
 process_message_timeout = 180
 ```
 ## 提出建议
-> 欢迎广大用户积极提出意见和建议，帮助我们进一步改善
+:::tip
+欢迎广大用户积极提出意见和建议，帮助我们进一步改善
+:::
     

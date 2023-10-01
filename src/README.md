@@ -11,7 +11,7 @@ heroText: QChatGPT
 tagline: 😎高稳定性、🧩支持插件、🌏实时联网的 ChatGPT QQ 机器人🤖 | 支持 Claude、Google Bard、gpt4free、One API 的 QQ 机器人平台
 actions:
   - text: 🚀 快速上手
-    link: ./posts/
+    link: ./posts/deploymentTutorial/
     type: primary
 
   - text: 查看项目
@@ -143,24 +143,24 @@ highlights:
         # link: https://theme-hope.vuejs.press/zh/guide/markdown/presentation/
 
   - header: 部署和使用
-    description: 提供自动化部署或手动部署两种方式
+    description: 提供多种部署方式
     image: /assets/image/layout.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     highlights:
-      - title: 自动化安装器部署（Windows推荐）
-        icon: object-group
-        details: 点击此处看详细教程
-        link: https://lazyfree.top/2023/08/11/QChatGPT%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B-Win-mirai/
-      - title: Docker（Linux首选）
-        icon: circle-half-stroke
-        details: Docker要求熟悉Docker的基本操作，点此查看详细教程
-        link: https://theme-hope.vuejs.press/zh/guide/interface/darkmode.html
+      - title: 自动化安装器方式
+        
+        details: 自动化让小白也能一键上手
+        link: /posts/deploymentTutorial/#自动化部署
+      - title: Docker方式
+        
+        details: Docker部署实例更加快捷，可移植性更加强大
+        link: /posts/deploymentTutorial/#docker
 
       - title: 手动部署（适用所有平台）
-        icon: palette
-        details: 强烈推荐，避免网络问题导致安装器部署失败，点此查看详细教程
-        link: https://theme-hope.vuejs.press/zh/guide/interface/theme-color.html
+        
+        details: 手动部署让你避免各种环境问题
+        link: /posts/deploymentTutorial/#手动部署
 # 
       # - title: 幻灯片页面
         # icon: person-chalkboard
@@ -179,33 +179,32 @@ highlights:
     features:
       - title: 机器人联网
         icon: network
-        details: 配合 Waline 来开启阅读量统计与评论支持
-        link: https://theme-hope.vuejs.press/zh/guide/feature/comment.html
+        details: 基于GPT的Function Calling功能实现的类似ChatGPT的WebPilot插件的功能
+        link: https://github.com/RockChinQ/WebwlkrPlugin
 
       - title: 逆向功能
         icon: tree
-        details: 为你的文章添加作者、写作日期、预计阅读时间、字数统计等信息
-        link: https://theme-hope.vuejs.press/zh/guide/feature/page-info.html
+        details: 可以接入ChatGPT网页版,New Bing,Claude,Bard…
+        link: https://github.com/RockChinQ/revLibs
 
       - title: 模型切换
         icon: flow
-        details: 你可以为你的特定页面或特定目录进行加密，以便陌生人不能随意访问它们
-        link: https://theme-hope.vuejs.press/zh/guide/feature/encrypt.html
-
-      - title: 语音合成
-        icon: write
-        details: 支持 docsearch 和基于客户端的搜索
-        link: https://theme-hope.vuejs.press/zh/guide/feature/search.html
+        details: 支持通过命令在聊天环境中切换使用的模型
+        link: https://github.com/RockChinQ/revLibs
 
       - title: 故事叙述和绘图
         icon: copy
-        details: 一键复制代码块中的代码
-        link: https://theme-hope.vuejs.press/zh/guide/feature/copy-code.html
+        details: 基于Holara的ai绘图插件
+        link: https://github.com/oliverkirk-sudo/QChatAIPaint
+      - title: 语音合成
+        icon: write
+        details: 文字转语音输出，支持HuggingFace的VITS模型,Azure语音合成,本地vits语音合成,sovits语音合成
+        link: https://github.com/oliverkirk-sudo/chat_voice
 
       - title: 点击查看更多插件
         icon: search
         details: 点此查看所有插件列表
-        link: ./doc/PluginsUse
+        link: /posts/PluginsUse/pluginsList.md
 
   - header: 致谢
     description: 向QChatGPT项目开发者及其插件开发者致以诚挚的敬意
@@ -222,6 +221,11 @@ highlights:
         icon: home
         details: QChatGPT的仓库页
         link: https://github.com/RockChinQ/QChatGPT
+
+      - title: 插件贡献者
+        icon: group
+        details: QChatGPT的仓库页
+        link: https://github.com/RockChinQ/QChatGPT/graphs/contributors
 
       # - title: dominoar
       #   icon: home
@@ -269,5 +273,5 @@ highlights:
       #   link: https://theme-hope.vuejs.press/zh/guide/advanced/pwa.html
 
 copyright: false
-footer: <a href="https://github.com/RockChinQ/QChatGPT" target="_blank">QChatGPT</a> 项目的Wiki页&nbsp;&nbsp;|&nbsp;&nbsp;MIT 协议, 版权所有 © 2023-present RockChinQ
+footer: <a href="https://github.com/RockChinQ/QChatGPT" target="_blank">QChatGPT</a> 项目的Wiki页&nbsp;&nbsp;|&nbsp;&nbsp;MIT 协议, 版权所有 © 2023-present Lazy
 ---
