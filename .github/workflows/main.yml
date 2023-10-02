@@ -30,7 +30,11 @@ jobs:
           cache: yarn
 
       - name: 安装依赖
-        run: yarn install --frozen-lockfile
+        run: 
+          yarn install --frozen-lockfile
+      - name: 安装搜索依赖
+        run:
+          yarn add -D vuepress-plugin-search-pro
 
       - name: 构建文档
         env:
