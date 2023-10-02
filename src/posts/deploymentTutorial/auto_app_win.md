@@ -11,6 +11,11 @@ category:
 [[toc]]
 :::
 
+:::tip 建议配合视频使用
+<BiliBili bvid="BV14h4y1w7TC" />
+:::
+
+
 ## 第一步：下载一键安装器
 
 打开这个网页
@@ -85,5 +90,6 @@ TxCaptchaHelper
 设置完成后应是如图情况
 ![反代设置.jpg](https://s2.loli.net/2023/08/16/GeoiZCbLtfg3uqH.jpg)
 然后记得保存，并重新运行run-bot
+
 
     
