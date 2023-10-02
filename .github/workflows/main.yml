@@ -52,7 +52,3 @@ jobs:
           # 打包文件来源
           SOURCE: "dist/"
           # 删除服务器上TARGET目录里所有文件
-          ARGS: "-avz --delete"
-          SCRIPT_BEFORE: |
-            whoami
-            ls -al
