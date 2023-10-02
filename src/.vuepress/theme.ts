@@ -3,7 +3,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://github.com/the-lazy-me",
+  hostname: "https://qchatgpt.rockchin.top/",
 
   author: {
     name: "Lazy",
@@ -27,7 +27,7 @@ export default hopeTheme({
   footer: "QChatGPT项目文档",
 
   displayFooter: true,
-
+  darkmode: "auto",
   encrypt: {
     config: {
       "/demo/encrypt.html": ["1234"],
