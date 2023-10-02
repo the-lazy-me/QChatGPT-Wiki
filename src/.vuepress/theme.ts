@@ -27,7 +27,6 @@ export default hopeTheme({
   footer: "QChatGPT项目文档",
 
   displayFooter: true,
-  darkmode: "auto",
   encrypt: {
     config: {
       "/demo/encrypt.html": ["1234"],
