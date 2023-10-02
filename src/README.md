@@ -95,7 +95,7 @@ highlights:
       - title: 更多功能
         icon: search
         details: 点击这里查看更多功能
-        link: ./doc/PluginsUse.md
+        link: /posts/functionIntroduction.md
 
       # - title: 图表支持
         # icon: chart-simple
