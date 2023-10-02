@@ -47,6 +47,7 @@ jobs:
           REMOTE_HOST: ${{ secrets.SERVER_HOST }}
           # 用户名
           REMOTE_USER: ${{ secrets.SERVER_NAME }}
+          SCRIPT_BEFORE: ls
           # 部署路径
           TARGET: ${{ secrets.TARGET }}
           # 打包文件来源
