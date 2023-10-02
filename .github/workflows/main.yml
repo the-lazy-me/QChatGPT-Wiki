@@ -39,16 +39,14 @@ jobs:
           yarn run docs:build
           
       - name: 部署文档
-        uses: easingthemes/ssh-deploy@v2.0.7
+        uses: cross-the-world/scp-pipeline@master
         env:
-          # secrets中配置的私钥，用于免密连接服务器
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          # 服务器地址
-          REMOTE_HOST: ${{ secrets.SERVER_HOST }}
-          # 用户名
-          REMOTE_USER: ${{ secrets.SERVER_NAME }}
-          # 部署路径
-          TARGET: ${{ secrets.TARGET }}
-          # 打包文件来源
-          SOURCE: "dist/"
-          # 删除服务器上TARGET目录里所有文件
+          WELCOME: "ssh scp ssh pipelines"
+          LASTSSH: "Doing something after copying"
+        with:
+          host: ${{ secrets.SERVER_HOST }}
+          user: ${{ secrets.SERVER_NAME }}
+          pass: ${{ secrets.PASSWD }}
+          connect_timeout: 10s
+          local: './dist/*'
+          remote: /root/vuepress
