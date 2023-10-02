@@ -37,12 +37,20 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
           yarn run docs:build
-          > src/.vuepress/dist/.nojekyll
-
+          
       - name: 部署文档
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.ERVER_HOST }}
-          username: ${{ secrets.SERVER_NAME }}
-          key: ${{ secrets.PASSWD }}
-          script: cd [path] && git pull && sudo supervisorctl restart param
+        uses: easingthemes/ssh-deploy@v2.0.7
+        env:
+          # secrets中配置的私钥，用于免密连接服务器
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          # 服务器地址
+          REMOTE_HOST: ${{ secrets.SERVER_HOST }}
+          # 用户名
+          REMOTE_USER: ${{ secrets.SERVER_NAME }}
+          # 部署路径
+          TARGET: ${{ secrets.TARGET }}
+          # 打包文件来源
+          SOURCE: "dist/"
+          # 删除服务器上TARGET目录里所有文件
+          ARGS: "-avz --delete"
+          
