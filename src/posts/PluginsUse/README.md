@@ -3,7 +3,7 @@ title: 插件使用
 icon: blog
 date: 2023-09-30
 category:
-  - 使用指南
+  - 插件使用
 index: false
 ---
 :::info 目录

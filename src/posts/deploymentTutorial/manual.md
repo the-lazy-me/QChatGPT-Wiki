@@ -5,7 +5,7 @@ order: 3
 author: Lazy
 date: 2023-09-30
 category:
-  - 使用指南
+  - 部署教程
 ---
 :::warning
 请使用Python 3.9.x以上版本 

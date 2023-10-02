@@ -5,7 +5,7 @@ order: 2
 author: Lazy
 date: 2023-09-30
 category:
-  - 使用指南
+  - 功能介绍
 ---
 
 > 此页面是[QChatGPT项目](https://github.com/RockChinQ/QChatGPT)的功能介绍

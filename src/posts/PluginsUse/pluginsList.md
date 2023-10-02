@@ -5,7 +5,7 @@ order: 1
 author: Lazy
 date: 2023-09-30
 category:
-  - 使用指南
+  - 插件使用
 ---
 插件列表
 

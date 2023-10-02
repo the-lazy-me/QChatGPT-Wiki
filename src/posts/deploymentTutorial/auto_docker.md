@@ -5,7 +5,7 @@ order: 4
 author: Lazy
 date: 2023-09-30
 category:
-  - 使用指南
+  - 部署教程
 ---
 
 
