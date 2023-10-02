@@ -32,7 +32,7 @@ jobs:
       - name: 安装依赖
         run: 
           yarn install --frozen-lockfile
-          yarn add vuepress-plugin-search-pro --dev
+          yarn add -D vuepress-plugin-search-pro
 
       - name: 构建文档
         env:
