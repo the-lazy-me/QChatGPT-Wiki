@@ -20,7 +20,7 @@ Windows首选[安装器](#windows)，Linux首选[Docker](#docker)
 安装器可在Windows和Linux平台下使用
 - [<HopeIcon icon="windows" size="1.2em"/> 点击查看Windows的具体操作](auto_app_win.md)
 
-- [<HopeIcon icon="linux" size="1.2em"/> 点击查看Linux的具体操作](auto_app_win.md)
+- [<HopeIcon icon="linux" size="1.2em"/> 点击查看Linux的具体操作](auto_app_linux.md)
 ### Docker
 > docker方式较为复杂，若您不熟悉docker的操作及相关知识，强烈建议您使用其他方式部署，我们不会且难以解决您主机上多个容器的连接问题。
 - [<HopeIcon icon="warn" size="1.2em"/> 点击查看Docker部署的具体操作](auto_docker.md)
