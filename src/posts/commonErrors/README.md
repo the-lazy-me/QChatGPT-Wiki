@@ -7,3 +7,4 @@ category:
   - 常见报错
 index: false
 ---
+<AutoCatalog base='/posts/commonErrors/'/>
