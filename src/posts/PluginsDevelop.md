@@ -1,4 +1,8 @@
 ---
+head:
+  - - meta
+    - name: keywords
+      content: QChatGPT插件开发教程
 title: 插件开发
 icon: code
 author: RockChinQ

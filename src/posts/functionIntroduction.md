@@ -1,4 +1,8 @@
 ---
+head:
+  - - meta
+    - name: keywords
+      content: ChatGPT QQ机器人使用教程，QChatGPT项目使用手册
 title: 功能介绍
 icon: info
 order: 2

@@ -1,4 +1,8 @@
 ---
+head:
+  - - meta
+    - name: keywords
+      content: ChatGPT QQ机器人教程，QChatGPT项目部署教程
 title: 手动部署
 icon: support
 order: 3

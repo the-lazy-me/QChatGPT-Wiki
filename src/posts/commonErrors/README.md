@@ -1,4 +1,8 @@
 ---
+head:
+  - - meta
+    - name: keywords
+      content: ChatGPT QQ机器人报错，QChatGPT项目部署报错
 title: 常见报错
 icon: info
 author: Lazy

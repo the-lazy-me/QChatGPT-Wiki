@@ -1,4 +1,8 @@
 ---
+head:
+  - - meta
+    - name: keywords
+      content: ChatGPT QQ机器人语音插件，QChatGPT项目语音插件
 title: chat_voice插件
 icon: community
 order: 3

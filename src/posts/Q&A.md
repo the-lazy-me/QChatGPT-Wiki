@@ -1,4 +1,8 @@
 ---
+head:
+  - - meta
+    - name: keywords
+      content: ChatGPT QQ机器人部署问题，QChatGPT项目部署问题
 title: 问题解答
 icon: blog
 author: Lazy

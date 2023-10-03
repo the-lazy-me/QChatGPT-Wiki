@@ -1,4 +1,8 @@
 ---
+head:
+  - - meta
+    - name: keywords
+      content: ChatGPT QQ机器人教程，QChatGPT项目部署教程
 title: Docker部署
 icon: warn
 order: 4

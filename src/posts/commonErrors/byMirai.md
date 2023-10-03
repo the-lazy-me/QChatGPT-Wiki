@@ -1,4 +1,8 @@
 ---
+head:
+  - - meta
+    - name: keywords
+      content: mirai报错，ChatGPT QQ机器人报错，QChatGPT项目部署报错
 title: Mirai报错
 icon: notice
 order: 1

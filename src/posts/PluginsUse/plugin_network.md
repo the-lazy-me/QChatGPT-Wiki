@@ -1,4 +1,8 @@
 ---
+head:
+  - - meta
+    - name: keywords
+      content: ChatGPT QQ机器人联网插件，QChatGPT项目联网插件
 title: WebwlkrPlugin插件
 icon: network
 order: 2

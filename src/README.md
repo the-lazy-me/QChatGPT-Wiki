@@ -1,4 +1,8 @@
 ---
+head:
+  - - meta
+    - name: keywords
+      content: ChatGPT QQ机器人，实时联网，支持插件，高稳定性，采用mirai或gocq框架
 home: true
 icon: home
 title: 项目主页
