@@ -184,7 +184,7 @@ highlights:
       - title: 机器人联网
         icon: network
         details: 基于GPT的Function Calling功能实现的类似ChatGPT的WebPilot插件的功能
-        link: https://github.com/RockChinQ/WebwlkrPlugin
+        link: /posts/PluginsUse/plugin_network
 
       - title: 逆向功能
         icon: tree
@@ -200,15 +200,16 @@ highlights:
         icon: copy
         details: 基于Holara的ai绘图插件
         link: https://github.com/oliverkirk-sudo/QChatAIPaint
+
       - title: 语音合成
         icon: write
         details: 文字转语音输出，支持HuggingFace的VITS模型,Azure语音合成,本地vits语音合成,sovits语音合成
-        link: https://github.com/oliverkirk-sudo/chat_voice
+        link: /posts/PluginsUse/plugin_voice
 
       - title: 点击查看更多插件
         icon: search
         details: 点此查看所有插件列表
-        link: /posts/PluginsUse/pluginsList.md
+        link: /posts/PluginsUse/pluginsList
 
   - header: 致谢
     description: 向QChatGPT项目开发者及其插件开发者致以诚挚的敬意
