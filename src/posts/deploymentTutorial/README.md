@@ -5,14 +5,15 @@ head:
       content: ChatGPT QQ机器人教程，QChatGPT项目部署教程
 title: 部署教程
 icon: info
-author: Lazy
-date: 2023-09-30
+author: Lazy,ikun
+date: 2023-10-28
 category:
   - 部署教程
 index: false
 ---
 :::info 目录
 [[toc]]
+:::
 ## 本项目官方交流群
 [Lazy的交流群二](https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=T8rXTa9K4Iypw7pKzLqshQ9Yaumey0lz&authKey=yKfFqnoWk2diU73tEqLnKeqhR0%2BKzB9rOVa0dIjUqm6SOlJvZWNp3XmkkPENmw9m&noverify=0&group_code=738382634)
 [项目作者提问群(请先确认issue和本文档内无解决方案)](https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=cSekvWmyezfCE4O8gXS7lSjkmPinjzpP&authKey=G4jHfz2%2BtQawxCRhn1ZRrQiI8bTvlepQubZL6F9fymFuz8jqZZ4FkYh6lhKLMCd9&noverify=0&group_code=195992197)

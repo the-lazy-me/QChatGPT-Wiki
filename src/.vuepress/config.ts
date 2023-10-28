@@ -29,4 +29,22 @@ export default defineUserConfig({
   ],
   // Enable it with pwa
   // shouldPrefetch: false,
+  head: [
+    // ...
+
+    // 导入相应链接
+    ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
+    [
+      "link",
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" },
+    ],
+    [
+      "link",
+      {
+        href: "https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap",
+        rel: "stylesheet",
+      },
+    ],
+  ],
+
 });
