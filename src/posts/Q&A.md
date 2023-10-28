@@ -5,8 +5,8 @@ head:
       content: ChatGPT QQ机器人部署问题，QChatGPT项目部署问题
 title: 问题解答
 icon: blog
-author: Lazy
-date: 2023-09-30
+author: Lazy，ikun
+date: 2023-10-28
 category:
   - 问题解答
 ---
@@ -14,6 +14,7 @@ category:
 
 :::info 目录
 [[toc]]
+## 目前所有的新号登录均会code:45，请不要在群里问了，谢谢
 :::
 ## 项目配置文件如config.py文件双击打不开
 :::tip 解答

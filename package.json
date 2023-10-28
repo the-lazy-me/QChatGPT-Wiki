@@ -1,7 +1,7 @@
 {
-  "name": "vuepress-theme-hope-template",
-  "version": "2.0.0",
-  "description": "A project of vuepress-theme-hope",
+  "name": "qchatgpt-docs",
+  "version": "3.0.0",
+  "description": "一个开源QQ机器人项目",
   "license": "MIT",
   "type": "module",
   "scripts": {
@@ -14,6 +14,7 @@
     "@vuepress/client": "2.0.0-beta.67",
     "vue": "^3.3.4",
     "vuepress": "2.0.0-beta.67",
+    "vuepress-plugin-search-pro": "^2.0.0-beta.242",
     "vuepress-theme-hope": "2.0.0-beta.237"
   }
 }

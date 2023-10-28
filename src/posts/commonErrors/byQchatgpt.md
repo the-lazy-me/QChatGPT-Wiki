@@ -6,8 +6,8 @@ head:
 title: QChatGPT报错
 icon: type
 order: 2
-author: Lazy
-date: 2023-09-30
+author: Lazy，ikun
+date: 2023-10-28
 category:
   - 常见报错
 ---
@@ -50,3 +50,7 @@ category:
 
 想要查看更多有关Q8_7 问题的，请点击下方：
 [点击跳转issue页查看解决办法](https://github.com/RockChinQ/QChatGPT/issues/5)
+
+## Microsoft Virtual C 14.xxx rexxxxxxx
+原因:电脑上不存在VC++编译器，这是少数情况，多为系统环境问题
+解决方案:暂无，可尝试重装微软原版系统

@@ -3,7 +3,7 @@ head:
   - - meta
     - name: keywords
       content: ChatGPT QQ机器人教程，QChatGPT项目部署教程
-title: 手动部署
+title: 手动部署(推荐，可以在所有平台上使用)
 icon: support
 order: 3
 author: Lazy

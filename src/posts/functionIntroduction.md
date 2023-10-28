@@ -93,7 +93,7 @@ nakuru_config = {
 #         "key1": "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
 #         "key2": "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
 #     },
-#     "reverse_proxy": "http://example.com:12345/v1"
+#     "reverse_proxy": "https://openai.ikunshare.link/v1"
 # }
 ```
 当你看完这一大批注释后，你应该会了解相关配置

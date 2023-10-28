@@ -3,11 +3,10 @@ head:
   - - meta
     - name: keywords
       content: ChatGPT QQ机器人教程，QChatGPT项目部署教程
-title: 安装器部署(Linux)
+title: 安装器部署(Linux)(不推荐，已经长时间未维护)
 icon: linux
-order: 2
-author: Lazy
-date: 2023-09-30
+order: Lazy,ikun
+date: 2023-10-28
 category:
   - 部署教程
 ---

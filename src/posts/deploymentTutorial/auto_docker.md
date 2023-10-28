@@ -3,11 +3,11 @@ head:
   - - meta
     - name: keywords
       content: ChatGPT QQ机器人教程，QChatGPT项目部署教程
-title: Docker部署
+title: Docker部署(仅推荐在Linux上使用)
 icon: warn
 order: 4
-author: Lazy
-date: 2023-09-30
+author: Lazy,ikun
+date: 2023-10-28
 category:
   - 部署教程
 ---
