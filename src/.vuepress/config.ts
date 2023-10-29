@@ -41,7 +41,7 @@ export default defineUserConfig({
     [
       "link",
       {
-        href: "https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap",
         rel: "stylesheet",
       },
     ],
