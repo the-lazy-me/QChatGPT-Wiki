@@ -36,6 +36,7 @@ openai_config = {
 }
 ```
 > 本问题可见于[功能介绍的api-key的配置](./functionIntroduction.md/#api-key的配置)
+提示:如果你的API Key来自转发API,需在反向代理"reverse_proxy"中配置BASE_URL,通常为:https://管理地址/v1
 :::
 ## [bot]person_ xxxxxxx会话调用API失败:Error communicating with OpenAI您的网络无法访问OpenAI接口或网络代理不正常
 :::tip 解答

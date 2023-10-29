@@ -6,8 +6,8 @@ head:
 title: 功能介绍
 icon: info
 order: 2
-author: Lazy
-date: 2023-09-30
+author: Lazy,ikun
+date: 2023-10-28
 category:
   - 功能介绍
 ---
@@ -151,6 +151,8 @@ openai_config = {
 如果你使用我提供的反向代理，那么请将`"reverse_proxy": None`改为`"reverse_proxy": "http://api.openai.lazyshare.top/v1"`
 设置完成后应是如图情况（我这里用了一个api_key）
 ![反代设置.jpg](https://s2.loli.net/2023/08/16/GeoiZCbLtfg3uqH.jpg)
+[**文档另一位编写者**](https://space.bilibili.com/1255655486)提供一个反向代理地址`https://openai.ikunshare.link/v1`,反代不一定长期有效，所以快去三连
+如果使用我提供的反代，请将`"reverse_proxy": None`改为`"reverse_proxy": "https://openai.ikunshare.link/v1"`
 
 ### 特殊情况
 正常情况下，截至目前，主要使用的还是gpt-3.5模型，可以免费体验，因此大多数采用的是官方接口，无论是你自己注册还是正常商家出售的。

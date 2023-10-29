@@ -6,8 +6,8 @@ head:
 title: 手动部署(推荐，可以在所有平台上使用)
 icon: support
 order: 3
-author: Lazy
-date: 2023-09-30
+author: Lazy.ikun
+date: 2023-10-29
 category:
   - 部署教程
 ---
@@ -73,6 +73,3 @@ python3 main.py
 ```
 
 无报错信息即为运行成功
-
-
-    
