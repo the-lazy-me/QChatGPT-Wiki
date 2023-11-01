@@ -53,4 +53,4 @@ jobs:
           pass: ${{ secrets.PASSWD }}
           connect_timeout: 100s
           local: './src/.vuepress/dist/*'
-          remote: /home/ubuntu/vuepress
+          remote: ${{ secrets.TARGET }}
