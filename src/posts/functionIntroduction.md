@@ -51,7 +51,7 @@ mirai_http_api_config = {
 ```Python
 nakuru_config = {
     "host": "localhost",  # go-cqhttp的地址
-    "port": 6700,  # go-cqhttp的正向websocket端口
+    "port": 8080,  # go-cqhttp的正向websocket端口
     "http_port": 5700,  # go-cqhttp的正向http端口
     "token": ""  # 若在go-cqhttp的config.yml设置了access_token, 则填写此处
 }
