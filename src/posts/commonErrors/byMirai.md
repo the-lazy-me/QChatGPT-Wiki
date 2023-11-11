@@ -15,6 +15,7 @@ category:
 :::info 目录
 [[toc]]
 :::
+> 现在被风控是正常的事情，你懂的
 ## code=45
 ![code=45](https://s2.loli.net/2023/08/16/CcJFZiXLw6oGNxI.png)
 > **目前由于tx对机器人协议端的打压，所有新号都会登录报错45**
