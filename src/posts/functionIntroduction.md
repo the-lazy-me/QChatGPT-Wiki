@@ -51,11 +51,12 @@ mirai_http_api_config = {
 ```Python
 nakuru_config = {
     "host": "localhost",  # go-cqhttp的地址
-    "port": 6700,  # go-cqhttp的正向websocket端口
+    "port": 8080,  # go-cqhttp的正向websocket端口
     "http_port": 5700,  # go-cqhttp的正向http端口
     "token": ""  # 若在go-cqhttp的config.yml设置了access_token, 则填写此处
 }
 ```
+> 自QChatGPT v2.6.3 2023年11月10日更新后，go-cqhttp的配置端口更改为8080
 运行gocq后会生成一个device.json，打开个文件，如下图，这里把protocol改成6切换到apad协议
 ![go-cq配图1.jpg](https://s2.loli.net/2023/08/16/PKUZ7hpxJF8qey5.jpg)
 然后确保config文件（不是qchatgpt文件夹的，而是运行gocq生成的）里签名服务器端口和qsign的端口对应
