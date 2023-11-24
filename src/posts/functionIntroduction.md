@@ -47,7 +47,7 @@ mirai_http_api_config = {
     "qq": 1234567890
 }
 ```
-这一区域对应go-cqhttp，你若使用go-cqhttp登录，请确保下方的正向websocket端口（6700）和正向http端口（5700）与你在go-cqhttp的登录配置中的端口保持一致
+这一区域对应go-cqhttp，你若使用go-cqhttp登录，请确保下方的正向websocket端口（8080）和正向http端口（5700）与你在go-cqhttp的登录配置中的端口保持一致
 ```Python
 nakuru_config = {
     "host": "localhost",  # go-cqhttp的地址
