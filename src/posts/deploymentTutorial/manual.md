@@ -53,7 +53,7 @@ cd QChatGPT
 2. 安装依赖
 
 ```bash
-pip install -r requirements.txt
+pip3 install requests -r requirements.txt
 ```
 
 3. 运行一次主程序，生成配置文件
