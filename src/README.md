@@ -106,20 +106,20 @@ highlights:
     bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
     features:
-      - title: 机器人联网
+      - title: 联网回复
         icon: network
         details: 基于GPT的Function Calling功能实现的类似ChatGPT的WebPilot插件的功能
         link: /posts/PluginsUse/plugin_network
 
-      - title: 逆向功能
+      - title: 逆向工程 LLM
         icon: tree
         details: 可以接入ChatGPT网页版,New Bing,Claude,Bard…
         link: https://github.com/RockChinQ/revLibs
 
-      - title: 模型切换
+      - title: 对话模型切换
         icon: flow
         details: 支持通过命令在聊天环境中切换使用的模型
-        link: https://github.com/RockChinQ/revLibs
+        link: https://github.com/RockChinQ/Switcher
 
       - title: 故事叙述和绘图
         icon: copy
