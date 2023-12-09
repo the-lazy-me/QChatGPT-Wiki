@@ -43,7 +43,7 @@ category:
 
 ## 配置主程序
 
-1. 克隆此项目
+1. 克隆此项目（按照下方命令，需要安装 Git） 或 前往[Release](https://github.com/RockChinQ/QChatGPT/releases)页面下载最新版本的压缩包（推荐）并解压
 
 ```bash
 git clone https://github.com/RockChinQ/QChatGPT
