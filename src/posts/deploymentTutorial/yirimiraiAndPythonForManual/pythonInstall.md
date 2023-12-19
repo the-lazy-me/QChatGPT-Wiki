@@ -3,7 +3,7 @@ head:
   - - meta
     - name: keywords
       content: Python的安装教程
-title: 手动部署
+title: Python的安装教程（QChatGPT）
 icon: support
 order: 3
 author: Lazy
