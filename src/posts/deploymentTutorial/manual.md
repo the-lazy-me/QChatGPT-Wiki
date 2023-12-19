@@ -12,7 +12,7 @@ category:
   - 部署教程
 ---
 :::warning
-请使用Python 3.9.x以上版本 
+请使用Python 3.9.x以上版本，没有Python的需自行安装，参考[此教程](/posts/deploymentTutorial/yirimiraiAndPythonForManual/pythonInstall.md)
 ::: 
 
 :::info 目录
@@ -26,7 +26,7 @@ category:
 <details>
 <summary>mirai</summary>
 
-1. 按照[此教程](https://yiri-mirai.wybxc.cc/tutorials/01/configuration)配置Mirai及mirai-api-http  
+1. 按照[此教程](/posts/deploymentTutorial/yirimiraiANDpythonForManual/yirimirai.md)配置Mirai及mirai-api-http  
 2. 启动mirai-console后，使用`login`命令登录QQ账号，保持mirai-console运行状态  
 3. 在下一步配置主程序时请在config.py中将`msg_source_adapter`设为`yirimirai`
 

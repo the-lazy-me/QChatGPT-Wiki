@@ -8,20 +8,34 @@ export default sidebar({
       icon: "blog",
       prefix: "posts/deploymentTutorial/",
       link: "posts/deploymentTutorial/",
-      children: "structure",
+      children: [
+        {
+          text: "手动部署(推荐，可以在所有平台上使用)",
+          icon: "support",
+          link: "manual",
+        },
+        {
+          text: "安装器部署(Win)(不推荐，长时间未维护)",
+          icon: "list",
+          link: "auto_app_win",
+        },
+        {
+          text: "Docker部署(仅推荐在Linux上使用)",
+          icon: "list",
+          link: "auto_docker",
+        },
+        {
+          text: "安装器部署(Linux)(不推荐，已经长时间未维护)",
+          icon: "list",
+          link: "auto_app_linux",
+        },
+      ],
     },
     {
       text: "功能介绍",
       icon: "operate",
       prefix: "posts/functionIntroduction",
       link: "posts/functionIntroduction",
-      children: "structure",
-    },
-    {
-      text: "插件使用",
-      icon: "plugin",
-      prefix: "posts/PluginsUse/",
-      link: "posts/PluginsUse/",
       children: "structure",
     },
     {
@@ -39,10 +53,24 @@ export default sidebar({
       children: "structure",
     },
     {
+      text: "插件介绍",
+      icon: "plugin",
+      prefix: "posts/pluginsAbout/",
+      link: "posts/pluginsAbout/pluginsIntro",
+      collapsible: true,
+      children: [
+        {
+          text: "插件列表",
+          icon: "list",
+          link: "pluginsList",
+        },
+      ],
+    },
+    {
       text: "插件开发",
-      icon: "code",
+      icon: "editor",
       link: "posts/PluginsDevelop",
-      prefix: "posts/PluginsDevelop",   
+      prefix: "posts/PluginsDevelop",
       children: "structure",
     },
   ],
