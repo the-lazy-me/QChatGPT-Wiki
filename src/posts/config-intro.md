@@ -12,8 +12,6 @@ category:
   - 使用手册
 ---
 
-> 此页面是[QChatGPT项目](https://github.com/RockChinQ/QChatGPT)的功能介绍
-
 :::info 目录
 [[toc]]
 :::
