@@ -36,6 +36,8 @@ category:
 .\qcg-installer-windows-amd64.exe -p http://localhost:7890
 ```
 
+> 这里的 `http://localhost:7890` 是你的代理地址，请根据自己的情况修改。具体请参考 [qcg-installer](https://github.com/RockChinQ/qcg-installer)
+
 耐心等待，程序将自动运行至提示输入OpenAI api_key，这时输入你的 api_key 并回车，获取 api_key 链接在这里
 
 [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys)
