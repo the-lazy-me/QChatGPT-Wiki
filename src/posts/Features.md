@@ -204,7 +204,7 @@ category:
 2. 发送消息给机器人，机器人即会自动回复
 3. 可以通过`!help`查看帮助信息
 
-<img alt="私聊示例" src="https://github.com/RockChinQ/QChatGPT/blob/master/res/屏幕截图%202022-12-08%20150949.png" width="550" height="279"/>
+![屏幕截图 1](https://cos.thelazy.cn/pictures/qchatgpt%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D202312201453499.png)
 
 #### 群聊使用
 
@@ -212,14 +212,14 @@ category:
 2. at机器人并发送消息，机器人即会自动回复
 3. at机器人并发送`!help`查看帮助信息
 
-<img alt="群聊示例" src="https://github.com/RockChinQ/QChatGPT/blob/master/res/屏幕截图%202022-12-08%20150511.png" width="550" height="428"/>
+![屏幕截图 2](https://cos.thelazy.cn/pictures/qchatgpt%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D202312201454898.png)
 
 ### 绘图功能
 
 对机器人发送`!draw <图片描述>`即可获得图片，绘图时间较长，请耐心等待。  
 绘图功能与对话功能是分离的，机器人对话时并不了解其具有绘画能力。  
 
-<img alt="绘图功能" src="https://github.com/RockChinQ/QChatGPT/blob/master/res/屏幕截图%202022-12-29%20194948.png" width="550" height="348"/>
+![屏幕截图 3](https://cos.thelazy.cn/pictures/qchatgpt%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D202312201454266.png)
 
 ### 机器人命令
 
