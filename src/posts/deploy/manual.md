@@ -27,7 +27,7 @@ category:
 <summary>mirai</summary>
 
 1. 按照[此教程](./manual-deploy-details/yirimirai.md)配置Mirai及mirai-api-http  
-2. 启动mirai-console后，使用`login`命令登录QQ账号，保持mirai-console运行状态  
+2. 启动mirai-console后，保持mirai-console运行状态  
 3. 在下一步配置主程序时请在config.py中将`msg_source_adapter`设为`yirimirai`
 
 </details>
@@ -53,7 +53,7 @@ cd QChatGPT
 2. 安装依赖
 
 ```bash
-pip3 install requests -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 3. 运行一次主程序，生成配置文件
