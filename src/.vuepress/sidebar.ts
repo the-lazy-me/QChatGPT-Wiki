@@ -6,8 +6,8 @@ export default sidebar({
     {
       text: "功能介绍",
       icon: "operate",
-      prefix: "posts/Features",
-      link: "posts/Features",
+      prefix: "posts/feature",
+      link: "posts/feature",
       children: "structure",
     },
     {
@@ -24,64 +24,60 @@ export default sidebar({
         {
           text: "安装器部署(Win)(不推荐，长时间未维护)",
           icon: "list",
-          link: "auto_app_win",
+          link: "auto-app-win",
         },
         {
           text: "Docker部署(仅推荐在Linux上使用)",
           icon: "list",
-          link: "auto_docker",
+          link: "auto-docker",
         },
         {
           text: "安装器部署(Linux)(不推荐，已经长时间未维护)",
           icon: "list",
-          link: "auto_app_linux",
+          link: "auto-app-linux",
         },
       ],
     },
     {
       text: "配置方法",
       icon: "context",
-      link: "posts/configIntro"
+      link: "posts/config-intro"
     },
     {
       text: "常见报错",
       icon: "info",
-      link: "posts/errors/",
-      prefix: "posts/errors/",
+      link: "posts/error/",
+      prefix: "posts/error/",
       children: "structure",
     },
     {
       text: "问题解答",
       icon: "blog",
-      link: "posts/FAQ",
-      prefix: "posts/FAQ",
-      children: "structure",
+      link: "posts/faq",
     },
     {
       text: "插件介绍",
       icon: "plugin",
-      prefix: "posts/plugins/",
-      link: "posts/plugins/pluginsIntro",
+      prefix: "posts/plugin/",
+      link: "posts/plugin/intro",
       collapsible: true,
       children: [
         {
           text: "插件列表",
           icon: "list",
-          link: "pluginsList",
+          link: "list",
         },
       ],
     },
     {
       text: "技术信息",
       icon: "code",
-      link: "posts/develop/technologyInfo",
+      link: "posts/develop/technology-info",
     },
     {
       text: "插件开发",
       icon: "editor",
-      link: "posts/PluginsDevelop",
-      prefix: "posts/PluginsDevelop",
-      children: "structure",
+      link: "posts/develop/develop",
     },
   ],
 });

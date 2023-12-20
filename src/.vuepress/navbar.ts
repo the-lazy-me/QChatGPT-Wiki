@@ -5,12 +5,12 @@ export default navbar([
   {
     text: "功能介绍",
     icon: "operate",
-    link: "/posts/Features",
+    link: "/posts/feature",
   },
   {
     text: "部署教程",
     icon: "blog",
-    link: "/posts/deploy/",
+    link: "/posts/deploy",
   },
   // "/posts/deploy/",
   // "/posts/Features",
@@ -21,12 +21,12 @@ export default navbar([
       {
         text: "常见报错",
         icon: "info",
-        link: "/posts/errors/",
+        link: "/posts/error/",
       },
       {
         text: "问题解答",
         icon: "blog",
-        link: "/posts/FAQ",
+        link: "/posts/faq",
       },
     ],
   },

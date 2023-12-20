@@ -10,7 +10,7 @@ date: 2023-10-28
 category:
   - 问题解答
 ---
-> 之所以有问题解答这一页面，是因为很多人并不仔细阅读[功能介绍](./Features.md)，以至于产生了一系列问题，为此又增设此页面来提供解决方案
+> 之所以有问题解答这一页面，是因为很多人并不仔细阅读[功能介绍](./feature.md)，以至于产生了一系列问题，为此又增设此页面来提供解决方案
 
 :::info 目录
 [[toc]]
@@ -35,7 +35,7 @@ openai_config = {
     "reverse_proxy": None
 }
 ```
-> 本问题可见于[功能介绍的api-key的配置](./Features.md/#api-key的配置)
+> 本问题可见于[功能介绍的api-key的配置](./feature.md/#api-key的配置)
 提示:如果你的API Key来自转发API,需在反向代理"reverse_proxy"中配置BASE_URL,通常为:https://管理地址/v1
 :::
 ## [bot]person_ xxxxxxx会话调用API失败:Error communicating with OpenAI您的网络无法访问OpenAI接口或网络代理不正常
@@ -45,6 +45,6 @@ openai_config = {
 设置反代，打开`QChatGPT\config.py`文件，按图配置：
 ` "reverse_proxy": "http://api.openai.lazyshare.top/v1"`
 ![反代设置.jpg](https://s2.loli.net/2023/08/16/GeoiZCbLtfg3uqH.jpg)
-> 本问题可见于[功能介绍的反向代理的设置](./Features.md/#反向代理的设置)
+> 本问题可见于[功能介绍的反向代理的设置](./feature.md#反向代理的设置)
 :::
 

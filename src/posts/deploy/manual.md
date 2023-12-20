@@ -12,7 +12,7 @@ category:
   - 部署教程
 ---
 :::warning
-请使用Python 3.9.x以上版本，没有Python的需自行安装，参考[此教程](/posts/deploy/yirimiraiAndPythonForManual/pythonInstall.md)
+请使用Python 3.9.x以上版本，没有Python的需自行安装，参考[此教程](./manual-deploy-details/python.md)
 ::: 
 
 :::info 目录
@@ -26,7 +26,7 @@ category:
 <details>
 <summary>mirai</summary>
 
-1. 按照[此教程](/posts/deploy/yirimiraiANDpythonForManual/yirimirai.md)配置Mirai及mirai-api-http  
+1. 按照[此教程](./manual-deploy-details/yirimirai.md)配置Mirai及mirai-api-http  
 2. 启动mirai-console后，使用`login`命令登录QQ账号，保持mirai-console运行状态  
 3. 在下一步配置主程序时请在config.py中将`msg_source_adapter`设为`yirimirai`
 
@@ -64,7 +64,7 @@ python3 main.py
 
 4. 编辑配置文件`config.py`
 
-按照文件内注释填写配置信息，或者阅读[此页面](../configIntro.md)来学习如何配置信息
+按照文件内注释填写配置信息，或者阅读[此页面](../config-intro.md)来学习如何配置信息
 
 > Tips: 大多数情况下，你只需关注qq小号，OpenAI Key的配置和管理员QQ号的配置
 
@@ -76,4 +76,4 @@ python3 main.py
 
 无报错信息即为运行成功
 
-当你成功运行后，你需要开始阅读[此页面](../configIntro.md)
+当你成功运行后，你需要开始阅读[此页面](../config-intro.md)

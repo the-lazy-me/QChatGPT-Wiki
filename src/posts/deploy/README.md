@@ -22,12 +22,12 @@ Windows首选[安装器](#windows)，Linux首选[Docker](#docker)
 > 部署过程最简单，但有一定失败概率
 
 安装器可在Windows和Linux平台下使用
-- [<HopeIcon icon="windows" size="1.2em"/> 点击查看Windows的具体操作](auto_app_win.md)
+- [<HopeIcon icon="windows" size="1.2em"/> 点击查看Windows的具体操作](auto-app-win.md)
 
-- [<HopeIcon icon="linux" size="1.2em"/> 点击查看Linux的具体操作](auto_app_linux.md)
+- [<HopeIcon icon="linux" size="1.2em"/> 点击查看Linux的具体操作](auto-app-linux.md)
 ### Docker（Linux推荐）
 > docker方式较为复杂，若您不熟悉docker的操作及相关知识，强烈建议您使用其他方式部署，我们不会且难以解决您主机上多个容器的连接问题。
-- [<HopeIcon icon="warn" size="1.2em"/> 点击查看Docker部署的具体操作](auto_docker.md)
+- [<HopeIcon icon="warn" size="1.2em"/> 点击查看Docker部署的具体操作](auto-docker.md)
 
 ## 手动部署（推荐）
 > 全平台通用，可以避免安装器部署失败的问题

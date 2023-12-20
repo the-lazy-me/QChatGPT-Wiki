@@ -34,12 +34,12 @@ highlights:
       - title: 文字对话
         icon: community
         details: OpenAI API,ChatGPT逆向,New Bing,Claude等多模型支持
-        link: https://github.com/RockChinQ/QChatGPT#%E6%96%87%E5%AD%97%E5%AF%B9%E8%AF%9D
+        link: /posts/feature.md#文字对话
 
       - title: 模型聚合平台支持
         icon: network
         details: 支持One API等模型聚合平台
-        link: https://github.com/RockChinQ/QChatGPT#%E6%A8%A1%E5%9E%8B%E8%81%9A%E5%90%88%E5%B9%B3%E5%8F%B0
+        link: /posts/feature.md#模型聚合平台
 
       - title: 敏感词过滤
         icon: safe
@@ -89,7 +89,7 @@ highlights:
       - title: 更多功能
         icon: search
         details: 点击这里查看更多功能
-        link: /posts/Features.md
+        link: /posts/feature.md
 
   - header: 插件生态
     # image: /assets/image/features.svg
@@ -99,7 +99,7 @@ highlights:
       - title: 联网回复
         icon: network
         details: 基于GPT的Function Calling功能实现的类似ChatGPT的WebPilot插件的功能
-        link: /posts/PluginsUse/plugin_network
+        link: /posts/plugin/some-plugin-deploy/link-network.md
 
       - title: 逆向工程 LLM
         icon: tree
@@ -119,12 +119,12 @@ highlights:
       - title: 语音合成
         icon: write
         details: 文字转语音输出，支持HuggingFace的VITS模型,Azure语音合成,本地vits语音合成,sovits语音合成
-        link: /posts/PluginsUse/plugin_voice
+        link: /posts/plugin/some-plugin-deploy/voice.md
 
       - title: 点击查看更多插件
         icon: search
         details: 点此查看所有插件列表
-        link: /posts/PluginsUse/pluginsList
+        link: /posts/plugin/list.md
 
   - header: 致谢
     description: 向QChatGPT项目开发者及其插件开发者致以诚挚的敬意

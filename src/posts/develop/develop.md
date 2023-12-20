@@ -12,8 +12,8 @@ category:
 index: false
 ---
 
-> 请先阅读[插件使用页](/posts/plugins/pluginsIntro)  
-> 请先阅读[技术信息页](https://github.com/RockChinQ/QChatGPT/wiki/4-%E6%8A%80%E6%9C%AF%E4%BF%A1%E6%81%AF)  
+> 请先阅读[插件介绍页](../plugin/intro.md)  
+> 请先阅读[技术信息页](../develop/technology-info.md)  
 > 建议先阅读本项目源码，了解项目架构
 
 > 问题、需求请到仓库issue发起  
