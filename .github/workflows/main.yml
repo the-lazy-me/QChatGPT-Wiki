@@ -18,29 +18,25 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          # 如果你文档需要 Git 子模块，取消注释下一行
-          # submodules: true
-
-
 
       - name: 设置 Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: yarn
+
+      - name: 安装 Yarn
+        run: |
+          corepack enable
 
       - name: 安装依赖
         run: 
-          yarn install --frozen-lockfile
-      #- name: 安装搜索依赖
-      #  run:
-      #   yarn add -D vuepress-plugin-search-pro
+          yarn install
 
       - name: 构建文档
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
-          yarn run docs:build
+          yarn docs:build
           
       - name: 部署文档
         uses: cross-the-world/scp-pipeline@master
