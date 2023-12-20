@@ -4,6 +4,13 @@ export default sidebar({
   "/": [
     "",
     {
+      text: "功能介绍",
+      icon: "operate",
+      prefix: "posts/Features",
+      link: "posts/Features",
+      children: "structure",
+    },
+    {
       text: "部署教程",
       icon: "blog",
       prefix: "posts/deploy/",
@@ -32,13 +39,6 @@ export default sidebar({
       ],
     },
     {
-      text: "功能介绍",
-      icon: "operate",
-      prefix: "posts/Features",
-      link: "posts/Features",
-      children: "structure",
-    },
-    {
       text: "常见报错",
       icon: "info",
       link: "posts/errors/",
@@ -65,6 +65,11 @@ export default sidebar({
           link: "pluginsList",
         },
       ],
+    },
+    {
+      text: "技术信息",
+      icon: "code",
+      link: "posts/develop/technologyInfo",
     },
     {
       text: "插件开发",
