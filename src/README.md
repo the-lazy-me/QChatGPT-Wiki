@@ -22,8 +22,8 @@ actions:
     link: https://github.com/RockChinQ/QChatGPT
 
 highlights:
-  - header: 模型一览和功能点
-    description: 提供文字对话，模型聚会平台，故事续写，图片绘制，语音生成，自定义插件等多种功能
+  - header: 功能点
+    description: 提供文字对话，模型聚合平台，故事续写，图片绘制，语音生成，自定义插件等多种功能
     # image: /assets/image/markdown.svg
     # bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
     # bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
@@ -33,7 +33,7 @@ highlights:
     features:
       - title: 文字对话
         icon: community
-        details: OpenAI API,ChatGPT逆向,New Bing,Claude等多模型支持
+        details: 支持 OpenAI API、ChatGPT逆向、New Bing、Claude等多种语言模型
         link: /posts/feature.md#文字对话
 
       - title: 模型聚合平台支持
