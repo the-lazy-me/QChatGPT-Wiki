@@ -35,7 +35,7 @@ category:
 <details>
 <summary>go-cqhttp</summary>
 
-1. 按照[此文档](https://github.com/RockChinQ/QChatGPT/wiki/9-go-cqhttp%E9%85%8D%E7%BD%AE)配置go-cqhttp
+1. 按照[此文档](./manual-deploy-details/gocq.md)配置go-cqhttp
 2. 启动go-cqhttp，确保登录成功，保持运行
 3. 在下一步配置主程序时请在config.py中将`msg_source_adapter`设为`nakuru`
 
