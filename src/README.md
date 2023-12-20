@@ -33,17 +33,17 @@ highlights:
     features:
       - title: 文字对话
         icon: community
-        details: 支持 OpenAI API、ChatGPT逆向、New Bing、Claude等多种语言模型
+        details: 支持 OpenAI API、ChatGPT逆向、New Bing、Claude 等多种语言模型
         link: /posts/feature.md#文字对话
 
-      - title: 模型聚合平台支持
+      - title: 接口聚合平台
         icon: network
-        details: 支持One API等模型聚合平台
+        details: 支持 One API 等接口聚合平台
         link: /posts/feature.md#模型聚合平台
 
       - title: 敏感词过滤
         icon: safe
-        details: 自定义敏感词库或百度云审核
+        details: 自定义敏感词库或通过百度云审核
         link: 
 
       - title: 多种响应规则
@@ -63,7 +63,7 @@ highlights:
 
       - title: 热重载 热更新
         icon: update
-        details: 运行期间发送指令实现重载和更新
+        details: 运行期间发送命令实现重载和更新
         link:
 
       - title: 黑名单功能
