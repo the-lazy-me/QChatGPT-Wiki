@@ -2,8 +2,18 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/posts/deploy/",
-  "/posts/Features",
+  {
+    text: "功能介绍",
+    icon: "operate",
+    link: "/posts/Features",
+  },
+  {
+    text: "部署教程",
+    icon: "blog",
+    link: "/posts/deploy/",
+  },
+  // "/posts/deploy/",
+  // "/posts/Features",
   {
     text: "疑难解答",
     icon: "discover",

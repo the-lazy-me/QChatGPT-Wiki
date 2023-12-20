@@ -39,6 +39,11 @@ export default sidebar({
       ],
     },
     {
+      text: "配置方法",
+      icon: "context",
+      link: "posts/configIntro"
+    },
+    {
       text: "常见报错",
       icon: "info",
       link: "posts/errors/",

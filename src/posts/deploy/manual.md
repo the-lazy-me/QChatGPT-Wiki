@@ -6,7 +6,7 @@ head:
 title: 手动部署(推荐，可以在所有平台上使用)
 icon: support
 order: 3
-author: Lazy.ikun
+author: Lazy.ikun.RockChinQ
 date: 2023-10-29
 category:
   - 部署教程
@@ -64,7 +64,9 @@ python3 main.py
 
 4. 编辑配置文件`config.py`
 
-按照文件内注释填写配置信息
+按照文件内注释填写配置信息，或者阅读[此页面](../configIntro.md)来学习如何配置信息
+
+> Tips: 大多数情况下，你只需关注qq小号，OpenAI Key的配置和管理员QQ号的配置
 
 5. 运行主程序
 
@@ -73,3 +75,5 @@ python3 main.py
 ```
 
 无报错信息即为运行成功
+
+当你成功运行后，你需要开始阅读[此页面](../configIntro.md)
