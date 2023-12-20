@@ -2,14 +2,14 @@
 head:
   - - meta
     - name: keywords
-      content: mirai报错，ChatGPT QQ机器人报错，QChatGPT项目部署报错
-title: Mirai，Go-cqhttp报错
+      content: Mirai报错
+title: Mirai报错
 icon: notice
 order: 1
 author: Lazy,ikun
 date: 2023-10-28
 category:
-  - 常见报错
+  - 常见问题
 ---
 > 本人能力有限，报错收集将会逐步完善增补，望广大用户献计献策，众人拾柴火焰高，共同完善
 :::info 目录

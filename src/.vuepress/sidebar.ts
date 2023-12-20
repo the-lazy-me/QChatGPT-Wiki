@@ -44,40 +44,57 @@ export default sidebar({
       link: "posts/config-intro"
     },
     {
-      text: "常见报错",
+      text: "常见问题",
       icon: "info",
       link: "posts/error/",
       prefix: "posts/error/",
-      children: "structure",
+      children: [
+        {
+          text: "Mirai常见报错",
+          icon: "notice",
+          link: "mirai",
+
+        },
+        {
+          text: "go-cqhttp常见报错",
+          icon: "list",
+          link: "gocq",
+        },
+        {
+          text: "问题解答",
+          icon: "blog",
+          link: "qchatgpt",
+        },
+      ],
     },
     {
-      text: "问题解答",
-      icon: "blog",
-      link: "posts/faq",
-    },
-    {
-      text: "插件介绍",
+      text: "插件功能",
       icon: "plugin",
       prefix: "posts/plugin/",
       link: "posts/plugin/intro",
-      collapsible: true,
+      // collapsible: true,
       children: [
+        {
+          text: "插件介绍",
+          icon: "info",
+          link: "intro",
+        },
         {
           text: "插件列表",
           icon: "list",
           link: "list",
         },
+        {
+          text: "插件开发",
+          icon: "code",
+          link: "develop",
+        },
       ],
     },
     {
       text: "技术信息",
-      icon: "code",
+      icon: "blog",
       link: "posts/develop/technology-info",
-    },
-    {
-      text: "插件开发",
-      icon: "editor",
-      link: "posts/develop/develop",
     },
   ],
 });

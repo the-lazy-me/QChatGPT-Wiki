@@ -19,7 +19,7 @@ export default navbar([
     icon: "discover",
     children: [
       {
-        text: "常见报错",
+        text: "常见问题",
         icon: "info",
         link: "/posts/error/",
       },
