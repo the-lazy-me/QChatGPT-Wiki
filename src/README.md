@@ -7,10 +7,10 @@ home: true
 icon: home
 title: 项目主页
 heroImage: /logo.png
-bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
-bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
-bgImageStyle:
-  background-attachment: fixed
+# bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
+# bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
+# bgImageStyle:
+  # background-attachment: fixed
 heroText: QChatGPT
 tagline: 😎高稳定性、🧩支持插件、🌏实时联网的 ChatGPT QQ 机器人🤖 | 支持 Claude、Google Bard、gpt4free、One API 的 QQ 机器人平台
 actions:
@@ -22,24 +22,14 @@ actions:
     link: https://github.com/RockChinQ/QChatGPT
 
 highlights:
-  - header: 亮点一览
-    image: /assets/image/box.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
-    highlights:
-      - title: 高稳定性、支持插件、实时联网的 ChatGPT QQ 机器人。
-      - title: 支持 Claude、Google Bard、gpt4free、One API 的 QQ 机器人平台。
-      - title: 提供文字对话，模型聚会平台，故事续写，图片绘制，语音生成，自定义插件等多种功能。
-      - title: 多平台、多方式部署和使用。
-
   - header: 模型一览和功能点
     description: 提供文字对话，模型聚会平台，故事续写，图片绘制，语音生成，自定义插件等多种功能
-    image: /assets/image/markdown.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
-    bgImageStyle:
-      background-repeat: repeat
-      background-size: initial
+    # image: /assets/image/markdown.svg
+    # bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
+    # bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
+    # bgImageStyle:
+      # background-repeat: repeat
+      # background-size: initial
     features:
       - title: 文字对话
         icon: community
@@ -102,9 +92,9 @@ highlights:
         link: /posts/Features.md
 
   - header: 插件生态
-    image: /assets/image/features.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
+    # image: /assets/image/features.svg
+    # bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
+    # bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
     features:
       - title: 联网回复
         icon: network
@@ -138,10 +128,10 @@ highlights:
 
   - header: 致谢
     description: 向QChatGPT项目开发者及其插件开发者致以诚挚的敬意
-    image: /assets/image/blog.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
-    highlights:
+    # image: /assets/image/blog.svg
+    # bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
+    # bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
+    features:
       - title: 项目作者
         icon: github
         details: QChatGPT项目的开发者

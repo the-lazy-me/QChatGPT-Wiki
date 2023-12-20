@@ -3,9 +3,10 @@
 
 // 覆盖代码块背景色
 #app {
-    --text-color-light: #000;
-  
-    html[data-theme="dark"] & {
-        --text-color-light: #ffffff;
-    }
+  --text-color-light: #000;
+
+  html[data-theme="dark"] & {
+    --text-color-light: #ffffff;
   }
+}
+
