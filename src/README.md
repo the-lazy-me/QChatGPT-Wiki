@@ -99,7 +99,7 @@ highlights:
       - title: 更多功能
         icon: search
         details: 点击这里查看更多功能
-        link: /posts/functionIntroduction.md
+        link: /posts/Features.md
 
   - header: 插件生态
     image: /assets/image/features.svg

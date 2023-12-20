@@ -34,8 +34,8 @@ export default sidebar({
     {
       text: "功能介绍",
       icon: "operate",
-      prefix: "posts/functionIntroduction",
-      link: "posts/functionIntroduction",
+      prefix: "posts/Features",
+      link: "posts/Features",
       children: "structure",
     },
     {
@@ -48,8 +48,8 @@ export default sidebar({
     {
       text: "问题解答",
       icon: "blog",
-      link: "posts/Q&A",
-      prefix: "posts/Q&A",
+      link: "posts/FAQ",
+      prefix: "posts/FAQ",
       children: "structure",
     },
     {
