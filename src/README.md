@@ -18,11 +18,11 @@ actions:
     link: ./posts/deploy/
     type: primary
 
-  - text: 查看项目
+  - text: 查看源码
     link: https://github.com/RockChinQ/QChatGPT
 
 highlights:
-  - header: 功能点
+  - header: 功能特性
     description: 提供文字对话，模型聚合平台，故事续写，图片绘制，语音生成，自定义插件等多种功能
     # image: /assets/image/markdown.svg
     # bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
