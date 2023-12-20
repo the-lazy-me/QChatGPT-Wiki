@@ -13,7 +13,7 @@ category:
 ---
 > 本期教程操作需要网络使用魔法，请自行解决
 
-前提：已经安装了QChatGPT和mirai，没有安装的请根据[部署教程](../deploymentTutorial/README.md)自行安装
+前提：已经安装了QChatGPT和mirai，没有安装的请根据[部署教程](../deploy/README.md)自行安装
 
 打开这个网页
 

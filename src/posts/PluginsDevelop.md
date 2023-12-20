@@ -12,8 +12,8 @@ category:
 index: false
 ---
 
-> 请先阅读[插件使用页](/posts/pluginsAbout/pluginsIntro)  
-> 请先阅读[技术信息页](/posts/developTutorial/technologyInfo)  
+> 请先阅读[插件使用页](/posts/plugins/pluginsIntro)  
+> 请先阅读[技术信息页](/posts/develop/technologyInfo)  
 > 建议先阅读本项目源码，了解项目架构
 
 > 问题、需求请到仓库issue发起  

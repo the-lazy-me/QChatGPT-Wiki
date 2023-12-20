@@ -15,7 +15,7 @@ heroText: QChatGPT
 tagline: 😎高稳定性、🧩支持插件、🌏实时联网的 ChatGPT QQ 机器人🤖 | 支持 Claude、Google Bard、gpt4free、One API 的 QQ 机器人平台
 actions:
   - text: 🚀 快速上手
-    link: ./posts/deploymentTutorial/
+    link: ./posts/deploy/
     type: primary
 
   - text: 查看项目

@@ -21,7 +21,7 @@ category:
 
 > 本教程为尽可能地简化部署流程，降低部署难度，特意提供了项目所需的python包（内含所需依赖）和chat_voice包（**已经对内容进行了修改**）
 
-前提：已经安装了QChatGPT和mirai，没有安装的请根据[部署教程](../deploymentTutorial/README.md)自行安装
+前提：已经安装了QChatGPT和mirai，没有安装的请根据[部署教程](../deploy/README.md)自行安装
 
 ## 准备工作
 

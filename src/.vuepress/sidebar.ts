@@ -6,8 +6,8 @@ export default sidebar({
     {
       text: "部署教程",
       icon: "blog",
-      prefix: "posts/deploymentTutorial/",
-      link: "posts/deploymentTutorial/",
+      prefix: "posts/deploy/",
+      link: "posts/deploy/",
       children: [
         {
           text: "手动部署(推荐，可以在所有平台上使用)",
@@ -41,8 +41,8 @@ export default sidebar({
     {
       text: "常见报错",
       icon: "info",
-      link: "posts/commonErrors/",
-      prefix: "posts/commonErrors/",
+      link: "posts/errors/",
+      prefix: "posts/errors/",
       children: "structure",
     },
     {
@@ -55,8 +55,8 @@ export default sidebar({
     {
       text: "插件介绍",
       icon: "plugin",
-      prefix: "posts/pluginsAbout/",
-      link: "posts/pluginsAbout/pluginsIntro",
+      prefix: "posts/plugins/",
+      link: "posts/plugins/pluginsIntro",
       collapsible: true,
       children: [
         {

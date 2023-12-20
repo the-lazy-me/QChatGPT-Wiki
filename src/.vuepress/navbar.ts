@@ -2,7 +2,7 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/posts/deploymentTutorial/",
+  "/posts/deploy/",
   "/posts/Features",
   {
     text: "疑难解答",
@@ -11,7 +11,7 @@ export default navbar([
       {
         text: "常见报错",
         icon: "info",
-        link: "/posts/commonErrors/",
+        link: "/posts/errors/",
       },
       {
         text: "问题解答",
