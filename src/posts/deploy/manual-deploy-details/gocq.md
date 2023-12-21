@@ -1,3 +1,17 @@
+---
+head:
+  - - meta
+    - name: keywords
+      content: Go-cqhttp的部署教程
+title: Go-cqhttp的部署教程
+icon: support
+order: 3
+author: Anonymous
+date: 2023-12-21
+category:
+  - 部署教程
+---
+
 # 配置go-cqhttp用于登录QQ
 
 > 若您是从旧版本升级到此版本以使用go-cqhttp的用户，请您按照`config-template.py`的内容修改`config.py`，添加`msg_source_adapter`配置项并将其设为`nakuru`，同时添加`nakuru_config`字段按照说明配置。
