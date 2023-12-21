@@ -98,12 +98,12 @@ highlights:
     features:
       - title: 联网回复
         icon: network
-        details: 基于GPT的Function Calling功能实现的类似ChatGPT的WebPilot插件的功能
+        details: 基于 GPT 的 Function Calling 能力实现的类似 ChatGPT 的 WebPilot 插件的功能
         link: /posts/plugin/some-plugin-deploy/link-network.md
 
       - title: 逆向工程 LLM
         icon: tree
-        details: 可以接入ChatGPT网页版,New Bing,Claude,Bard…
+        details: 接入 ChatGPT网页版、New Bing、Claude、gpt4free 等逆向工程库
         link: https://github.com/RockChinQ/revLibs
 
       - title: 对话模型切换
@@ -113,12 +113,12 @@ highlights:
 
       - title: 故事叙述和绘图
         icon: copy
-        details: 基于Holara的ai绘图插件
+        details: 基于 Holara 的 AI 绘图插件
         link: https://github.com/oliverkirk-sudo/QChatAIPaint
 
       - title: 语音合成
         icon: write
-        details: 文字转语音输出，支持HuggingFace的VITS模型,Azure语音合成,本地vits语音合成,sovits语音合成
+        details: 文字转语音输出，支持 HuggingFace 的 VITS 模型，Azure 语音合成，本地 vits 语音合成，sovits 语音合成
         link: /posts/plugin/some-plugin-deploy/voice.md
 
       - title: 点击查看更多插件
@@ -126,26 +126,26 @@ highlights:
         details: 点此查看所有插件列表
         link: /posts/plugin/list.md
 
-  - header: 致谢
-    description: 向QChatGPT项目开发者及其插件开发者致以诚挚的敬意
+  - header: 链接
+    description: 
     # image: /assets/image/blog.svg
     # bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
     # bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     features:
-      - title: 项目作者
+      - title: 代码贡献者
         icon: github
-        details: QChatGPT项目的开发者
-        link: https://github.com/RockChinQ
+        details: QChatGPT 项目的开发者
+        link: https://github.com/RockChinQ/QChatGPT/graphs/contributors
 
-      - title: 项目仓库
+      - title: 源码仓库
         icon: home
-        details: QChatGPT的仓库页
+        details: QChatGPT 的仓库页
         link: https://github.com/RockChinQ/QChatGPT
 
-      - title: 插件贡献者
+      - title: 文档贡献者
         icon: group
-        details: QChatGPT的仓库页
-        link: https://github.com/RockChinQ/QChatGPT/graphs/contributors
+        details: 此文档贡献者
+        link: https://github.com/the-lazy-me/QChatGPT-Wiki/graphs/contributors
 
 copyright: false
 footer: <a href="https://github.com/RockChinQ/QChatGPT" target="_blank">QChatGPT</a> 项目的Wiki页&nbsp;&nbsp;|&nbsp;&nbsp;MIT 协议, 版权所有 © 2023-present Lazy
