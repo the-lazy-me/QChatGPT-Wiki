@@ -112,5 +112,5 @@ GPT将会回复一个对`access_the_web`的函数调用请求，QChatGPT将调�
 
 ## 如何自定义插件？
 
-> QChatGPT的插件具有高度的可拓展性，你可以自行编写python代码来实现无限的功能，插件开发方法具体阅读：[插件开发](/posts/PluginsDevelop.html)
+> QChatGPT的插件具有高度的可拓展性，你可以自行编写python代码来实现无限的功能，插件开发方法具体阅读：[插件开发](/posts/plugin/develop.html)
 
