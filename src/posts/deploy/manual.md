@@ -21,7 +21,7 @@ category:
 
 ## 配置QQ登录框架
 
-目前支持mirai和go-cqhttp，配置任意一个即可
+目前支持mirai和go-cqhttp(OpenShamrock待施工)，配置任意一个即可
 
 <details>
 <summary>mirai</summary>
@@ -38,6 +38,13 @@ category:
 1. 按照[此文档](./manual-deploy-details/gocq.md)配置go-cqhttp
 2. 启动go-cqhttp，确保登录成功，保持运行
 3. 在下一步配置主程序时请在config.py中将`msg_source_adapter`设为`nakuru`
+
+</details>
+
+<details>
+<summary>OpenShamrock(待施工,仅有部署Shamrock方法,可以先留着等)</summary>
+
+1. 按照[此文档](./manual-deploy-details/shamrock.md)配置go-cqhttp
 
 </details>
 
