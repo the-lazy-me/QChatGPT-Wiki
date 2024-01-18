@@ -44,7 +44,7 @@ category:
 <details>
 <summary>OpenShamrock(待施工,仅有部署Shamrock方法,可以先留着等)</summary>
 
-1. 按照[此文档](./manual-deploy-details/shamrock.md)配置go-cqhttp
+1. 详细见[此文档](./manual-deploy-details/shamrock.md)
 
 </details>
 
