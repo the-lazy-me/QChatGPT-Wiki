@@ -12,7 +12,7 @@ category:
   - 部署教程
 ---
 :::warning
-请使用Python 3.9.x以上版本，没有Python的需自行安装，参考[此教程](./manual-deploy-details/python.md)
+请使用Python 3.9.x以上版本，**注意不要使用3.12.x版本**，没有Python的需自行安装，参考[此教程](./manual-deploy-details/python.md)
 ::: 
 
 :::info 目录
@@ -54,6 +54,12 @@ cd QChatGPT
 
 ```bash
 pip3 install -r requirements.txt
+```
+
+或者使用清华源
+
+```bash
+pip3 install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 ```
 
 3. 运行一次主程序，生成配置文件
