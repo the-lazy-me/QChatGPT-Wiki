@@ -40,8 +40,9 @@ Mirai、go-cqhttp 之类的是模拟 QQ 的协议进行通信，而 Shamrock 使
 
 记得打开mumu模拟器的可写系统盘和root权限
 
-<!--TODO: 这里配图错了-->
-![img](https://cos.thelazy.cn/pictures/shamrock202401190836463.png)
+![](https://cos.thelazy.cn/pictures/image-20240119153825389.png)
+
+![image-20240119154032682](https://cos.thelazy.cn/pictures/202401191540727.png)
 
 ### 安装OpenShamrock
 
@@ -58,7 +59,7 @@ Mirai、go-cqhttp 之类的是模拟 QQ 的协议进行通信，而 Shamrock 使
 
 2. 并前往 LSPosed 的模块管理页面 启用模块 Shamrock
 
-<!--TODO: 这里给个配图-->
+![image-20240119154110877](https://cos.thelazy.cn/pictures/202401191541922.png)
 
 ### 安装QQ
 
