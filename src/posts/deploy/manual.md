@@ -21,7 +21,7 @@ category:
 
 ## 配置QQ登录框架
 
-目前支持mirai和go-cqhttp(OpenShamrock待施工)，配置任意一个即可
+目前支持mirai和go-cqhttp和OpenShamrock(未来的可能方案)，配置任意一个即可
 
 <details>
 <summary>mirai</summary>
@@ -43,6 +43,7 @@ category:
 
 <details>
 <summary>OpenShamrock(未来的可能方案)</summary>
+
 详细见[此文档](./manual-deploy-details/shamrock.md)
 
 </details>

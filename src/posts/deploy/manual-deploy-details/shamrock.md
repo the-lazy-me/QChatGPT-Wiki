@@ -14,11 +14,25 @@ category:
 
 # OpenShamrock(未来可能的方向)
 
-## 步骤
+## OpenShamrock简介
+
+官方文档：https://whitechi73.github.io/OpenShamrock/
+
+可选平台(or设备)：
+
+- 模拟器
+- Linux服务器
+- PVE
+- 云手机
+- 实体手机
+
+总之，就是在模拟的或实际的安卓环境下，root过后安装Xposed框架，OpenShamrock将会基于Xposed框架实现 OneBot 标准
+
+## 步骤(模拟器)
 
 ### 环境配置
 
-**注：使用mumu模拟器**
+**注：使用[mumu模拟器](https://mumu.163.com/)**
 
 参考[此文档](https://forum.libfekit.so/d/60-mumu12mo-ni-qi-an-zhuang-magiskhe-lsposed)安装Magisk和LSPosed
 
