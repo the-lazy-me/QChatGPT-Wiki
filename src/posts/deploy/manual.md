@@ -43,6 +43,7 @@ category:
 
 <details>
 <summary>OpenShamrock(未来的可能方案)</summary>
+
 详细见[此文档](./manual-deploy-details/shamrock.md)
 
 </details>
