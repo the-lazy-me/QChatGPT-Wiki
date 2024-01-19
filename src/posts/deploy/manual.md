@@ -42,9 +42,8 @@ category:
 </details>
 
 <details>
-<summary>OpenShamrock(待施工,仅有部署Shamrock方法,可以先留着等)</summary>
-
-1. 详细见[此文档](./manual-deploy-details/shamrock.md)
+<summary>OpenShamrock(未来的可能方案)</summary>
+详细见[此文档](./manual-deploy-details/shamrock.md)
 
 </details>
 
