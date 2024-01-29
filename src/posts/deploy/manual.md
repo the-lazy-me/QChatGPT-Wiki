@@ -87,6 +87,8 @@ python3 main.py
 python3 main.py
 ```
 
+> 如果输入上面的指令无反应，并且你确认你已经装了python，则输入`python main.py`
+
 无报错信息即为运行成功
 
 当你成功运行后，你需要开始阅读[此页面](../config-intro.md)
