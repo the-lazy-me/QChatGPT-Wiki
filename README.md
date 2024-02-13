@@ -1,5 +1,7 @@
 # [QChatGPT](https://github.com/RockChinQ/QChatGPT) 官方文档
 
+> 此分支是 QChatGPT 3.0 的文档
+
 > [QChatGPT 代码仓库](https://github.com/RockChinQ/QChatGPT)   
 > [本文档地址](https://qchatgpt.rockchin.top)
 
