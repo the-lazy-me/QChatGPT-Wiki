@@ -3,7 +3,7 @@ name: 部署文档
 on:
   push:
     branches:
-      - main
+      - doc/v3
 
 permissions:
   contents: write
@@ -47,4 +47,4 @@ jobs:
           pass: ${{ secrets.PASSWD }}
           connect_timeout: 100s
           local: './src/.vuepress/dist/*'
-          remote: ${{ secrets.TARGET }}
+          remote: ${{ secrets.TARGET_v3 }}
