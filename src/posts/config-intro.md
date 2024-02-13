@@ -1,6 +1,6 @@
 ---
 title: QChatGPT的详细配置解读
-icon: info
+icon: context
 # 这是侧边栏的顺序
 order: 3
 # 设置作者

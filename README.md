@@ -2,7 +2,7 @@
 
 > 此分支是 QChatGPT 3.0 的文档
 
-> [QChatGPT 代码仓库](https://github.com/RockChinQ/QChatGPT/tree/feat/asyncio)   
+> [QChatGPT 代码仓库](https://github.com/RockChinQ/QChatGPT/tree/feat/asyncio)
 > [本文档地址](https://github.com/the-lazy-me/QChatGPT-Wiki/tree/doc/v3)
 
 ## 参与编写
@@ -29,7 +29,6 @@ pnpm docs:dev
 
 ### 一些规范化标准
 
-- 除去`posts`文件夹是用名词复数，其余名词一律使用单数
 - 文件夹和文件的命名：**一律使用全小写，单词直接`-`隔开，如**`config-intro.md`
 - 子文件（夹）的命名，**不加前缀**（即文件夹的名称），如：`plugin`文件夹下的，插件列表（文件）称之为`list.md`，文件夹`some-plugin-deploy`
 - 由于这是有关于文档的规范化命名，所以任何文件的名称都可以以教程的角度来理解，如`plugin`是有关插件的教程

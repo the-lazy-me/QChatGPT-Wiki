@@ -21,21 +21,21 @@ export default sidebar({
           icon: "support",
           link: "manual",
         },
-        {
-          text: "安装器部署(Win)(不推荐，长时间未维护)",
-          icon: "list",
-          link: "auto-app-win",
-        },
-        {
-          text: "Docker部署(仅推荐在Linux上使用)",
-          icon: "list",
-          link: "auto-docker",
-        },
-        {
-          text: "安装器部署(Linux)(不推荐，已经长时间未维护)",
-          icon: "list",
-          link: "auto-app-linux",
-        },
+        // {
+        //   text: "安装器部署(Win)(不推荐，长时间未维护)",
+        //   icon: "list",
+        //   link: "auto-app-win",
+        // },
+        // {
+        //   text: "Docker部署(仅推荐在Linux上使用)",
+        //   icon: "list",
+        //   link: "auto-docker",
+        // },
+        // {
+        //   text: "安装器部署(Linux)(不推荐，已经长时间未维护)",
+        //   icon: "list",
+        //   link: "auto-app-linux",
+        // },
       ],
     },
     {

@@ -10,7 +10,7 @@ export default navbar([
   {
     text: "部署教程",
     icon: "blog",
-    link: "/posts/deploy",
+    link: "/posts/deploy/",
   },
   // "/posts/deploy/",
   // "/posts/Features",
