@@ -1,20 +1,21 @@
 {
-  "name": "qchatgpt-docs",
+  "name": "qchatgpt-v3-docs",
   "version": "3.0.0",
-  "description": "一个开源QQ机器人项目的文档",
+  "description": "一个开源QQ机器人项目(QChatGPT)的文档",
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "docs:build": "vuepress build src",
-    "docs:clean-dev": "vuepress dev src --clean-cache",
-    "docs:dev": "vuepress dev src",
-    "docs:update-package": "yarn dlx vp-update"
+    "docs:build": "vuepress-vite build src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+    "docs:dev": "vuepress-vite dev src",
+    "docs:update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/client": "2.0.0-beta.67",
-    "vue": "^3.3.4",
-    "vuepress": "2.0.0-beta.67",
-    "vuepress-plugin-search-pro": "^2.0.0-beta.242",
-    "vuepress-theme-hope": "2.0.0-beta.237"
+    "@vuepress/bundler-vite": "2.0.0-rc.7",
+    "nodejs-jieba": "^0.1.2",
+    "vue": "^3.4.15",
+    "vuepress": "2.0.0-rc.7",
+    "vuepress-plugin-search-pro": "2.0.0-rc.23",
+    "vuepress-theme-hope": "2.0.0-rc.23"
   }
 }

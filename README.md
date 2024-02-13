@@ -2,8 +2,8 @@
 
 > 此分支是 QChatGPT 3.0 的文档
 
-> [QChatGPT 代码仓库](https://github.com/RockChinQ/QChatGPT)   
-> [本文档地址](https://qchatgpt.rockchin.top)
+> [QChatGPT 代码仓库](https://github.com/RockChinQ/QChatGPT/tree/feat/asyncio)   
+> [本文档地址](https://github.com/the-lazy-me/QChatGPT-Wiki/tree/doc/v3)
 
 ## 参与编写
 
@@ -18,13 +18,13 @@
 Clone 本仓库，在目录下执行以下命令安装依赖：
 
 ```bash
-yarn install
+pnpm install
 ```
 
 完成后即可修改文档，修改完后使用以下命令本地启动：
 
 ```bash
-yarn docs:dev
+pnpm docs:dev
 ```
 
 ### 一些规范化标准
