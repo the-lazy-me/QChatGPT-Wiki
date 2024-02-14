@@ -27,6 +27,14 @@ pnpm install
 pnpm docs:dev
 ```
 
+### 推荐环境
+
+推荐使用 GitHub Codespaces 编写，仓库页面点击 "Code" -> "Codespaces" -> 直接创建一个 Codespace  
+在其中按照上述方式安装依赖并运行调试。
+
+> 若出现`Error: /lib/x86_64-linux-gnu/libstdc++.so.6: version GLIBCXX_3.4.29`的报错，请按照如下文章内容解决：  
+> https://zhuanlan.zhihu.com/p/615111375
+
 ### 一些规范化标准
 
 - 文件夹和文件的命名：**一律使用全小写，单词直接`-`隔开，如**`config-intro.md`
