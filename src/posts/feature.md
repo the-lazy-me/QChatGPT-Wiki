@@ -51,7 +51,7 @@ category:
 <br>
 
 <details>
-<summary>✅使用官方api，不需要网络代理，稳定快捷</summary>
+<summary>✅使用官方api，稳定快捷</summary>
 
   - 不使用ChatGPT逆向接口，而使用官方的Completion API，稳定性高
 
