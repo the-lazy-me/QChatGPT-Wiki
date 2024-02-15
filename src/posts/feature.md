@@ -14,40 +14,16 @@ category:
 
 ### 文字对话
 
-- OpenAI GPT-3.5模型(ChatGPT API), 本项目原生支持, 默认使用
-- OpenAI GPT-3模型, 本项目原生支持, 部署完成后前往`config.py`切换
-- OpenAI GPT-4模型, 本项目原生支持, 目前需要您的账户通过OpenAI的内测申请, 请前往`config.py`切换
-- ChatGPT网页版GPT-3.5模型, 由[插件](https://github.com/RockChinQ/revLibs)接入
-- ChatGPT网页版GPT-4模型, 目前需要ChatGPT Plus订阅, 由[插件](https://github.com/RockChinQ/revLibs)接入
-- New Bing逆向库, 由[插件](https://github.com/RockChinQ/revLibs)接入
-- HuggingChat, 由[插件](https://github.com/RockChinQ/revLibs)接入, 仅支持英文
-- Claude, 由[插件](https://github.com/RockChinQ/revLibs)接入
-- Google Bard, 由[插件](https://github.com/RockChinQ/revLibs)接入
-- Google Gemini Pro、Azure、Anthropic Claude、智谱 ChatGLM、百度文心一言、讯飞星火认知、阿里通义千问、360 智脑等官方接口, 通过[One API](https://github.com/songquanpeng/one-api)接入
-
-### 接口聚合平台
-
-- [One API](https://github.com/songquanpeng/one-api), Azure、Anthropic Claude、Google Gemini Pro、智谱 ChatGLM、百度文心一言、讯飞星火认知、阿里通义千问以及 360 智脑等模型的官方接口转换成 OpenAI API 接入，QChatGPT 原生支持，您需要先配置 One API，之后在`config.py`中设置反向代理和`One API`的密钥后使用。
-- [gpt4free](https://github.com/xtekky/gpt4free), 破解以免费使用多个平台的各种文字模型, 由[插件](https://github.com/RockChinQ/revLibs)接入, 无需鉴权, 稳定性较差。
+- OpenAI API：GPT-3.5 / GPT-4
+- [逆向工程插件](https://github.com/RockChinQ/revLibs)：ChatGPT / New Bing / Claude / Google Bard / Hugging Chat / gpt4free
+- [OneAPI](https://github.com/songquanpeng/one-api)接口聚合平台：Google Gemini Pro / Azure / Anthropic Claude / 智谱 ChatGLM / 百度文心一言 / 讯飞星火认知 / 阿里通义千问 / 360 智脑等官方接口
+- [free-one-api](https://github.com/RockChinQ/free-one-api)逆向工程库聚合平台：ChatGPT / Claude / Google Bard / gpt4free / 通义千问
 - [Poe](https://poe.com), 破解免费使用Poe上多个平台的模型, 由[oliverkirk-sudo/ChatPoeBot](https://github.com/oliverkirk-sudo/ChatPoeBot)接入（由于 Poe 上可用的大部分模型现已通过[revLibs插件](https://github.com/RockChinQ/revLubs)或其他方式接入，此插件现已停止维护）。
-
-### 故事续写
-
-- NovelAI API, 由[插件](https://github.com/dominoar/QCPNovelAi)接入
-
-### 图片绘制
-
-- OpenAI DALL·E模型, 本项目原生支持, 使用方法查看[Wiki功能使用页](https://github.com/RockChinQ/QChatGPT/wiki/1-%E5%8A%9F%E8%83%BD%E4%BD%BF%E7%94%A8#%E5%8A%9F%E8%83%BD%E7%82%B9%E5%88%97%E4%B8%BE)
-- NovelAI API, 由[插件](https://github.com/dominoar/QCPNovelAi)接入
 
 ### 语音生成
 
-- TTS+VITS, 由[插件](https://github.com/dominoar/QChatPlugins)接入
+- [RuiShengVoice](https://github.com/the-lazy-me/RuiShengVoice), 通过调用睿声的API，将输出内容转化为音频
 - Plachta/VITS-Umamusume-voice-synthesizer, 由[插件](https://github.com/oliverkirk-sudo/chat_voice)接入
-
-
-安装[此插件](https://github.com/RockChinQ/Switcher)，即可在使用中切换文字模型。
-
 
 ## 功能点列举
 
@@ -55,7 +31,6 @@ category:
 <summary>✅回复符合上下文</summary>
 
   - 程序向模型发送近几次对话内容，模型根据上下文生成回复
-  - 您可在`config.py`中修改`prompt_submit_length`自定义联系上下文的范围
 
 </details>
 <br>
@@ -63,7 +38,7 @@ category:
 <summary>✅支持敏感词过滤，避免账号风险</summary>
 
   - 难以监测机器人与用户对话时的内容，故引入此功能以减少机器人风险
-  - 编辑`sensitive.json`，并在`config.py`中修改`sensitive_word_filter`的值以开启此功能
+
 </details>
 <br>
 
@@ -71,7 +46,7 @@ category:
 <summary>✅群内多种响应规则，不必at</summary>
 
   - 默认回复`ai`作为前缀或`@`机器人的消息
-  - 详细见`config.py`中的`response_rules`字段
+
 </details>
 <br>
 
@@ -79,18 +54,7 @@ category:
 <summary>✅使用官方api，不需要网络代理，稳定快捷</summary>
 
   - 不使用ChatGPT逆向接口，而使用官方的Completion API，稳定性高
-  - 您可以在`config.py`中自定义`completion_api_params`字段，设置向官方API提交的参数以自定义机器人的风格
 
-</details>
-<br>
-
-<details>
-<summary>✅完善的多api-key管理，超额自动切换</summary>
-
-  - 支持配置多个`api-key`，内部统计使用量并在超额时自动切换
-  - 请在`config.py`中修改`openai_config`的值以设置`api-key`
-  - 可以在`config.py`中修改`api_key_fee_threshold`来自定义切换阈值
-  - 运行期间向机器人说`!usage`以查看当前使用情况
 </details>
 <br>
 
@@ -98,7 +62,7 @@ category:
 <summary>✅组件少，部署方便，提供一键安装器及Docker安装</summary>
 
   - 手动部署步骤少
-  - 提供自动安装器及docker方式，详见以下安装步骤
+  - 提供自动安装器及docker方式，详见安装步骤
 </details>
 <br>
 
@@ -106,9 +70,7 @@ category:
 <summary>✅支持预设文字</summary>
 
   - 支持以自然语言预设文字，自定义机器人人格等信息
-  - 详见`config.py`中的`default_prompt`部分
-  - 支持设置多个预设情景，并通过!reset、!default等命令控制，详细请查看[wiki命令](https://github.com/RockChinQ/QChatGPT/wiki/1-%E5%8A%9F%E8%83%BD%E4%BD%BF%E7%94%A8#%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%91%BD%E4%BB%A4)
-  - 支持使用文件存储情景预设文字，并加载: 在`prompts/`目录新建文件写入预设文字，即可通过`!reset <文件名>`命令加载
+
 </details>
 <br>
 
@@ -122,26 +84,10 @@ category:
 <br>
 
 <details>
-<summary>✅支持对话、绘图等模型，可玩性更高</summary>
-
-  - 现已支持OpenAI的对话`Completion API`和绘图`Image API`
-  - 向机器人发送命令`!draw <prompt>`即可使用绘图模型
-</details>
-<br>
-
-<details>
-<summary>✅支持命令控制热重载、热更新</summary>
-
-  - 允许在运行期间修改`config.py`或其他代码后，以管理员账号向机器人发送命令`!reload`进行热重载，无需重启
-  - 运行期间允许以管理员账号向机器人发送命令`!update`进行热更新，拉取远程最新代码并执行热重载
-</details>
-<br>
-
-<details>
 <summary>✅支持插件加载🧩</summary>
 
   - 自行实现插件加载器及相关支持
-  - 详细查看[插件使用页](https://github.com/RockChinQ/QChatGPT/wiki/5-%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8)
+  - 详细查看插件介绍页
 </details>
 <br>
 
@@ -149,7 +95,7 @@ category:
 <summary>✅私聊、群聊黑名单机制</summary>
 
   - 支持将人或群聊加入黑名单以忽略其消息
-  - 详见下方`加入黑名单`节
+
 </details>
 <br>
 
@@ -160,16 +106,9 @@ category:
   - 具有“等待”和“丢弃”两种策略
     - “等待”策略：在获取到回复后，等待直到此次响应时间达到对话响应时间均值
     - “丢弃”策略：此分钟内对话次数达到限制时，丢弃之后的对话
-  - 详细请查看config.py中的相关配置
+
 </details>
 <br>
-
-<details>
-<summary>✅支持自定义提示内容</summary>
-
-  - 允许用户自定义报错、帮助等提示信息
-  - 请查看`tips.py`
-</details>
 
 ## 限制
 
