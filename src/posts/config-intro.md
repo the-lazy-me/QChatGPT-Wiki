@@ -2,7 +2,7 @@
 title: QChatGPT的详细配置解读
 icon: context
 # 这是侧边栏的顺序
-order: 3
+order: 4
 # 设置作者
 author: Lazy
 # 设置写作时间

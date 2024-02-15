@@ -39,6 +39,11 @@ export default sidebar({
       ],
     },
     {
+      text: "命令用法",
+      icon: "command",
+      link: "posts/command",
+    },
+    {
       text: "配置方法",
       icon: "context",
       link: "posts/config-intro"
