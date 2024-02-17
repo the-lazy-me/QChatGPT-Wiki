@@ -20,23 +20,7 @@ export default navbar([
     link: "/posts/config-intro",
   },
   {
-    text: "疑难解答",
-    icon: "discover",
-    children: [
-      {
-        text: "常见问题",
-        icon: "info",
-        link: "/posts/error/",
-      },
-      {
-        text: "问题解答",
-        icon: "blog",
-        link: "/posts/faq",
-      },
-    ],
-  },
-  {
-    text: "项目仓库",
+    text: "代码仓库",
     icon: "github",
     link: "https://github.com/RockChinQ/QChatGPT",
   },
