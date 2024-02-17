@@ -41,7 +41,7 @@ export default sidebar({
           link: "platforms/",
           children: [
             {
-              text: "mirai",
+              text: "Mirai",
               icon: "support",
               link: "mirai",
             },
@@ -51,12 +51,12 @@ export default sidebar({
               link: "gocq",
             },
             {
-              text: "shamrock",
+              text: "OpenShamrock",
               icon: "mobile",
               link: "shamrock",
             },
             {
-              text: "QQ官方机器人",
+              text: "QQ 官方 API",
               icon: "network",
               link: "official",
             }
