@@ -3,8 +3,8 @@ head:
   - - meta
     - name: keywords
       content: ChatGPT QQ机器人教程，QChatGPT项目部署教程
-title: 部署教程
-icon: blog
+title: QChatGPT部署教程
+icon: flow
 author: Lazy,ikun
 date: 2023-10-28
 category:
@@ -15,15 +15,13 @@ index: false
 [[toc]]
 :::
 
-## 部署教程：
+## 手动部署
+> 全平台通用，可以避免安装器部署失败的问题
+- [<HopeIcon icon="support" size="1.2em"/> 点击查看手动部署的具体操作](manual.md)
 
-### [第一步：部署QChatGPT](qchatgpt/)
+## Docker部署
 
-#### [👉部署QChatGPT的教程👈](qchatgpt/)
-
-## [第二步：部署消息平台](platforms/)
-
-#### 👉[部署消息平台的教程👈](platforms/)
+- [<HopeIcon icon="support" size="1.2em"/> 点击查看Docker部署的具体操作](docker.md)
 
 ## 本项目交流 QQ 群
 

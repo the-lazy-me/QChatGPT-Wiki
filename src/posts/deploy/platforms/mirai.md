@@ -3,7 +3,7 @@ head:
   - - meta
     - name: keywords
       content: Yiri-mirai的部署教程
-title: Yiri-mirai的部署教程（QChatGPT）
+title: 部署消息平台mirai的教程
 icon: support
 order: 3
 author: Lazy

@@ -3,8 +3,8 @@ head:
   - - meta
     - name: keywords
       content: Go-cqhttp的部署教程
-title: Go-cqhttp的部署教程
-icon: support
+title: 部署消息平台go-cqhttp的教程
+icon: state
 order: 3
 author: Anonymous
 date: 2023-12-21

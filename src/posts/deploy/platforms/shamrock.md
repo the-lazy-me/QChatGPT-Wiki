@@ -3,8 +3,8 @@ head:
   - - meta
     - name: keywords
       content: OpenShamrock的部署教程
-title: OpenShamrock的部署教程
-icon: support
+title: 部署消息平台shamrock的教程
+icon: mobile
 order: 3
 author: ikun
 date: 2023-12-21

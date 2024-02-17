@@ -12,41 +12,14 @@ category:
   - 部署教程
 ---
 :::warning
-请使用Python 3.9.x以上版本，**注意不要使用3.12.x版本**，没有Python的需自行安装，参考[此教程](./manual-deploy-details/python.md)
+请使用Python 3.9.x以上版本，**注意不要使用3.12.x版本**，没有Python的需自行安装，参考[此教程](./more-details/python.md)
 ::: 
 
 :::info 目录
 [[toc]]
 :::
 
-## 配置QQ登录框架
 
-目前支持mirai和go-cqhttp和OpenShamrock(未来的可能方案)，配置任意一个即可
-
-<details>
-<summary>mirai</summary>
-
-1. 按照[此教程](./manual-deploy-details/yirimirai.md)配置Mirai及mirai-api-http  
-2. 启动mirai-console后，保持mirai-console运行状态  
-3. 在下一步配置主程序时请在config.py中将`msg_source_adapter`设为`yirimirai`
-
-</details>
-
-<details>
-<summary>go-cqhttp</summary>
-
-1. 按照[此文档](./manual-deploy-details/gocq.md)配置go-cqhttp
-2. 启动go-cqhttp，确保登录成功，保持运行
-3. 在下一步配置主程序时请在config.py中将`msg_source_adapter`设为`nakuru`
-
-</details>
-
-<details>
-<summary>OpenShamrock(未来的可能方案)</summary>
-
-详细见[此文档](./manual-deploy-details/shamrock.md)
-
-</details>
 
 ## 安装主程序
 

@@ -17,25 +17,51 @@ export default sidebar({
       link: "posts/deploy/",
       children: [
         {
-          text: "手动部署(推荐，可以在所有平台上使用)",
-          icon: "support",
-          link: "manual",
+          text: "部署QChatGPT",
+          icon: "flow",
+          prefix:"qchatgpt/",
+          link: "qchatgpt/",
+          children: [
+            {
+              text: "手动部署",
+              icon: "support",
+              link: "manual",
+            },
+            {
+              text: "Docker部署",
+              icon: "stack",
+              link: "docker",
+            },
+          ],
         },
-        // {
-        //   text: "安装器部署(Win)(不推荐，长时间未维护)",
-        //   icon: "list",
-        //   link: "auto-app-win",
-        // },
-        // {
-        //   text: "Docker部署(仅推荐在Linux上使用)",
-        //   icon: "list",
-        //   link: "auto-docker",
-        // },
-        // {
-        //   text: "安装器部署(Linux)(不推荐，已经长时间未维护)",
-        //   icon: "list",
-        //   link: "auto-app-linux",
-        // },
+        {
+          text: "部署消息平台",
+          icon: "merge",
+          prefix:"platforms/",
+          link: "platforms/",
+          children: [
+            {
+              text: "mirai",
+              icon: "support",
+              link: "mirai",
+            },
+            {
+              text: "go-cqhttp",
+              icon: "state",
+              link: "gocq",
+            },
+            {
+              text: "shamrock",
+              icon: "mobile",
+              link: "shamrock",
+            },
+            {
+              text: "QQ官方机器人",
+              icon: "network",
+              link: "official",
+            }
+          ],
+        },
       ],
     },
     {
@@ -46,7 +72,7 @@ export default sidebar({
     {
       text: "配置方法",
       icon: "context",
-      link: "posts/config-intro"
+      link: "posts/config-intro",
     },
     {
       text: "常见问题",
@@ -58,7 +84,6 @@ export default sidebar({
           text: "Mirai常见报错",
           icon: "notice",
           link: "mirai",
-
         },
         {
           text: "go-cqhttp常见报错",
