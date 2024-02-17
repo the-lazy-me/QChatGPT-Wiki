@@ -6,9 +6,7 @@ export default sidebar({
     {
       text: "功能介绍",
       icon: "operate",
-      prefix: "posts/feature",
-      link: "posts/feature",
-      children: "structure",
+      link: "posts/feature"
     },
     {
       text: "部署教程",
