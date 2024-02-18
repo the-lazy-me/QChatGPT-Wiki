@@ -9,7 +9,7 @@ author: Lazy
 date: 2024-02-18
 ---
 
-修改以下配置文件即可启用 QChatGPT 的基本功能，更多的配置项详解请查看[配置详解](../config-intro.md)。
+修改以下配置文件即可启用 QChatGPT 的基本功能，更多的配置项详解请查看[配置详解](../config)。
 
 - `data/config/platform.json`
 - `data/config/provider.json`
@@ -123,7 +123,7 @@ date: 2024-02-18
 
 ## provider.json
 
-修改此配置文件以设置所连接的 AI 提供商的相关信息，仅讲解必要的配置项，更多的配置项详解请查看[配置详解](../config-intro.md)。
+修改此配置文件以设置所连接的 AI 提供商的相关信息，仅讲解必要的配置项，更多的配置项详解请查看[配置详解](../config)。
 
 ```json
 "openai-config": {

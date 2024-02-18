@@ -9,9 +9,6 @@ author: Lazy
 date: 2024-02-18
 index: false
 ---
-:::info 目录
-[[toc]]
-:::
 
 ## 部署教程：
 

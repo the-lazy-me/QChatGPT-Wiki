@@ -428,43 +428,6 @@ NormalMessageResponded = "normal_message_responded"
         reply: list 替换回复消息组件列表
 """
 
-SessionFirstMessageReceived = "session_first_message_received"
-"""会话被第一次交互时触发
-    kwargs:
-        session_name: str 会话名称(<launcher_type>_<launcher_id>)
-        session: pkg.openai.session.Session 会话对象
-        default_prompt: str 预设值
-"""
-
-SessionExplicitReset = "session_reset"
-"""会话被用户手动重置时触发，此事件不支持阻止默认行为
-    kwargs:
-        session_name: str 会话名称(<launcher_type>_<launcher_id>)
-        session: pkg.openai.session.Session 会话对象
-"""
-
-SessionExpired = "session_expired"
-"""会话过期时触发
-    kwargs:
-        session_name: str 会话名称(<launcher_type>_<launcher_id>)
-        session: pkg.openai.session.Session 会话对象
-        session_expire_time: int 已设置的会话过期时间(秒)   
-"""
-
-KeyExceeded = "key_exceeded"
-"""api-key超额时触发
-    kwargs:
-        key_name: str 超额的api-key名称
-        usage: dict 超额的api-key使用情况
-        exceeded_keys: list[str] 超额的api-key列表
-"""
-
-KeySwitched = "key_switched"
-"""api-key超额切换成功时触发，此事件不支持阻止默认行为
-    kwargs:
-        key_name: str 切换成功的api-key名称
-        key_list: list[str] api-key列表
-"""
 
 PromptPreProcessing = "prompt_pre_processing"  # 于v2.5.1加入
 """每回合调用接口前对prompt进行预处理时触发，此事件不支持阻止默认行为
@@ -472,12 +435,10 @@ PromptPreProcessing = "prompt_pre_processing"  # 于v2.5.1加入
         session_name: str 会话名称(<launcher_type>_<launcher_id>)
         default_prompt: list 此session使用的情景预设内容
         prompt: list 此session现有的prompt内容
-        text_message: str 用户发送的消息文本
-    
+
     returns (optional):
         default_prompt: list 修改后的情景预设内容
         prompt: list 修改后的prompt内容
-        text_message: str 修改后的消息文本
 """
 ```
 

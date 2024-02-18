@@ -75,7 +75,40 @@ export default sidebar({
     {
       text: "配置详解",
       icon: "context",
-      link: "posts/config-intro",
+      prefix: "posts/config/",
+      link: "posts/config/",
+      children: [
+        {
+          text: "platform.json",
+          icon: "config",
+          link: "platform"
+        },
+        {
+          text: "pipeline.json",
+          icon: "config",
+          link: "pipeline"
+        },
+        {
+          text: "provider.json",
+          icon: "config",
+          link: "provider"
+        },
+        {
+          text: "command.json",
+          icon: "config",
+          link: "command"
+        },
+        {
+          text: "sensitive-words.json",
+          icon: "config",
+          link: "sensitive-words"
+        },
+        {
+          text: "system.json",
+          icon: "config",
+          link: "system"
+        },
+      ]
     },
     {
       text: "常见问题",

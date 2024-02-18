@@ -17,7 +17,7 @@ export default navbar([
   {
     text: "配置方法",
     icon: "context",
-    link: "/posts/config-intro",
+    link: "/posts/config/",
   },
   {
     text: "代码仓库",
