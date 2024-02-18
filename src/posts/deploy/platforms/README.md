@@ -16,20 +16,12 @@ index: false
 
 ## 可选的平台
 
-以下平台任选（支持同时使用多平台）：
+以下平台任选，也可以配置多个，QChatGPT支持同时接入一个或多个平台：
 
-- mirai
-- go-cqhttp
-- shamrock
-- QQ官方机器人
-
-## [mirai部署教程](mirai.md)
-
-## [go-cqhttp部署教程](gocq.md)
-
-## [shamrock部署教程](shamrock.md)
-
-## [QQ官方机器人部署教程](official.md)
+- Mirai（QQ）：[Mirai部署教程](mirai.md)
+- go-cqhttp（QQ）：[go-cqhttp部署教程](gocq.md)
+- Shamrock（QQ）：[Shamrock部署教程](shamrock.md)
+- QQ官方机器人（QQ频道）：[QQ 官方 API 部署教程](official.md)
 
 ## 本项目交流 QQ 群
 

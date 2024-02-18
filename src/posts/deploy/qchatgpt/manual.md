@@ -46,11 +46,11 @@ pip3 install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple som
 python3 main.py
 ```
 
-> 如果输入上面的指令无反应，并且你确认你已经装了python，则输入`python main.py`，下同
+> 如果输入上面的指令无反应，并且你确认你已经装了python，则可以尝试使用`python main.py`，总之`python`是你启动的python的命令，可以使用 `python --version` 查看你的python版本。
 
 提示如下信息
 
-```bash
+```
 
   ___   ___ _         _    ___ ___ _____
  / _ \ / __| |_  __ _| |_ / __| _ \_   _|
@@ -71,3 +71,5 @@ python3 main.py
 - data/config/sensitive-words.json
 - data/scenario/default.json
 ```
+
+接下来请查看部署消息平台页。
