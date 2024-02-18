@@ -8,8 +8,6 @@ icon: stack
 order: 4
 author: Lazy,ikun
 date: 2023-10-28
-category:
-  - 部署教程
 ---
 
 

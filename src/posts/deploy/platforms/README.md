@@ -5,12 +5,9 @@ head:
       content: ChatGPT QQ机器人教程，QChatGPT项目部署教程
 title: 消息平台部署教程
 icon: merge
-author: Lazy,ikun
-date: 2023-10-28
-category:
-  - 部署教程
+author: Lazy
+date: 2023-02-17
 index: false
-
 ---
 
 :::info 目录

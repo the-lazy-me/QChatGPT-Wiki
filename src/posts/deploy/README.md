@@ -5,10 +5,8 @@ head:
       content: ChatGPT QQ机器人教程，QChatGPT项目部署教程
 title: 部署教程
 icon: blog
-author: Lazy,ikun
-date: 2023-10-28
-category:
-  - 部署教程
+author: Lazy
+date: 2024-02-18
 index: false
 ---
 :::info 目录
@@ -17,13 +15,17 @@ index: false
 
 ## 部署教程：
 
-### [第一步：部署QChatGPT](qchatgpt/)
+## [第一步：部署QChatGPT](qchatgpt/)
 
-#### [👉部署QChatGPT的教程👈](qchatgpt/)
+### [👉部署QChatGPT的教程👈](qchatgpt/)
 
 ## [第二步：部署消息平台](platforms/)
 
-#### 👉[部署消息平台的教程👈](platforms/)
+### 👉[部署消息平台的教程👈](platforms/)
+
+## [第三步：填写配置信息](config.md)
+
+### 👉[填写配置信息的教程](config.md)👈
 
 ## 本项目交流 QQ 群
 

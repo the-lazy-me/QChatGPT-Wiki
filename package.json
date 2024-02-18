@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.7",
+    "@vuepress/plugin-catalog": "2.0.0-rc.14",
     "nodejs-jieba": "^0.1.2",
     "vue": "^3.4.15",
     "vuepress": "2.0.0-rc.7",

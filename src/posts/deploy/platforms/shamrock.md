@@ -8,8 +8,6 @@ icon: mobile
 order: 3
 author: ikun
 date: 2023-12-21
-category:
-  - 部署教程
 ---
 
 # OpenShamrock(未来可能的方向)

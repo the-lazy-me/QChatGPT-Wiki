@@ -11,6 +11,7 @@ export default sidebar({
     {
       text: "部署教程",
       icon: "blog",
+      collapsible: true,
       prefix: "posts/deploy/",
       link: "posts/deploy/",
       children: [
@@ -59,7 +60,11 @@ export default sidebar({
               link: "official",
             }
           ],
-        },
+        },{
+          text: "填写配置信息",
+          icon: "class",
+          link: "config",
+        }
       ],
     },
     {
@@ -68,13 +73,14 @@ export default sidebar({
       link: "posts/command",
     },
     {
-      text: "配置方法",
+      text: "配置详解",
       icon: "context",
       link: "posts/config-intro",
     },
     {
       text: "常见问题",
       icon: "info",
+      collapsible: true,
       link: "posts/error/",
       prefix: "posts/error/",
       children: [
@@ -98,6 +104,7 @@ export default sidebar({
     {
       text: "插件功能",
       icon: "plugin",
+      collapsible: true,
       prefix: "posts/plugin/",
       link: "posts/plugin/intro",
       // collapsible: true,
