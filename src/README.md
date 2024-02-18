@@ -11,7 +11,7 @@ heroImage: /logo.png
 # bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 # bgImageStyle:
   # background-attachment: fixed
-heroText: QChatGPT
+heroText: QChatGPT（V2.0）
 tagline: 😎高稳定性、🧩支持插件、🌏实时联网的 ChatGPT QQ 机器人🤖 | 支持 Claude、Google Bard、gpt4free、One API 的 QQ 机器人平台
 actions:
   - text: 🚀 快速上手
@@ -148,4 +148,5 @@ highlights:
         link: https://github.com/the-lazy-me/QChatGPT-Wiki/graphs/contributors
 
 copyright: false
-footer: <a href="https://github.com/RockChinQ/QChatGPT" target="_blank">QChatGPT</a> 项目的Wiki页&nbsp;&nbsp;|&nbsp;&nbsp;MIT 协议, 版权所有 © 2023-present Lazy
+footer: <a href="https://github.com/RockChinQ/QChatGPT" target="_blank">QChatGPT</a> 项目的Wiki页&nbsp;&nbsp;|&nbsp;&nbsp;MIT 协议, 版权所有 © 2023-present Lazy  <br/> <br/> <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">津 ICP 备 2023007711 号</a>&nbsp;&nbsp;<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12011102001610" rel="nofollow noopener" class="beian-police" target="_blank">津公网安备12011102001610号</a>
+---
