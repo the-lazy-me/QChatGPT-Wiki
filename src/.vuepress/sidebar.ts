@@ -75,6 +75,7 @@ export default sidebar({
     {
       text: "配置详解",
       icon: "context",
+      collapsible: true,
       prefix: "posts/config/",
       link: "posts/config/",
       children: [
