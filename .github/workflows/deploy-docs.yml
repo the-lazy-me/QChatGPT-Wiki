@@ -42,9 +42,13 @@ jobs:
           WELCOME: "ssh scp ssh pipelines"
           LASTSSH: "Doing something after copying"
         with:
-          host: ${{ secrets.SERVER_HOST }}
-          user: ${{ secrets.SERVER_NAME }}
-          pass: ${{ secrets.PASSWD }}
+          # host: ${{ secrets.SERVER_HOST }}
+          host: ${{ secrets.ALI_SERVER_HOST }}
+          # user: ${{ secrets.SERVER_NAME }}
+          user: ${{ secrets.ALI_SERVER_NAME }}
+          # pass: ${{ secrets.PASSWD }}
+          pass: ${{ secrets.ALI_PASSWD }}
           connect_timeout: 100s
           local: './src/.vuepress/dist/*'
-          remote: ${{ secrets.TARGET_v3 }}
+          # remote: ${{ secrets.TARGET_v3 }}
+          remote: ${{ secrets.ALI_TARGET_v3 }}
