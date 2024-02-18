@@ -10,8 +10,8 @@ heroImage: /logo.png
 # bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 # bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 # bgImageStyle:
-  # background-attachment: fixed
-heroText: QChatGPT（V2.0）
+# background-attachment: fixed
+heroText: QChatGPT
 tagline: 😎高稳定性、🧩支持插件、🌏实时联网的 ChatGPT QQ 机器人🤖 | 支持 Claude、Google Bard、gpt4free、One API 的 QQ 机器人平台
 actions:
   - text: 🚀 快速上手
@@ -22,7 +22,6 @@ actions:
     link: https://github.com/RockChinQ/QChatGPT
 
 highlights:
-
   - header: 插件生态
     # image: /assets/image/features.svg
     # bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
@@ -59,7 +58,7 @@ highlights:
         link: /posts/plugin/list.md
 
   - header: 链接
-    description: 
+    description:
     # image: /assets/image/blog.svg
     # bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
     # bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
@@ -80,5 +79,5 @@ highlights:
         link: https://github.com/the-lazy-me/QChatGPT-Wiki/graphs/contributors
 
 copyright: false
-footer: <a href="https://github.com/RockChinQ/QChatGPT" target="_blank">QChatGPT</a> 项目的Wiki页&nbsp;&nbsp;|&nbsp;&nbsp;MIT 协议, 版权所有 © 2023-present Lazy  <br/> <br/> <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">津 ICP 备 2023007711 号</a>&nbsp;&nbsp;<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12011102001610" rel="nofollow noopener" class="beian-police" target="_blank">津公网安备12011102001610号</a><br/><a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">桂ICP备2020008331号-2</a>
+footer: <a href="https://github.com/RockChinQ/QChatGPT" target="_blank">QChatGPT</a> 项目的Wiki页&nbsp;&nbsp;|&nbsp;&nbsp;MIT 协议, 版权所有 © 2023-present Lazy  <br/> <br/> <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">津 ICP 备 2023007711 号</a>&nbsp;&nbsp;<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12011102001610" rel="nofollow noopener" class="beian-police" target="_blank">津公网安备12011102001610号</a>
 ---
