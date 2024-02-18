@@ -4,7 +4,7 @@ head:
     - name: keywords
       content: sensitive-words.json 配置文件
 title: sensitive-words.json 配置项
-icon: blog
+icon: config
 order: 5
 author: RockChinQ
 date: 2024-02-18

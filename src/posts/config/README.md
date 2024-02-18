@@ -4,7 +4,7 @@ head:
     - name: keywords
       content: ChatGPT QQ机器人教程，QChatGPT项目部署教程
 title: 配置文件详解
-icon: blog
+icon: config
 author: Lazy
 date: 2024-02-18
 index: false

@@ -4,7 +4,7 @@ head:
     - name: keywords
       content: platform.json 配置文件
 title: platform.json 配置项
-icon: blog
+icon: config
 order: 1
 author: RockChinQ
 date: 2024-02-18
@@ -143,5 +143,4 @@ category:
 ```
 
  是否向用户隐藏AI的异常信息，如果为true，当请求AI接口出现异常时，会返回一个错误的提示给用户。而把报错详情输出在控制台。
-
 

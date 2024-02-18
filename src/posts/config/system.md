@@ -4,7 +4,7 @@ head:
     - name: keywords
       content: system.json 配置文件
 title: system.json 配置项
-icon: blog
+icon: config
 order: 6
 author: RockChinQ
 date: 2024-02-18

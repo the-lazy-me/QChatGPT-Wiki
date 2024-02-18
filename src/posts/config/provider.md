@@ -4,7 +4,7 @@ head:
     - name: keywords
       content: provider.json 配置文件
 title: provider.json 配置项
-icon: blog
+icon: config
 order: 3
 author: RockChinQ
 date: 2024-02-18

@@ -4,7 +4,7 @@ head:
     - name: keywords
       content: command.json 配置文件
 title: command.json 配置项
-icon: blog
+icon: config
 order: 4
 author: RockChinQ
 date: 2024-02-18

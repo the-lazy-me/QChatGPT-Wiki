@@ -4,7 +4,7 @@ head:
     - name: keywords
       content: pipeline.json 配置文件
 title: pipeline.json 配置项
-icon: blog
+icon: config
 order: 2
 author: RockChinQ
 date: 2024-02-18
