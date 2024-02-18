@@ -12,7 +12,9 @@ category:
   - 部署教程
 ---
 
-## 第一步：准备工作
+> 本文档仅为基本步骤，详细操作、答疑解惑及最新信息请前往[Mirai官方代码库](https://github.com/mamoe/mirai)、[Mirai官方论坛](https://mirai.mamoe.net/)
+
+## 准备工作
 
 > 注意：由于网络环境多样复杂，很多步骤中，有可能需要使用网络魔法，懂的都懂
 
@@ -28,7 +30,7 @@ category:
 
    ![image-20231218170346542](https://cos.thelazy.cn/pictures/qchatgpt%E6%89%8B%E5%8A%A8%E9%83%A8%E7%BD%B2202312181703568.png)
 
-## 第二步：安装 mirai-console
+## 安装 mirai-console
 
 在 [mcl-installer 的 releases 页面](https://github.com/iTXTech/mcl-installer/releases)下载对应版本的安装包，找到最新的安装包，即有“Latest”标志的安装包，点击`show all 14 assets`,下载 mcl-installer-X.X.X-windows-amd64.exe，如图，则下载`mcl-installer-1.0.7-windows-amd64.exe`，保存在刚才创建的`mirai文件夹`中
 ![屏幕截图 2023-11-23 223909.png](https://cos.thelazy.cn/pictures/mirai-console%E7%9A%84%E6%95%99%E7%A8%8B202312181655031.png)
@@ -46,7 +48,7 @@ category:
 ![屏幕截图 2023-11-24 174015.png](https://cos.thelazy.cn/pictures/qchatgpt%E6%89%8B%E5%8A%A8%E9%83%A8%E7%BD%B2202312181714763.png)![屏幕截图 2023-11-24 174650.png](https://cos.thelazy.cn/pictures/qchatgpt%E6%89%8B%E5%8A%A8%E9%83%A8%E7%BD%B2202312181714650.png)
 当出现上面的一行绿字时，说明安装完成，到这里输入 exit，回车退出
 
-## 第三步：安装 mirai-api-http
+## 安装 mirai-api-http
 
 打开 `mcl.cmd`，输入`mcl --update-package net.mamoe:mirai-api-http --channel stable-v2 --type plugin` ，回车
 
@@ -80,7 +82,7 @@ adapterSettings:
 ![image-20231218174112536](https://cos.thelazy.cn/pictures/qchatgpt%E6%89%8B%E5%8A%A8%E9%83%A8%E7%BD%B2202312181741769.png)
 则 mirai-api-http 安装成功。
 
-## 第四步：配置签名服务
+## 配置签名服务
 
 在这个链接下载qsign一键签名包，点击下载最新的那个zip压缩包，如下图的`qsign-1.2.1-beta-dev-d62ddce-all.zip`【写于2023年12月19日】，[点我跳转下载页面](https://github.com/MrXiaoM/qsign/releases)
 
@@ -112,7 +114,7 @@ adapterSettings:
 
 ![image-20231219214603122](https://cos.thelazy.cn/pictures/qchatgpt%E6%89%8B%E5%8A%A8%E9%83%A8%E7%BD%B2202312192146161.png)
 
-## 第五步：运行mirai
+## 运行mirai
 
 到这里，你已经安装并配置成功了，接下来，你就可以登录机器人QQ了
 
@@ -151,3 +153,7 @@ ticket 后那一坨就是要输入回 mirai 的内容，但不包括首尾的双
 然后回车，如果运气好的话，会提示你要收验证码，输入yes并回车，之后把验证码输入上去，然后回车即可成功登录了
 
 如果运气不好，报错code=237了，建议换号
+
+## 后续步骤
+
+查看填写配置信息页，通过 YiriMirai 适配器接入。

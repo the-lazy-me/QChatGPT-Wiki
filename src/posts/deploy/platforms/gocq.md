@@ -12,13 +12,9 @@ category:
   - 部署教程
 ---
 
-# 配置go-cqhttp用于登录QQ
+> 本文档仅为基本步骤，详细操作、答疑解惑及最新信息请前往[go-cqhttp官方文档](https://docs.go-cqhttp.org/)。
 
-> 若您是从旧版本升级到此版本以使用go-cqhttp的用户，请您按照`config-template.py`的内容修改`config.py`，添加`msg_source_adapter`配置项并将其设为`nakuru`，同时添加`nakuru_config`字段按照说明配置。
-
-## 步骤
-
-### 下载go-cqhttp
+## 下载go-cqhttp
 
 从[go-cqhttp的Release](https://github.com/Mrs4s/go-cqhttp/releases/latest)下载最新的go-cqhttp可执行文件（建议直接下载可执行文件压缩包，而不是安装器）
 
@@ -128,3 +124,8 @@ ticket 后那一坨就是要输入回 mirai 的内容，但不包括首尾的双
 ![image-20231220211712572](https://cos.thelazy.cn/pictures/qchatgpt%E6%89%8B%E5%8A%A8%E9%83%A8%E7%BD%B2202312202117600.png)
 
 > 若启动后登录不成功，请尝试根据[此文档](https://docs.go-cqhttp.org/guide/config.html#%E8%AE%BE%E5%A4%87%E4%BF%A1%E6%81%AF)修改`device.json`的协议编号。
+
+
+## 后续步骤
+
+查看填写配置信息页，通过 Nakuru 或 aiocqhttp 适配器接入。

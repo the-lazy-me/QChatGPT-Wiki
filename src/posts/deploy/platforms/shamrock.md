@@ -10,15 +10,11 @@ author: ikun
 date: 2023-12-21
 ---
 
-# OpenShamrock(未来可能的方向)
-
-暂时只支持私聊回复，群聊正在适配中...
+> 本文档仅为基本步骤，详细操作、答疑解惑及最新信息请前往[OpenShamrock官方文档](https://whitechi73.github.io/OpenShamrock/)。
 
 ## OpenShamrock简介
 
 Mirai、go-cqhttp 之类的是模拟 QQ 的协议进行通信，而 Shamrock 使用的是 安卓的 Hook 来操作 QQ 模拟点击，稳定性较高。
-
-官方文档：https://whitechi73.github.io/OpenShamrock/
 
 可选平台(or设备)：
 
@@ -82,27 +78,6 @@ adb.exe -s 127.0.0.1:16384 forward tcp:5800 tcp:5800
 adb.exe -s 127.0.0.1:16384 forward tcp:5700 tcp:5700
 ```
 
-### 配置QChatGPT
+### 后续步骤
 
-修改 `config.py`中对应的设置。
-
-```python
-msg_source_adapter = "nakuru"
-
-# [必需(与mirai二选一，取决于msg_source_adapter)]
-# 使用nakuru-project框架连接go-cqhttp的配置
-nakuru_config = {
-    "host": "localhost",  # go-cqhttp的地址
-    "port": 5800,  # go-cqhttp的正向websocket端口
-    "http_port": 5700,  # go-cqhttp的正向http端口
-    "token": ""  # 若在go-cqhttp的config.yml设置了access_token, 则填写此处
-}
-```
-
-### 回到刚刚的手动部署文档查看后续步骤
-
-### 测试
-
-稍等片刻，运行QChatGPT主程序，如图，运行成功
-
-![image-20240119085405838](https://cos.thelazy.cn/pictures/shamrock202401190854875.png)
+查看填写配置信息页，通过 aiocqhttp 适配器接入。
