@@ -44,7 +44,7 @@ jobs:
         with:
           host: ${{ secrets.ALI_SERVER_HOST }}
           user: ${{ secrets.ALI_SERVER_NAME }}
-          pass: ${{ secrets.ALI_PASSWD }}
+          pass: ${{ secrets.ALI_SSH_PRIVATE_KEY }}
           connect_timeout: 100s
           local: './src/.vuepress/dist/*'
           remote: ${{ secrets.ALI_TARGET_v3 }}
