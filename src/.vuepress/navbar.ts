@@ -15,7 +15,7 @@ export default navbar([
   // "/posts/deploy/",
   // "/posts/Features",
   {
-    text: "配置方法",
+    text: "配置详解",
     icon: "context",
     link: "/posts/config/",
   },
