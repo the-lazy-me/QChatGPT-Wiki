@@ -37,4 +37,4 @@ category:
 
 ![图1.png](https://s2.loli.net/2023/08/12/zmZBc8yfV1NL3vg.png)
 
-发送`!reload`即可成功使用
+重启程序以加载插件。

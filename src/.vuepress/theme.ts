@@ -1,4 +1,5 @@
 import { hopeTheme } from "vuepress-theme-hope";
+import { cut } from "nodejs-jieba";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
@@ -38,14 +39,12 @@ export default hopeTheme({
     editLink: "在 GitHub 上编辑此页",
   },
 
+  // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
+  // hotReload: true,
+
+  // 在这里配置主题提供的插件
   plugins: {
-    components: {
-      components: [
-        "BiliBili",
-        "Share"
-      ]
-    },
-    // You should generate and use your own comment service
+    // 你应该自行生成自己的评论服务
     // comment: {
     //   provider: "Giscus",
     //   repo: "vuepress-theme-hope/giscus-discussions",
@@ -54,28 +53,33 @@ export default hopeTheme({
     //   categoryId: "DIC_kwDOG_Pt2M4COD69",
     // },
 
-    // All features are enabled for demo, only preserve features you need here
+    searchPro: {
+      indexContent: true,
+      indexLocaleOptions: {
+        "/zh/": {
+          // 使用 nodejs-jieba 进行分词
+          tokenize: (text, fieldName) =>
+            fieldName === "id" ? [text] : cut(text, true),
+        },
+      },
+    },
+
+    components: {
+      components: ["Badge", "VPCard", "BiliBili", "Share"],
+    },
+
+    // 此处开启了很多功能用于演示，你应仅保留用到的功能。
     mdEnhance: {
       align: true,
       attrs: true,
-      chart: true,
       codetabs: true,
+      component: true,
       demo: true,
-      echarts: true,
       figure: true,
-      flowchart: true,
-      gfm: true,
       imgLazyload: true,
       imgSize: true,
       include: true,
-      katex: true,
       mark: true,
-      mermaid: true,
-      //card:true,
-      playground: {
-        presets: ["ts", "vue"],
-      },
-      presentation: ["highlight", "math", "search", "notes", "zoom"],
       stylize: [
         {
           matcher: "Recommended",
@@ -93,64 +97,104 @@ export default hopeTheme({
       sup: true,
       tabs: true,
       vPre: true,
-      vuePlayground: true,
+
+      // 在启用之前安装 chart.js
+      // chart: true,
+
+      // insert component easily
+
+      // 在启用之前安装 echarts
+      // echarts: true,
+
+      // 在启用之前安装 flowchart.ts
+      // flowchart: true,
+
+      // gfm requires mathjax-full to provide tex support
+      // gfm: true,
+
+      // 在启用之前安装 katex
+      // katex: true,
+
+      // 在启用之前安装 mathjax-full
+      // mathjax: true,
+
+      // 在启用之前安装 mermaid
+      // mermaid: true,
+
+      // playground: {
+      //   presets: ["ts", "vue"],
+      // },
+
+      // 在启用之前安装 reveal.js
+      // revealJs: {
+      //   plugins: ["highlight", "math", "search", "notes", "zoom"],
+      // },
+
+      // 在启用之前安装 @vue/repl
+      // vuePlayground: true,
+
+      // install sandpack-vue3 before enabling it
+      // sandpack: true,
     },
 
-    // uncomment these if you want a pwa
-    pwa: {
-      favicon: "/favicon.ico",
-      cacheHTML: true,
-      cachePic: true,
-      appendBase: true,
-      apple: {
-        icon: "/assets/icon/apple-icon-152.png",
-        statusBarColor: "black",
-      },
-      msTile: {
-        image: "/assets/icon/ms-icon-144.png",
-        color: "#ffffff",
-      },
-      manifest: {
-        icons: [
-          {
-            src: "/assets/icon/chrome-mask-512.png",
-            sizes: "512x512",
-            purpose: "maskable",
-            type: "image/png",
-          },
-          {
-            src: "/assets/icon/chrome-mask-192.png",
-            sizes: "192x192",
-            purpose: "maskable",
-            type: "image/png",
-          },
-          {
-            src: "/assets/icon/chrome-512.png",
-            sizes: "512x512",
-            type: "image/png",
-          },
-          {
-            src: "/assets/icon/chrome-192.png",
-            sizes: "192x192",
-            type: "image/png",
-          },
-        ],
-        shortcuts: [
-          {
-            name: "Demo",
-            short_name: "Demo",
-            url: "/demo/",
-            icons: [
-              {
-                src: "/assets/icon/guide-maskable.png",
-                sizes: "192x192",
-                purpose: "maskable",
-                type: "image/png",
-              },
-            ],
-          },
-        ],
-      },
-    },
+    sitemap: true,
+    catalog: true,
+
+    // 如果你需要 PWA。安装 vuepress-plugin-pwa2 并取消下方注释
+    // pwa: {
+    //   favicon: "/favicon.ico",
+    //   cacheHTML: true,
+    //   cachePic: true,
+    //   appendBase: true,
+    //   apple: {
+    //     icon: "/assets/icon/apple-icon-152.png",
+    //     statusBarColor: "black",
+    //   },
+    //   msTile: {
+    //     image: "/assets/icon/ms-icon-144.png",
+    //     color: "#ffffff",
+    //   },
+    //   manifest: {
+    //     icons: [
+    //       {
+    //         src: "/assets/icon/chrome-mask-512.png",
+    //         sizes: "512x512",
+    //         purpose: "maskable",
+    //         type: "image/png",
+    //       },
+    //       {
+    //         src: "/assets/icon/chrome-mask-192.png",
+    //         sizes: "192x192",
+    //         purpose: "maskable",
+    //         type: "image/png",
+    //       },
+    //       {
+    //         src: "/assets/icon/chrome-512.png",
+    //         sizes: "512x512",
+    //         type: "image/png",
+    //       },
+    //       {
+    //         src: "/assets/icon/chrome-192.png",
+    //         sizes: "192x192",
+    //         type: "image/png",
+    //       },
+    //     ],
+    //     shortcuts: [
+    //       {
+    //         name: "Demo",
+    //         short_name: "Demo",
+    //         url: "/demo/",
+    //         icons: [
+    //           {
+    //             src: "/assets/icon/guide-maskable.png",
+    //             sizes: "192x192",
+    //             purpose: "maskable",
+    //             type: "image/png",
+    //           },
+    //         ],
+    //       },
+    //     ],
+    //   },
+    // },
   },
 });

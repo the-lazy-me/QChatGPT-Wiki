@@ -1,10 +1,9 @@
-
 name: 部署文档
 
 on:
   push:
     branches:
-      # 确保这是你正在使用的分支名称
+      - doc/v3
       - main
 
 permissions:
@@ -24,19 +23,19 @@ jobs:
         with:
           node-version: 18
 
-      - name: 安装 Yarn
+      - name: 安装 pnpm
         run: |
-          corepack enable
+          npm install -g pnpm
 
       - name: 安装依赖
         run: 
-          yarn install
+          pnpm install
 
       - name: 构建文档
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
-          yarn docs:build
+          pnpm run docs:build
           
       - name: 部署文档
         uses: cross-the-world/scp-pipeline@master
@@ -49,4 +48,4 @@ jobs:
           pass: ${{ secrets.ALI_SERVER_PASSWD }}
           connect_timeout: 100s
           local: './src/.vuepress/dist/*'
-          remote: ${{ secrets.ALI_TARGET_v2 }}
+          remote: ${{ secrets.ALI_TARGET_v3 }}

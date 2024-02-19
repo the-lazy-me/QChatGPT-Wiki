@@ -8,8 +8,6 @@ icon: support
 order: 3
 author: Lazy
 date: 2023-12-18
-category:
-  - 部署教程
 ---
 
 ## 第一步：安装Python

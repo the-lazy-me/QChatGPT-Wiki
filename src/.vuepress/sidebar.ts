@@ -6,46 +6,115 @@ export default sidebar({
     {
       text: "功能介绍",
       icon: "operate",
-      prefix: "posts/feature",
-      link: "posts/feature",
-      children: "structure",
+      link: "posts/feature"
     },
     {
       text: "部署教程",
       icon: "blog",
+      collapsible: true,
       prefix: "posts/deploy/",
       link: "posts/deploy/",
       children: [
         {
-          text: "手动部署(推荐，可以在所有平台上使用)",
-          icon: "support",
-          link: "manual",
+          text: "部署QChatGPT",
+          icon: "flow",
+          prefix:"qchatgpt/",
+          link: "qchatgpt/",
+          children: [
+            {
+              text: "手动部署",
+              icon: "support",
+              link: "manual",
+            },
+            {
+              text: "Docker部署",
+              icon: "stack",
+              link: "docker",
+            },
+          ],
         },
         {
-          text: "安装器部署(Win)(不推荐，长时间未维护)",
-          icon: "list",
-          link: "auto-app-win",
-        },
-        {
-          text: "Docker部署(仅推荐在Linux上使用)",
-          icon: "list",
-          link: "auto-docker",
-        },
-        {
-          text: "安装器部署(Linux)(不推荐，已经长时间未维护)",
-          icon: "list",
-          link: "auto-app-linux",
-        },
+          text: "部署消息平台",
+          icon: "merge",
+          prefix:"platforms/",
+          link: "platforms/",
+          children: [
+            {
+              text: "Mirai",
+              icon: "support",
+              link: "mirai",
+            },
+            {
+              text: "go-cqhttp",
+              icon: "state",
+              link: "gocq",
+            },
+            {
+              text: "OpenShamrock",
+              icon: "mobile",
+              link: "shamrock",
+            },
+            {
+              text: "QQ 官方 API",
+              icon: "network",
+              link: "official",
+            }
+          ],
+        },{
+          text: "填写配置信息",
+          icon: "class",
+          link: "config",
+        }
       ],
     },
     {
-      text: "配置方法",
+      text: "命令用法",
+      icon: "command",
+      link: "posts/command",
+    },
+    {
+      text: "配置详解",
       icon: "context",
-      link: "posts/config-intro"
+      collapsible: true,
+      prefix: "posts/config/",
+      link: "posts/config/",
+      children: [
+        {
+          text: "platform.json",
+          icon: "config",
+          link: "platform"
+        },
+        {
+          text: "pipeline.json",
+          icon: "config",
+          link: "pipeline"
+        },
+        {
+          text: "provider.json",
+          icon: "config",
+          link: "provider"
+        },
+        {
+          text: "command.json",
+          icon: "config",
+          link: "command"
+        },
+        {
+          text: "sensitive-words.json",
+          icon: "config",
+          link: "sensitive-words"
+        },
+        {
+          text: "system.json",
+          icon: "config",
+          link: "system"
+        },
+      ]
     },
     {
       text: "常见问题",
       icon: "info",
+      collapsible: true,
       link: "posts/error/",
       prefix: "posts/error/",
       children: [
@@ -53,7 +122,6 @@ export default sidebar({
           text: "Mirai常见报错",
           icon: "notice",
           link: "mirai",
-
         },
         {
           text: "go-cqhttp常见报错",
@@ -70,6 +138,7 @@ export default sidebar({
     {
       text: "插件功能",
       icon: "plugin",
+      collapsible: true,
       prefix: "posts/plugin/",
       link: "posts/plugin/intro",
       // collapsible: true,

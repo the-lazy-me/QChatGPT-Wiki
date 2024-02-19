@@ -10,6 +10,7 @@ author: Lazy
 date: 2023-12-20
 category:
   - 插件使用
+index: false
 ---
 
 <AutoCatalog base='/posts/plugin/some-plugin-deploy/'/>

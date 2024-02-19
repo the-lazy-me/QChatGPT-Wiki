@@ -5,7 +5,7 @@ head:
       content: ChatGPT QQ机器人插件，QChatGPT项目插件
 title: 插件列表
 icon: list
-order: 1
+order: 2
 author: Lazy
 date: 2023-09-30
 category:
