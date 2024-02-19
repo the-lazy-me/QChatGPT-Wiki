@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - doc/v3
+      - main
 
 permissions:
   contents: write
