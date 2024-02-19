@@ -5,12 +5,17 @@ head:
       content: QChatGPT插件开发教程
 title: 插件开发
 icon: code
+order: 3
 author: RockChinQ
 date: 2023-09-30
 category:
-  - 插件开发
+  - 插件介绍
 index: false
 ---
+
+:::warning 
+本教程基于 QChatGPT 2.x 编写，3.0 具有不全面的向后兼容性，请尽可能使用本教程内推荐的方法进行开发。
+::: 
 
 > 请先阅读[插件介绍页](../plugin/intro.md)  
 > 请先阅读[技术信息页](../develop/technology-info.md)  
@@ -18,9 +23,11 @@ index: false
 
 > 问题、需求请到仓库issue发起  
 > **提问前请先靠自己尝试** 
+
 :::info 目录
 [[toc]]
 :::
+
 ## 💬简介
 
 尽管“为一个基于OpenAI API的QQ机器人开发插件支持”这事看起来有点小题大做，但萌生此想法后的几天内好几个人提出了这个需求，最终促使此项目正式支持插件。
