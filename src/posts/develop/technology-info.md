@@ -13,7 +13,7 @@ index: false
 ---
 以下是QChatGPT实现原理等技术信息，贡献之前请仔细阅读
 
-> 太久没更了，过时了，建议读源码，~~注释还挺全的~~  
+> 此文档为 QChatGPT 2.x 的技术文档，已过时，3.x 版本请直接查看源码。  
 > 请先阅读OpenAI API的相关文档 https://beta.openai.com/docs/ ，以下信息假定您已了解OpenAI模型的相关特性及其接口的调用方法。
 
 ## 术语
