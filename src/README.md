@@ -148,5 +148,5 @@ highlights:
         link: https://github.com/the-lazy-me/QChatGPT-Wiki/graphs/contributors
 
 copyright: false
-footer: <a href="https://github.com/RockChinQ/QChatGPT" target="_blank">QChatGPT</a> 项目的Wiki页&nbsp;&nbsp;|&nbsp;&nbsp;MIT 协议, 版权所有 © 2023-present Lazy  <br/> <br/> <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">津 ICP 备 2023007711 号</a>&nbsp;&nbsp;<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12011102001610" rel="nofollow noopener" class="beian-police" target="_blank">津公网安备12011102001610号</a>
+footer: <a href="https://github.com/RockChinQ/QChatGPT" target="_blank">QChatGPT</a> 项目的Wiki页&nbsp;&nbsp;|&nbsp;&nbsp;MIT 协议, 版权所有 © 2023-present Lazy  <br/> <br/> <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">津 ICP 备 2023007711 号</a>&nbsp;&nbsp;<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12011102001610" rel="nofollow noopener" class="beian-police" target="_blank">津公网安备12011102001610号</a><br/><a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">桂ICP备2020008331号-2</a>
 ---
