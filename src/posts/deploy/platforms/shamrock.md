@@ -47,6 +47,8 @@ Mirai、go-cqhttp 之类的是模拟 QQ 的协议进行通信，而 Shamrock 使
 
 1. 在 Shamrock 的设置页面修改设置如图：
 
+启用被动 Websocket，并填写 QChatGPT 的 aiocqhttp 适配器监听的地址和端口（详见填写配置信息页）。
+
 ![image-20240119085141185](https://cos.thelazy.cn/pictures/shamrock202401190851209.png)
 
 ![image-20240119085203006](https://cos.thelazy.cn/pictures/shamrock202401190852028.png)
@@ -66,17 +68,6 @@ Mirai、go-cqhttp 之类的是模拟 QQ 的协议进行通信，而 Shamrock 使
 1. 打开QQ，登录机器人QQ，关闭QQ，重启模拟器。
 2. 启动 LSPosed，Shamrock 将会自动运行，启动 QQ。
 3. 打开 Shamrock 页面，此时应显示 `已激活` 并可以查看到账号信息和相关消息日志。
-
-### 端口转发
-
-查看mumu模拟器的ADB调试端口，参考[此教程](https://mumu.163.com/help/20230214/35047_1073151.html)
-
-在mumu模拟器安装目录，打开cmd，输入（替换16384为实际）
-
-```bash
-adb.exe -s 127.0.0.1:16384 forward tcp:5800 tcp:5800
-adb.exe -s 127.0.0.1:16384 forward tcp:5700 tcp:5700
-```
 
 ### 后续步骤
 
