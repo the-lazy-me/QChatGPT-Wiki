@@ -10,19 +10,11 @@ date: 2024-02-18
 index: false
 ---
 
-## 部署教程：
+## 部署教程
 
-## [第一步：部署QChatGPT](qchatgpt/)
-
-### [👉部署QChatGPT的教程👈](qchatgpt/)
-
-## [第二步：部署消息平台](platforms/)
-
-### 👉[部署消息平台的教程👈](platforms/)
-
-## [第三步：填写配置信息](config.md)
-
-### 👉[填写配置信息的教程](config.md)👈
+- 第一步: [部署QChatGPT](qchatgpt/)
+- 第二步: [部署消息平台](platforms/)
+- 第三步: [填写配置信息](config.md)
 
 ## 本项目交流 QQ 群
 
