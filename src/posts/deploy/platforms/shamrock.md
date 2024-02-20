@@ -49,9 +49,9 @@ Mirai、go-cqhttp 之类的是模拟 QQ 的协议进行通信，而 Shamrock 使
 
 启用被动 Websocket，并填写 QChatGPT 的 aiocqhttp 适配器监听的地址和端口（详见填写配置信息页）。
 
-![image-20240119085141185](https://cos.thelazy.cn/pictures/shamrock202401190851209.png)
+![img](https://cos.thelazy.cn/pictures/202402201959606.png)
 
-![image-20240119085203006](https://cos.thelazy.cn/pictures/shamrock202401190852028.png)
+![img](https://cos.thelazy.cn/pictures/202402201959050.png)
 
 2. 并前往 LSPosed 的模块管理页面 启用模块 Shamrock
 
