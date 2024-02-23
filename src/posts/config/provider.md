@@ -76,6 +76,8 @@ category:
 }
 ```
 
+`normal` 模式也支持读取`data/prompts`目录下的文件内容作为单个 System Prompt，文件名即为`prompt`的名称。
+
 在使用中通过`!default <预设名>`指令将其设为默认
 
 ### full-scenario模式配置方法
