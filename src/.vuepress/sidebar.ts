@@ -58,6 +58,11 @@ export default sidebar({
               text: "QQ 官方 API",
               icon: "network",
               link: "official",
+            },
+            {
+              text: "其他兼容的平台",
+              icon: "more",
+              link: "other",
             }
           ],
         },{
