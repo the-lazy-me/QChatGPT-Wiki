@@ -90,7 +90,7 @@ date: 2024-02-18
 
 `enable`：是否启用，配置完成后请将其设为`true`
 
-`host`：监听的 IP 地址，使用 aiocqhttp 时，QChatGPT 作为服务端被动等待框架连接，请在 Shamrock 等框架中设置为运行 QChatGPT 的主机的 IP 地址，如果是同一个主机，保持设置为 `127.0.0.1` 即可
+`host`：监听的 IP 地址，使用 aiocqhttp 时，QChatGPT 作为服务端被动等待框架连接，请在 Shamrock 等框架中设置`被动 ws 地址`或者`反向 ws 地址`（具体视框架而定）为 QChatGPT 监听的地址，且路径为`/ws`，例如：`ws://127.0.0.1:8080/ws`。
 
 `port`：设置监听的端口，默认8080，需在 Shamrock 等框架中设置为与此处一致的端口
 
