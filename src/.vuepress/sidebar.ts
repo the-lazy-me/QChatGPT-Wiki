@@ -57,7 +57,7 @@ export default sidebar({
             {
               text: "Lagrange.OneBot",
               icon: "light",
-              link: "official",
+              link: "lagrange",
             },
             {
               text: "QQ 官方 API",
