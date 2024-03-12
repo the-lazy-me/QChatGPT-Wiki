@@ -55,6 +55,11 @@ export default sidebar({
               link: "shamrock",
             },
             {
+              text: "Lagrange.OneBot",
+              icon: "light",
+              link: "official",
+            },
+            {
               text: "QQ 官方 API",
               icon: "network",
               link: "official",

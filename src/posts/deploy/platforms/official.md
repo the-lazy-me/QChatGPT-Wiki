@@ -5,7 +5,7 @@ head:
       content: QQ 官方机器人 API 使用教程
 title: 使用 QQ 官方机器人 API 的教程
 icon: support
-order: 4
+order: 5
 author: RockChinQ
 date: 2024-02-17
 category:
