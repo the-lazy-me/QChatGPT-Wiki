@@ -82,7 +82,8 @@ date: 2024-02-18
     "adapter": "aiocqhttp",
     "enable": false,
     "host": "127.0.0.1",
-    "port": 8080
+    "port": 8080,
+    "access-token": ""
 },
 ```
 
@@ -93,6 +94,8 @@ date: 2024-02-18
 `host`：监听的 IP 地址，使用 aiocqhttp 时，QChatGPT 作为服务端被动等待框架连接，请在 Shamrock 等框架中设置`被动 ws 地址`或者`反向 ws 地址`（具体视框架而定）为 QChatGPT 监听的地址，且路径为`/ws`，例如：`ws://127.0.0.1:8080/ws`。
 
 `port`：设置监听的端口，默认8080，需在 Shamrock 等框架中设置为与此处一致的端口
+
+`access-token`：设置访问密钥，与 Shamrock 等框架中设置的保持一致
 
 ### qq-botpy 适配器
 
