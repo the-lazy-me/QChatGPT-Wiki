@@ -59,7 +59,7 @@ category:
 ```
 
 目前支持 `mirai`、`go-cqhttp`、`aiocqhttp`、`qq-botpy` 四种消息平台适配器，也可以同时启用多个同种类或不同种类的平台适配器。  
-各个适配器的配置方式请查看[部署教程](../deploy/config)。
+各个适配器的配置方式请查看[部署教程](../deploy/config.html)。
 
 ### 多开示例
 
