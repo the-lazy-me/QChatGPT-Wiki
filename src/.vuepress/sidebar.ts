@@ -84,7 +84,7 @@ export default sidebar({
     },
     {
       text: "配置详解",
-      icon: "context",
+      icon: "config",
       collapsible: true,
       prefix: "posts/config/",
       link: "posts/config/",
@@ -110,15 +110,34 @@ export default sidebar({
           link: "command"
         },
         {
-          text: "sensitive-words.json",
-          icon: "config",
-          link: "sensitive-words"
-        },
-        {
           text: "system.json",
           icon: "config",
           link: "system"
         },
+      ]
+    },
+    {
+      text: "元数据配置",
+      icon: "enum",
+      collapsible: true,
+      prefix: "posts/metadata/",
+      link: "posts/metadata/",
+      children: [
+        {
+          text: "敏感词 sensitive-words.json",
+          icon: "enum",
+          link: "sensitive-words"
+        },
+        {
+          text: "模型列表 llm-models.json",
+          icon: "enum",
+          link: "llm-models"
+        },
+        {
+          text: "qq-botpy ID 映射 adapter-qq-botpy.json",
+          icon: "enum",
+          link: "adapter-qq-botpy"
+        }
       ]
     },
     {
