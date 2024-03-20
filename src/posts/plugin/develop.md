@@ -158,7 +158,7 @@ class HelloPlugin(Plugin):
 ```Python
 
 # 要添加的函数
-@llm_fun(name="access_the_web")  # 设置函数名称
+@llm_func(name="access_the_web")  # 设置函数名称
 async def access_web(self, query, url: str):
     """Call this function to search about the question before you answer any questions.
     - Do not search through baidu.com at any time.
@@ -202,7 +202,7 @@ async def access_web(self, query, url: str):
 #### 请注意：
 
 - 函数的注释必须严格按照要求的格式进行书写，具体格式请查看[此文档](https://github.com/RockChinQ/CallingGPT/wiki/1.-Function-Format#function-format)
-- 内容函数和`以@llm_func装饰的行为函数`可以同时存在于同一个插件，并同时受到`plugins/plugins.json`中的插件开关的控制
+- 内容函数和`以 @handler 装饰的事件监听器`可以同时存在于同一个插件，并同时受到`plugins/plugins.json`中的插件开关的控制
 - 务必确保您使用的模型支持函数调用功能
 
 3️⃣ 现在您的程序已具备网络访问功能，重启程序，询问机器人有关在线的内容或直接发送文章链接请求其总结。
@@ -214,7 +214,7 @@ async def access_web(self, query, url: str):
 ### 说明
 
 事件监听器方法获得的`ctx: EventContext`对象可以到`pkg.plugin.context`模块中查看其结构，`ctx`对象的`event`属性为本次事件的事件对象，可以从中取出相关参数，具体事件可以取得的参数请查看`pkg.plugin.events`文件中的每个事件类的注释。
-事件返回值均为**可选**的，可以通过调用`event.add_return(key: str, ret)`来提交返回值
+事件返回值均为**可选**的，可以通过调用`ctx.add_return(key: str, ret)`来提交返回值
 
 ### 事件
 
