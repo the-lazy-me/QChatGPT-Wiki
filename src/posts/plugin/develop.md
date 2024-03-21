@@ -35,7 +35,7 @@ QChatGPT 还支持组件扩展，可以不局限于监听预定事件，做到�
 按照文档部署此项目，并使其正常运行。  
 在`plugins`目录下新建目录`hello`，在其中新建空文件`__init__.py`以标记此目录为软件包，继续新建文件`main.py`。  
 
-> 建议使用[hello_plugin](https://github.com/RockChinQ/hello_plugin)作为模板直接生成插件代码仓库后按照下方步骤进行修改。
+> 建议使用[HelloPlugin](https://github.com/RockChinQ/HelloPlugin)作为模板直接生成插件代码仓库后按照下方步骤进行修改。
 
 编辑`main.py`输入以下内容：
 

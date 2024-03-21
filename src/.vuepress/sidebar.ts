@@ -187,6 +187,11 @@ export default sidebar({
           icon: "code",
           link: "develop",
         },
+        {
+          text: "组件扩展",
+          icon: "code",
+          link: "extension",
+        },
       ],
     },
     {
