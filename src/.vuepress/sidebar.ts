@@ -192,6 +192,11 @@ export default sidebar({
           icon: "code",
           link: "extension",
         },
+        {
+          text: "API 参考",
+          icon: "api",
+          link: "apiref",
+        },
       ],
     },
     {
