@@ -31,9 +31,9 @@ category:
 
 `mode`：设置模式白名单 `whitelist`（仅处理`whitelist`列表中的会话的消息）或黑名单 `blacklist`（忽略`blacklist`列表中的会话的消息）
 
-`blacklist`：格式`{type}_{id}`，示例：`"blacklist": [group_12345678，person_12341234],`
+`blacklist`：格式`{type}_{id}`，示例：`"blacklist": ["group_12345678"，"person_12341234"],`
 
-`whitelist`：格式`{type}_{id}`，示例：`"whitelist": [group_12345678，person_12341234]`
+`whitelist`：格式`{type}_{id}`，示例：`"whitelist": ["group_12345678"，"person_12341234"]`
 
 
 ## 群消息响应规则 respond-rules
