@@ -75,15 +75,6 @@ category:
 <br>
 
 <details>
-<summary>✅完善的会话管理，重启不丢失</summary>
-
-  - 使用SQLite进行会话内容持久化
-  - 最后一次对话一定时间后自动保存，请到`config.py`中修改`session_expire_time`的值以自定义时间
-  - 运行期间可使用`!reset` `!list` `!last` `!next` `!prompt`等命令管理会话
-</details>
-<br>
-
-<details>
 <summary>✅支持插件加载🧩</summary>
 
   - 自行实现插件加载器及相关支持

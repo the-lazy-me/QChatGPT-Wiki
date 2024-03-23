@@ -49,11 +49,11 @@ tag:
 
 ## 管理员命令
 
-仅管理员私聊机器人时可使用，必须先在`config.py`中的`admin_qq`设置管理员QQ
+仅管理员私聊机器人时可使用，必须先在`data/config/system.json`里设置管理员
 
 ```
 !update                             进行程序自动更新
-!default set <情景预设名称>           修改!reset未指定情景预设时的默认情景，详细请查看config.py中default_prompt字段的注释
+!default set <情景预设名称>           会话!reset时的默认情景预设
 ```
 
 ## 命令权限控制
