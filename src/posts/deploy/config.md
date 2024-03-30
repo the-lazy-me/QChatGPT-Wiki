@@ -122,7 +122,11 @@ date: 2024-02-18
 
 `secret`：申请到的QQ官方机器人的secret
 
-`intents`：控制监听的事件类型：`public_guild_messages` 频道消息`direct_message` 频道私聊消息  `public_messages` Q群消息（需要权限）
+`intents`：控制监听的事件类型，需要填写才能接收到对应消息，目前支持的事件类型有：
+
+- `public_guild_messages` QQ 频道消息
+- `direct_message` QQ 频道私聊消息
+- `public_messages` Q群消息（需要权限，具体请查看[QQ官方机器人API文档](https://q.qq.com/)）
 
 ## provider.json
 
