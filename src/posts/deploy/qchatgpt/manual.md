@@ -10,7 +10,7 @@ author: Lazy
 date: 2023-02-17
 ---
 :::warning
-请使用Python 3.9.x以上版本，**注意不要使用3.12.x版本**，没有Python的需自行安装，参考[此教程](./more-details/python.md)
+请使用Python 3.10.x及以上版本，没有Python的需自行安装，参考[此教程](./more-details/python.md)
 ::: 
 
 :::info 目录
