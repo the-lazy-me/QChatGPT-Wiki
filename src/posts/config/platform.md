@@ -43,7 +43,7 @@ category:
         "enable": false,
         "host": "127.0.0.1",
         "port": 8080,
-        "access_token": "",
+        "access-token": "",
     },
     {
         "adapter": "qq-botpy",
