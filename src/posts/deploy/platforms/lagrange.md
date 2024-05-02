@@ -21,3 +21,9 @@ Lagrange 是一个 QQNT 协议逆向工程框架，比 Shamrock 或 Mirai 更加
 :::note
 其中涉及到签名地址可以视为必需，请前往Lagrange的官方Telegram群获取。
 :::
+
+配置文件示例：
+
+![image-20240503002011350](https://cos.thelazy.cn/pictures/202405030020431.png)
+
+![image-20240503002053636](https://cos.thelazy.cn/pictures/202405030020679.png)

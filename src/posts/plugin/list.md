@@ -35,3 +35,24 @@ category:
 - [Yuumi0221/URLMaskerPlugin](https://github.com/Yuumi0221/URLMaskerPlugin) - 用于掩码（替换）URL，以应对QQ官方机器人API对消息中URL的限制
 - [查看更多插件](https://github.com/stars/RockChinQ/lists/qchatgpt-%E6%8F%92%E4%BB%B6)这里列出了更多插件
 
+
+
+> 没有我想要的插件？
+>
+> 填写此问卷调查：
+>
+> 之后保持持续关注，你提出的插件需求将有可能实现
+>
+> 你也可以加入交流群来询问更多
+>
+> 社区群：
+>
+> Lazy的交流群一：891448839（已满）
+>
+> Lazy的交流群二：738382634（已满）
+>
+> Lazy的交流群三：248432104
+>
+> 官方群（官方群不解答部署问题）：
+>
+> 四群：195992197
