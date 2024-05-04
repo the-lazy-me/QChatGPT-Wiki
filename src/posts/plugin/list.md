@@ -32,7 +32,9 @@ category:
 - [ruuuux/WikipediaSearch](https://github.com/ruuuux/WikipediaSearch) - Wikipedia 搜索插件
 - [the-lazy-me/GenshinVoice](https://github.com/the-lazy-me/GenshinVoice) - 原神语音插件
 - [the-lazy-me/RuiShengVoice](https://github.com/the-lazy-me/RuiShengVoice) - 对接睿声语音的插件
+  
   **注意：以上均来自QChatGPT 2.x版本时代，在当下的QChatGPT 3.x版本时代，这些插件并不确保使用，而且很大概率不能用，建议等待新插件或提出需求**
+  
 - [the-lazy-me/miHoYoVoice](https://github.com/the-lazy-me/miHoYoVoice) - 一个可以生成原神/星铁语音的插件
 - [Yuumi0221/URLMaskerPlugin](https://github.com/Yuumi0221/URLMaskerPlugin) - 用于掩码（替换）URL，以应对QQ官方机器人API对消息中URL的限制
 - [查看更多插件](https://github.com/stars/RockChinQ/lists/qchatgpt-%E6%8F%92%E4%BB%B6)这里列出了更多插件
