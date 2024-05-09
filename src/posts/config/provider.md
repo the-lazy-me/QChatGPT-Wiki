@@ -39,11 +39,21 @@ category:
     ],
     "moonshot": [
         "sk-1234567890"
+    ],
+    "deepseek": [
+        "sk-1234567890"
     ]
 },
 ```
 
 `keys`：设置密钥组，以字典的形式设置若干个密钥组，每个密钥组的键为密钥组名称，值为密钥列表。模型与密钥组的对应关系，请查看元数据板块。
+
+目前支持的密钥组：
+
+- `openai`：OpenAI 的密钥组
+- `anthropic`：Anthropic 的密钥组
+- `moonshot`：Moonshot（月之暗面 kimi）的密钥组
+- `deepseek`：Deepseek（深度求索）的密钥组
 
 ## 大模型请求器 requester
 
@@ -65,11 +75,23 @@ category:
             "base-url": "https://api.moonshot.cn/v1",
             "args": {},
             "timeout": 120
+        },
+        "deepseek-chat-completions": {
+            "base-url": "https://api.deepseek.com",
+            "args": {},
+            "timeout": 120
         }
     },
 ```
 
 `requester`：设置请求器，以字典的形式设置若干个请求器，每个请求器的键为请求器名称，值为请求器配置。模型与请求器的对应关系，请查看元数据板块。实现请求器的方式，请查看插件编写教程。
+
+目前支持的请求器有：
+
+- `openai-chat-completions`：OpenAI 的 ChatCompletion 请求器
+- `anthropic-messages`：Anthropic 请求器（Claude）
+- `moonshot-chat-completions`：Moonshot 请求器（月之暗面）
+- `deepseek-chat-completions`：Deepseek 请求器（深度求索）
 
 `base-url`：设置接口地址。
 
