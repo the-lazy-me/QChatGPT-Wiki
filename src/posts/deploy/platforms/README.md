@@ -20,6 +20,5 @@ index: false
 
 - Mirai（QQ）：[Mirai部署教程](mirai.md)
 - go-cqhttp（QQ）：[go-cqhttp部署教程](gocq.md)
-- Shamrock（QQ）：[Shamrock部署教程](shamrock.md)
-- Lagrange（QQ）：[Lagrange部署教程](lagrange.md)
+- aiocqhttp（QQ）：[aiocqhttp适配器教程](aiocqhttp/)（支持Shamrock、Lagrange、LiteLoaderQQNT、NapCat）
 - QQ官方机器人（QQ频道）：[QQ 官方 API 部署教程](official.md)

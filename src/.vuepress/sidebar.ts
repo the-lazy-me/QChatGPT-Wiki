@@ -6,7 +6,7 @@ export default sidebar({
     {
       text: "功能介绍",
       icon: "operate",
-      link: "posts/feature"
+      link: "posts/feature",
     },
     {
       text: "部署教程",
@@ -18,7 +18,7 @@ export default sidebar({
         {
           text: "部署QChatGPT",
           icon: "flow",
-          prefix:"qchatgpt/",
+          prefix: "qchatgpt/",
           link: "qchatgpt/",
           children: [
             {
@@ -36,45 +36,36 @@ export default sidebar({
         {
           text: "部署消息平台",
           icon: "merge",
-          prefix:"platforms/",
+          prefix: "platforms/",
           link: "platforms/",
           children: [
             {
-              text: "Mirai",
+              text: "yiri-mirai",
               icon: "support",
               link: "mirai",
             },
             {
-              text: "go-cqhttp",
+              text: "nakuru",
               icon: "state",
               link: "gocq",
             },
             {
-              text: "OpenShamrock",
+              text: "aiocqhttp",
               icon: "mobile",
-              link: "shamrock",
-            },
-            {
-              text: "Lagrange.OneBot",
-              icon: "light",
-              link: "lagrange",
+              link: "aiocqhttp/",
             },
             {
               text: "QQ 官方 API",
               icon: "network",
               link: "official",
             },
-            {
-              text: "其他兼容的平台",
-              icon: "more",
-              link: "other",
-            }
           ],
-        },{
+        },
+        {
           text: "填写配置信息",
           icon: "class",
           link: "config",
-        }
+        },
       ],
     },
     {
@@ -92,29 +83,29 @@ export default sidebar({
         {
           text: "platform.json",
           icon: "config",
-          link: "platform"
+          link: "platform",
         },
         {
           text: "pipeline.json",
           icon: "config",
-          link: "pipeline"
+          link: "pipeline",
         },
         {
           text: "provider.json",
           icon: "config",
-          link: "provider"
+          link: "provider",
         },
         {
           text: "command.json",
           icon: "config",
-          link: "command"
+          link: "command",
         },
         {
           text: "system.json",
           icon: "config",
-          link: "system"
+          link: "system",
         },
-      ]
+      ],
     },
     {
       text: "元数据配置",
@@ -126,19 +117,19 @@ export default sidebar({
         {
           text: "敏感词 sensitive-words.json",
           icon: "enum",
-          link: "sensitive-words"
+          link: "sensitive-words",
         },
         {
           text: "模型列表 llm-models.json",
           icon: "enum",
-          link: "llm-models"
+          link: "llm-models",
         },
         {
           text: "qq-botpy ID 映射 adapter-qq-botpy.json",
           icon: "enum",
-          link: "adapter-qq-botpy"
-        }
-      ]
+          link: "adapter-qq-botpy",
+        },
+      ],
     },
     {
       text: "常见问题",
