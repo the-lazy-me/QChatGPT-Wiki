@@ -27,6 +27,14 @@ category:
 
 `enable-chat`：是否开启AI聊天功能
 
+## 启用 AI 视觉功能 enable-vision
+
+```json
+"enable-vision": true,
+```
+
+`enable-vision`：是否开启AI视觉功能。需要使用的模型同时支持视觉功能，详情见元数据板块。
+
 ## 模型接口密钥 keys
 
 ```json
