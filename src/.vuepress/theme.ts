@@ -30,7 +30,7 @@ export default hopeTheme({
   displayFooter: true,
   encrypt: {
     config: {
-      "/demo/encrypt.html": ["1234"],
+      "/demo/encrypt.html": ["qchatgpt"],
     },
   },
 

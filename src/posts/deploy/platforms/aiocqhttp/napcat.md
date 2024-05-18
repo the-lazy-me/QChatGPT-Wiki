@@ -4,7 +4,7 @@ head:
     - name: keywords
       content: NapCat的部署教程
 title: 部署消息平台NapCat的教程
-icon: mobile
+icon: software
 order: 5
 author: Lazy
 date: 2024-05-13

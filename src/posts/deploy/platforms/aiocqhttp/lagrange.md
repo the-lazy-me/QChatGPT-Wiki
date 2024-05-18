@@ -4,7 +4,7 @@ head:
     - name: keywords
       content: Lagrange的部署教程
 title: 部署消息平台Lagrange的教程
-icon: mobile
+icon: support
 order: 4
 author: RockChinQ，ikun0014
 date: 2024-05-05

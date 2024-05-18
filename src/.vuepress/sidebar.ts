@@ -51,8 +51,32 @@ export default sidebar({
             },
             {
               text: "aiocqhttp",
-              icon: "mobile",
+              icon: "hot",
+              collapsible: true,
+              prefix: "aiocqhttp/",
               link: "aiocqhttp/",
+              children: [
+                {
+                  text: "Shamrock",
+                  icon: "mobile",
+                  link: "shamrock",
+                },
+                {
+                  text: "Lagrange",
+                  icon: "support",
+                  link: "lagrange",
+                },
+                {
+                  text: "NapCat",
+                  icon: "software",
+                  link: "napcat",
+                },
+                {
+                  text: "LLOneBot",
+                  icon: "more",
+                  link: "llonebot",
+                },
+              ],
             },
             {
               text: "QQ 官方 API",
