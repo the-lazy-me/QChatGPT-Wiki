@@ -2,8 +2,8 @@
 
 > 此分支是 QChatGPT 3.0 的文档
 
-> [QChatGPT 代码仓库](https://github.com/RockChinQ/QChatGPT/tree/feat/asyncio)
-> [本文档地址](https://github.com/the-lazy-me/QChatGPT-Wiki/tree/doc/v3)
+> [QChatGPT 代码仓库](https://github.com/RockChinQ/QChatGPT)
+> [本文档地址](https://github.com/the-lazy-me/QChatGPT-Wiki)
 
 ## 参与编写
 
