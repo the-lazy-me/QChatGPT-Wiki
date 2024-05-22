@@ -13,7 +13,6 @@ category:
 ---
 插件列表
 
-- [WebwlkrPlugin](https://github.com/RockChinQ/WebwlkrPlugin) - 让机器人能联网！！**[点我查看插件使用方法](./some-plugin-deploy/link-network.md)**
 - [revLibs](https://github.com/RockChinQ/revLibs) - 将ChatGPT网页版、Claude、Bard、Hugging Chat等破解版接入此项目，关于[官方接口和网页版有什么区别](https://github.com/RockChinQ/QChatGPT/wiki/8-%E5%AE%98%E6%96%B9%E6%8E%A5%E5%8F%A3%E3%80%81ChatGPT%E7%BD%91%E9%A1%B5%E7%89%88%E3%80%81ChatGPT-API%E5%8C%BA%E5%88%AB)
 - [Switcher](https://github.com/RockChinQ/Switcher) - 支持通过命令切换使用的模型
 - [hello_plugin](https://github.com/RockChinQ/hello_plugin) - `hello_plugin` 的储存库形式，插件开发模板
@@ -35,6 +34,7 @@ category:
   
   **注意：以上均来自QChatGPT 2.x版本时代，在当下的QChatGPT 3.x版本时代，这些插件并不确保使用，而且很大概率不能用，建议等待新插件或提出需求**
   
+- [WebwlkrPlugin](https://github.com/RockChinQ/WebwlkrPlugin) - 让机器人能联网！！
 - [the-lazy-me/miHoYoVoice](https://github.com/the-lazy-me/miHoYoVoice) - 一个可以生成原神/星铁语音的插件
 - [Yuumi0221/URLMaskerPlugin](https://github.com/Yuumi0221/URLMaskerPlugin) - 用于掩码（替换）URL，以应对QQ官方机器人API对消息中URL的限制
 - [查看更多插件](https://github.com/stars/RockChinQ/lists/qchatgpt-%E6%8F%92%E4%BB%B6)这里列出了更多插件
