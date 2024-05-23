@@ -180,6 +180,30 @@ export default sidebar({
       ],
     },
     {
+      text: "规模使用和商用",
+      icon: "app",
+      collapsible: true,
+      link: "posts/tob/",
+      prefix: "posts/tob/",
+      children: [
+        {
+          text: "消息平台稳定性",
+          icon: "comment",
+          link: "platform",
+        },
+        {
+          text: "AI 内容合规性",
+          icon: "warn",
+          link: "provider",
+        },
+        {
+          text: "咨询方式",
+          icon: "profile",
+          link: "contact",
+        },
+      ],
+    },
+    {
       text: "插件功能",
       icon: "plugin",
       collapsible: true,
