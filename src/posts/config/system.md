@@ -97,7 +97,7 @@ QChatGPT 运行期间推送遥测数据的目标地址，默认为官方地址�
 ## 帮助消息 help-message
 
 ```json
-"help-message": "QChatGPT - 😎高稳定性、🧩支持插件、🌏实时联网的 ChatGPT QQ 机器人🤖\n链接：https://q.rkcn.top"
+"help-message": "QChatGPT - 😎高稳定性、🧩支持插件、🦄多模态的 ChatGPT QQ 机器人🤖\n链接：https://q.rkcn.top"
 ```
 
 `help-message`：帮助消息，用户发送 !help 命令时的输出
