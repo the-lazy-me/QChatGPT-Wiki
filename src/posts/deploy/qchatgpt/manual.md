@@ -46,7 +46,7 @@ pip3 install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple som
 python3 main.py
 ```
 
-> 如果输入上面的指令无反应，并且你确认你已经装了python，则可以尝试使用`python main.py`，总之`python`是你启动的python的命令，可以使用 `python --version` 查看你的python版本。
+> 如果输入上面的指令无反应，并且你确认你已经装了python，则可以尝试使用`python main.py`，总之`python`是你启动的python的命令，可以使用 `python --version` 查看你的python版本。下同。
 
 提示如下信息
 
@@ -73,3 +73,8 @@ python3 main.py
 ```
 
 接下来请查看部署消息平台页。
+
+当你部署消息平台和填写配置文件后，再次运行
+```bash
+python3 main.py
+```
