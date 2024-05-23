@@ -86,6 +86,14 @@ category:
 
 `pipeline-concurrency`：流水线消息处理并发数，粒度是整个程序，目前使用 FCFS 算法调度各个请求。
 
+## 遥测服务器url qcg-center-url
+
+QChatGPT 运行期间推送遥测数据的目标地址，默认为官方地址，若您自己部署了[qcg-center](https://github.com/RockChinQ/qcg-center)，可以改为你的地址。
+
+```json
+"qcg-center-url": "https://api.qchatgpt.rockchin.top/api/v2"
+```
+
 ## 帮助消息 help-message
 
 ```json
