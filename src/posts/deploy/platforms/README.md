@@ -22,3 +22,9 @@ index: false
 - go-cqhttp（QQ）：[go-cqhttp部署教程](gocq.md)
 - aiocqhttp（QQ）：[aiocqhttp适配器教程](aiocqhttp/)（支持Shamrock、Lagrange、LiteLoaderQQNT、NapCat）
 - QQ官方机器人（QQ频道）：[QQ 官方 API 部署教程](official.md)
+
+
+
+QChatGPT platform.json
+
+![img](https://cos.thelazy.cn/pictures/202405292250017.jpeg)

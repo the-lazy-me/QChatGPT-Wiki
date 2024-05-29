@@ -30,7 +30,7 @@ https://napneko.github.io/zh-CN/guide/getting-started
 
 通过 OneBot 11 协议接入，需选择使用`aiocqhttp`作为适配器，填写配置时可参考 Shamrock 和 Lagrange 的方式。
 
-![image-20240514230850243](https://cos.thelazy.cn/pictures/202405142308393.png)
+![img](https://cos.thelazy.cn/pictures/202405292250017.jpeg)
 
 登录后，可以在config文件夹中，找到并修改文件（数字对应机器人QQ号）：![image-20240514231529613](https://cos.thelazy.cn/pictures/image-20240514231529613.png)
 

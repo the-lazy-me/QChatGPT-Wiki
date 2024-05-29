@@ -17,3 +17,7 @@ date: 2024-03-02
 安装LiteLoaderQQNT的教程：https://llonebot.github.io/zh-CN/guide/getting-started
 
 ![image-20240515185909108](https://cos.thelazy.cn/pictures/202405151859206.png)
+
+QChatGPT platform.json
+
+![img](https://cos.thelazy.cn/pictures/202405292250017.jpeg)
