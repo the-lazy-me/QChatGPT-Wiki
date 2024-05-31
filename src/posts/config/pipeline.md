@@ -160,13 +160,62 @@ category:
     "strategy": "drop",
     "algo": "fixwin",
     "fixwin": {
-        "default": 60
+        "default": {
+            "window-size": 60,
+            "limit": 60
+        }
     }
 }
 ```
 
 `strategy`：会话中的请求速率超过限制时的处理策略，`drop`为丢弃新请求，`wait`为等待请求速率降到限制以下
 
-`algo`： 使用的算法，目前仅支持 `fixwin` （固定窗口），即一分钟内最多处理多少个请求
+`algo`： 使用的算法，目前仅支持 `fixwin` （固定窗口），即窗口期内最多处理多少个请求，可自行实现其他限速算法，具体查看插件编写教程
 
-`fixwin`：具体速率设置，一分钟内最多处理多少个请求， 支持对特定session指定限速，格式为 {type}_{id}，示例：group_12345678，person_12341234
+`fixwin`：具体速率设置，设定的窗口期内最多处理多少个请求，支持对特定session指定限速，格式为 {type}_{id}，示例：group_12345678，person_12341234
+
+`window-size`：窗口期大小，单位秒
+
+`limit`：窗口期内最多处理多少个请求
+
+例如：
+
+```json
+"fixwin": {
+    "default": {
+        "window-size": 60,
+        "limit": 60
+    },
+    "group_12345678": {
+        "window-size": 30,
+        "limit": 60
+    },
+    "person_12341234": {
+        "window-size": 60,
+        "limit": 60
+    }
+}
+```
+
+将设定：
+
+- 默认群窗口期60秒内最多处理60个请求
+- 群号为12345678的窗口期30秒内最多处理60个请求
+- 用户号为12341234的窗口期60秒内最多处理60个请求
+
+## 对话历史记录截断 msg-truncate
+
+将在发送消息给模型之前对当前会话的历史消息进行截断，以限制传给模型的消息长度
+
+```json
+"msg-truncate": {
+    "method": "round",
+    "round": {
+        "max-round": 10
+    }
+}
+```
+
+`method`：截断方法，`round`为按回合截断，目前仅支持`round`，可自行实现其他截断方法，具体查看插件编写教程
+
+`round`：按回合截断，`max-round`为最多保留多少回合的历史消息

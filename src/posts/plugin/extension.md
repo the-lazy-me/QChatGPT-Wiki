@@ -95,3 +95,12 @@ index: false
 - 装饰器：`pkg.platform.adapter.adapter_class(name: str)`
 - 参考实现：`pkg.platform.adapters/`
 - 使用方式：`data/config/platform.json`的`platform-adapters`中各个配置信息，将在初始化时自动根据`adapter`名称查找对应的适配器实现，并将配置传递给适配器以进行初始化。消息平台适配器实现复杂，建议多参考现有的实现。
+
+### 对话历史消息截断器
+
+新增一个对话历史消息截断器，在发送到模型之前对历史消息进行截断。
+
+- 基类：`pkg.pipeline.msgtrun.truncator.Truncator`
+- 装饰器：`pkg.pipeline.msgtrun.truncator.truncator_class(name: str)`
+- 参考实现：`pkg.pipeline.msgtrun.truncators/`
+- 使用方式：需要在`data/config/pipeline.json`的`msg-truncate`字段中设置需要使用的截断器`method`为新增的截断器名称。
