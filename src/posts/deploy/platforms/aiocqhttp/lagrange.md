@@ -16,7 +16,7 @@ Lagrange 是一个 QQNT 协议逆向工程框架，比 Shamrock 或 Mirai 更加
 
 可选平台（需要.NET 8 or 7支持）：
 
-- Mac OS 没有设备请自测
+- Mac OS 也可使用
 - Linux Ubuntu 22.04，Debian 12应该都可以
 - Windows 10,11,Server2019及以上
 
