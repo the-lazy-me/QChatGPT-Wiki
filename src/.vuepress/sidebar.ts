@@ -40,16 +40,6 @@ export default sidebar({
           link: "platforms/",
           children: [
             {
-              text: "yiri-mirai",
-              icon: "support",
-              link: "mirai",
-            },
-            {
-              text: "nakuru",
-              icon: "state",
-              link: "gocq",
-            },
-            {
               text: "aiocqhttp",
               icon: "hot",
               collapsible: true,
@@ -78,6 +68,17 @@ export default sidebar({
                 },
               ],
             },
+            {
+              text: "yiri-mirai",
+              icon: "support",
+              link: "mirai",
+            },
+            {
+              text: "nakuru",
+              icon: "state",
+              link: "gocq",
+            },
+
             {
               text: "QQ 官方 API",
               icon: "network",
