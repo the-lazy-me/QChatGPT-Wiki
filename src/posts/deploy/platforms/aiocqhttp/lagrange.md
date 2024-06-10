@@ -50,6 +50,6 @@ Lagrange 是一个 QQNT 协议逆向工程框架，比 Shamrock 或 Mirai 更加
 
 配置文件填写示例：
 
-![img](https://cos.thelazy.cn/pictures/202405292250017.jpeg)
+![data/platform.json](https://cos.thelazy.cn/pictures/202405292250017.jpeg)
 
-![Lagrange.OneBot](https://cos.thelazy.cn/pictures/202405030020679.png)
+![Lagrange.OneBot的配置文件](https://cos.thelazy.cn/pictures/202405030020679.png)

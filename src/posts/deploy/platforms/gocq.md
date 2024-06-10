@@ -14,6 +14,12 @@ category:
 
 > 本文档仅为基本步骤，详细操作、答疑解惑及最新信息请前往[go-cqhttp官方文档](https://docs.go-cqhttp.org/)。
 
+::: warning 
+
+gocq未归档，但官方表示：[https://github.com/Mrs4s/go-cqhttp/issues/2471](https://github.com/Mrs4s/go-cqhttp/issues/2471)
+
+:::
+
 ## 下载go-cqhttp
 
 从[go-cqhttp的Release](https://github.com/Mrs4s/go-cqhttp/releases/latest)下载最新的go-cqhttp可执行文件（建议直接下载可执行文件压缩包，而不是安装器）

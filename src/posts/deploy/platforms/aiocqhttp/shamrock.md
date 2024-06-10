@@ -12,6 +12,12 @@ date: 2023-12-21
 
 > 本文档仅为基本步骤，详细操作、答疑解惑及最新信息请前往[OpenShamrock官方文档](https://whitechi73.github.io/OpenShamrock/)。
 
+::: warning 
+
+OpenShamrock已归档
+
+:::
+
 ## OpenShamrock简介
 
 Mirai、go-cqhttp 之类的是模拟 QQ 的协议进行通信，而 Shamrock 使用的是 安卓的 Hook 来操作 QQ 模拟点击，稳定性较高。

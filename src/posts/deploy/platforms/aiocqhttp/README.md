@@ -18,7 +18,7 @@ onebot介绍：[https://onebot.dev/](https://onebot.dev/)
 
 以下消息框架可以通过 OneBot 11 协议接入，需选择使用`aiocqhttp`作为适配器，修改data下的platform.json文件
 
-![img](https://cos.thelazy.cn/pictures/202405292250017.jpeg)
+![data/platform.json](https://cos.thelazy.cn/pictures/202405292250017.jpeg)
 
 当前可用的OneBot 11标准消息平台，你可以选择下方任意
 

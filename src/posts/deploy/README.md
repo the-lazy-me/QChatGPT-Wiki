@@ -12,9 +12,13 @@ index: false
 
 ## 部署教程
 
+以下三步可以让你快速上手使用QChatGPT
+
 - 第一步: [部署QChatGPT](qchatgpt/)
 - 第二步: [部署消息平台](platforms/)
 - 第三步: [填写配置信息](config.md)
+
+完成以上三个步骤后，你接下来应该仔细阅读左栏中的[配置详解](../config/README.md)和[元数据配置](../metadata/README.md)，实现更多样化的配置需求
 
 ## 本项目交流 QQ 群
 

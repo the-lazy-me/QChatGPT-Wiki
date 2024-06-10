@@ -14,6 +14,12 @@ category:
 
 > 本文档仅为基本步骤，详细操作、答疑解惑及最新信息请前往[Mirai官方代码库](https://github.com/mamoe/mirai)、[Mirai官方论坛](https://mirai.mamoe.net/)
 
+::: tip 
+
+此消息平台不稳定
+
+:::
+
 ## 准备工作
 
 > 注意：由于网络环境多样复杂，很多步骤中，有可能需要使用网络魔法，懂的都懂

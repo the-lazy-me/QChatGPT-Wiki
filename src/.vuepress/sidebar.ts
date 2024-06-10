@@ -164,20 +164,15 @@ export default sidebar({
       prefix: "posts/error/",
       children: [
         {
-          text: "Mirai常见报错",
+          text: "QChatGPT常见报错",
           icon: "notice",
-          link: "mirai",
-        },
-        {
-          text: "go-cqhttp常见报错",
-          icon: "list",
-          link: "gocq",
-        },
-        {
-          text: "问题解答",
-          icon: "blog",
           link: "qchatgpt",
         },
+        {
+          text: "消息平台常见报错",
+          icon: "list",
+          link: "platform",
+        }
       ],
     },
     {
