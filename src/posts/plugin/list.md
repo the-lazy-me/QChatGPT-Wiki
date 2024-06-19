@@ -56,6 +56,10 @@ category:
 
 - [Yuumi0221/URLMaskerPlugin](https://github.com/Yuumi0221/URLMaskerPlugin) - 用于掩码（替换）URL，以应对QQ官方机器人API对消息中URL的限制
 
+- [ElvisChenML/Waifu](https://github.com/ElvisChenML/Waifu) - 一个QChatGPT的插件，旨在利用程式逻辑搭配LLM创建真实感聊天机器人，探索真实的聊天体验。
+
+- [Pevernow/QChatGPT_Plugin_Emoticon_v3](https://github.com/Pevernow/QChatGPT_Plugin_Emoticon_v3) - QChatGPT v3可用，基于在线api的表情包插件。
+
 - [查看更多插件](https://github.com/stars/RockChinQ/lists/qchatgpt-%E6%8F%92%E4%BB%B6)这里列出了更多插件
 
 
