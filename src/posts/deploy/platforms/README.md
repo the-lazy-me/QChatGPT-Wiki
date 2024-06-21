@@ -18,7 +18,7 @@ index: false
 
 以下平台任选，也可以配置多个，QChatGPT支持同时接入一个或多个平台：
 
-- **aiocqhttp（QQ）**：[aiocqhttp适配器教程](aiocqhttp/)（支持Shamrock、Lagrange、LiteLoaderQQNT、NapCat）
+- **aiocqhttp（QQ）：[aiocqhttp适配器教程](aiocqhttp/)（支持Shamrock、Lagrange、LiteLoaderQQNT、NapCat）**
 - QQ官方机器人（QQ频道）：[QQ 官方 API 部署教程](official.md)
 - Mirai（QQ）：[Mirai部署教程](mirai.md)
 - go-cqhttp（QQ）：[go-cqhttp部署教程](gocq.md)
