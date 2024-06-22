@@ -144,7 +144,7 @@ category:
 
 `normal` 模式也支持读取`data/prompts`目录下的文件内容作为单个 System Prompt，文件名即为`prompt`的名称。
 
-在使用中通过`!default <预设名>`指令将其设为默认
+在使用中通过`!default set <预设名>`指令将其设为默认（将<预设名>整体替换）
 
 ### full-scenario模式配置方法
 
@@ -167,4 +167,4 @@ category:
 
 `role` 为消息的角色，可以是`user`（用户）、`assistant`（AI）、`system`（系统）
 `content` 为字符串，表示消息内容。  
-在使用中通过`!default <文件名>`指令将其设为默认
+在使用中通过`!default set <文件名>`指令将其设为默认（将<预设名>整体替换）
