@@ -58,7 +58,7 @@ category:
 
 目前支持的密钥组：
 
-- `openai`：OpenAI 的密钥组，如果你没有OpenAI API Key，你可以[在此获取](https://thelazy.cn/2024/02/08/%E5%A6%82%E4%BD%95%E8%8E%B7%E5%8F%96%E5%A5%BD%E7%94%A8%E7%A8%B3%E5%AE%9A%E7%9A%84OpenAI%20API%20Key/)
+- `openai`：OpenAI 的密钥组，如果你没有OpenAI API Key，你可以[在此获取](https://ai.lazyshare.top/)
 - `anthropic`：Anthropic 的密钥组
 - `moonshot`：Moonshot（月之暗面 kimi）的密钥组
 - `deepseek`：Deepseek（深度求索）的密钥组
