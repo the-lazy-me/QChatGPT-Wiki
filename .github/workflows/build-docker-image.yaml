@@ -1,0 +1,46 @@
+name: 构建文档Docker镜像
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build-docker-image:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: 设置 Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: 安装 pnpm
+        run: |
+          npm install -g pnpm
+
+      - name: 安装依赖
+        run: 
+          pnpm install
+
+      - name: 构建文档
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: |
+          pnpm run docs:build
+          ls -R
+      
+      - name: Build image
+        run: |
+          docker build -t ${{ secrets.DOCKER_HUB_USERNAME }}/qchatgpt-wiki:latest .
+      - name: Publish image
+        run: |
+          docker login -u ${{ secrets.DOCKER_HUB_USERNAME }} -p ${{ secrets.DOCKER_HUB_PASSWORD }}
+          docker push ${{ secrets.DOCKER_HUB_USERNAME }}/qchatgpt-wiki:latest
