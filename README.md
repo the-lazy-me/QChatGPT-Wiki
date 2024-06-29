@@ -25,6 +25,14 @@ pnpm install
 pnpm docs:dev
 ```
 
+### 使用图片
+
+把图片放到 `src/.vuepress/public/assets/image` 目录下，然后在文档中使用Web访问时的绝对路径引用，如：
+
+```markdown
+![image](/assets/image/xxx.png)
+```
+
 ### 推荐环境
 
 推荐使用 GitHub Codespaces 编写，仓库页面点击 "Code" -> "Codespaces" -> 直接创建一个 Codespace  
