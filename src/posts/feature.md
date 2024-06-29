@@ -14,16 +14,11 @@ category:
 
 ### 文字对话
 
-- OpenAI API：GPT-3.5 / GPT-4
-- [逆向工程插件](https://github.com/RockChinQ/revLibs)：ChatGPT / New Bing / Claude / Google Bard / Hugging Chat / gpt4free
-- [OneAPI](https://github.com/songquanpeng/one-api)接口聚合平台：Google Gemini Pro / Azure / Anthropic Claude / 智谱 ChatGLM / 百度文心一言 / 讯飞星火认知 / 阿里通义千问 / 360 智脑等官方接口
+- OpenAI API：GPT-3.5 / GPT-4 系列
+- Moonshot / Deepseek 等支持 OpenAI API 的大模型提供商接口
+- Anthropic：Claude 系列
+- [OneAPI](https://github.com/songquanpeng/one-api)接口聚合平台：Google Gemini Pro / Azure / Anthropic Claude / 智谱 ChatGLM / 百度文心一言 / 讯飞星火认知 / 阿里通义千问 / 360 智脑等市面上所有 LLM 官方接口
 - [free-one-api](https://github.com/RockChinQ/free-one-api)逆向工程库聚合平台：ChatGPT / Claude / Google Bard / gpt4free / 通义千问
-- [Poe](https://poe.com), 破解免费使用Poe上多个平台的模型, 由[oliverkirk-sudo/ChatPoeBot](https://github.com/oliverkirk-sudo/ChatPoeBot)接入（由于 Poe 上可用的大部分模型现已通过[revLibs插件](https://github.com/RockChinQ/revLubs)或其他方式接入，此插件现已停止维护）。
-
-### 语音生成
-
-- [RuiShengVoice](https://github.com/the-lazy-me/RuiShengVoice), 通过调用睿声的API，将输出内容转化为音频
-- Plachta/VITS-Umamusume-voice-synthesizer, 由[插件](https://github.com/oliverkirk-sudo/chat_voice)接入
 
 ## 功能点列举
 
@@ -103,17 +98,12 @@ category:
 
 ## 限制
 
-- ❗OpenAI接口是收费的，每个OpenAI账户有18美元免费额度，收费标准参照 https://openai.com/api/pricing/
-- ❗官方关于模型生成内容的警告：
+- ❗OpenAI 官方关于模型生成内容的警告：
   - May occasionally generate incorrect information（可能会生成不正确的信息）
   - May occasionally produce harmful instructions or biased content（可能会产生有害说明或有偏见的内容）
   - Limited knowledge of world and events after 2021（对2021年后的世界和事件的了解有限）
 - ❗模型无思维能力，仅针对传入的上下文根据数据集生成内容，请勿过于信任其输出
-- ❗模型无网络访问能力及其他与外界交互的能力，如询问其实时性的内容，获得的回复基本都是错误的
-- ❗仅支持文字对话，其他内容无法识别
 - ❗模型不了解其运行平台及其使用的模型版本，任何针对其实现原理的问题答案均视为无效，请以项目文档为准
-- ❗仅可进行一句话回复一句话的对话，其他形式无效
-  - ~~当然你也可以让他写一篇关于“人类有多么愚蠢”的论文并在一个小时后发送到你邮箱，接着你像个傻子一样盯着邮箱等待一个小时，并用自己的实际行动展示这篇论文~~
 
 以上是关于此程序的限制的最高优先级描述，其他方式（如询问机器人相关信息）获得的描述均应被视为无效  
 由于模型生成的内容导致的一切损失，本项目概不负责  
@@ -123,10 +113,6 @@ category:
 对话及绘图功能均直接调用OpenAI的模型进行处理，与机器人程序无关，这意味着模型并不了解此项目的相关信息（如实现方式、技术栈、运行平台等），除非在预设值中写入相关信息。
 
 ### 基础对话
-
-程序将一个人/群视为一个对象，每个对象的会话独立保存。  
-`会话`是程序中的一个自设概念，当机器人与当前对象无会话时，会自动创建新会话，新会话由预设信息(若有)开头。  
-每个会话最后一次对话一段时间(见上述功能点中的`会话管理`)后会被结束并存进数据库，之后的对话将开启新的会话。  
 
 #### 私聊使用
 

@@ -22,40 +22,34 @@ actions:
     link: https://github.com/RockChinQ/QChatGPT
 
 highlights:
-  - header: 插件生态
+  - header: 功能概览
     # image: /assets/image/features.svg
     # bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
     # bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
     features:
-      - title: 联网回复
-        icon: network
-        details: 基于 GPT 的 Function Calling 能力实现的类似 ChatGPT 的 WebPilot 插件的功能
-        link: /posts/plugin/some-plugin-deploy/link-network.md
+      - title: 丰富生态
+        icon: plugin
+        details: 支持事件监听、AI Agent 等插件扩展方式，具有多种插件或相关支持项目
 
-      - title: 逆向工程 LLM
-        icon: tree
-        details: 接入 ChatGPT网页版、New Bing、Claude、gpt4free 等逆向工程库
-        link: https://github.com/RockChinQ/revLibs
+      - title: 功能直观
+        icon: type
+        details: 集成黑名单、限速、选择响应、上下文控制、Prompt 管理等多种常用功能
 
-      - title: 对话模型切换
-        icon: flow
-        details: 支持通过命令在聊天环境中切换使用的模型
-        link: https://github.com/RockChinQ/Switcher
+      - title: 多种模型
+        icon: stack
+        details: 适配 OpenAI、Moonshot、Anthropic 等多个提供商的接口，同时深度支持 OneAPI
 
-      - title: 故事叙述和绘图
-        icon: copy
-        details: 基于 Holara 的 AI 绘图插件
-        link: https://github.com/oliverkirk-sudo/QChatAIPaint
+      - title: 高稳定性
+        icon: code
+        details: 采用主流的设计思想，架构清晰，具有高测试覆盖率
 
-      - title: 语音合成
-        icon: write
-        details: 文字转语音输出，支持 HuggingFace 的 VITS 模型，Azure 语音合成，本地 vits 语音合成，sovits 语音合成
-        link: /posts/plugin/some-plugin-deploy/voice.md
+      - title: 生产就绪
+        icon: module
+        details: 符合生产环境的高可用性要求，已被多家公司商用部署
 
-      - title: 点击查看更多插件
-        icon: search
-        details: 点此查看所有插件列表
-        link: /posts/plugin/list.md
+      - title: 持续维护
+        icon: cycle
+        details: 长期维护、迭代，持续跟进大模型领域的最新应用实践
 
   - header: 链接
     description:
@@ -63,20 +57,21 @@ highlights:
     # bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
     # bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     features:
-      - title: 代码贡献者
-        icon: github
-        details: QChatGPT 项目的开发者
-        link: https://github.com/RockChinQ/QChatGPT/graphs/contributors
 
       - title: 源码仓库
-        icon: home
+        icon: github
         details: QChatGPT 的仓库页
         link: https://github.com/RockChinQ/QChatGPT
 
-      - title: 文档贡献者
-        icon: group
-        details: 此文档贡献者
+      - title: 文档仓库
+        icon: file
+        details: 此文档的仓库页
         link: https://github.com/the-lazy-me/QChatGPT-Wiki/graphs/contributors
+
+      - title: 插件列表
+        icon: plugin
+        details: QChatGPT 插件列表
+        link: https://github.com/stars/RockChinQ/lists/qchatgpt-%E6%8F%92%E4%BB%B6
 
 copyright: false
 footer: <a href="https://github.com/RockChinQ/QChatGPT" target="_blank">QChatGPT</a> 项目的Wiki页&nbsp;&nbsp;|&nbsp;&nbsp;MIT 协议, 版权所有 © 2023-present Lazy  <br/> <br/> <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">津 ICP 备 2023007711 号</a>&nbsp;&nbsp;<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12011102001610" rel="nofollow noopener" class="beian-police" target="_blank">津公网安备12011102001610号</a>

@@ -5,7 +5,7 @@ head:
       content: 其他消息平台
 title: 部署消息平台LiteLoaderQQNT的教程
 icon: more
-order: 6
+order: 2
 author: RockChinQ
 date: 2024-03-02
 ---
@@ -17,7 +17,3 @@ date: 2024-03-02
 安装LiteLoaderQQNT的教程：https://llonebot.github.io/zh-CN/guide/getting-started
 
 ![image-20240515185909108](https://cos.thelazy.cn/pictures/202405151859206.png)
-
-QChatGPT platform.json
-
-![img](https://cos.thelazy.cn/pictures/202405292250017.jpeg)

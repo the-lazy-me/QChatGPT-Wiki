@@ -5,7 +5,7 @@ head:
       content: Lagrange的部署教程
 title: 部署消息平台Lagrange的教程
 icon: support
-order: 4
+order: 1
 author: RockChinQ，ikun0014
 date: 2024-05-05
 ---
@@ -20,7 +20,11 @@ Lagrange 是一个 QQNT 协议逆向工程框架，比 Shamrock 或 Mirai 更加
 - Linux Ubuntu 22.04，Debian 12应该都可以
 - Windows 10,11,Server2019及以上
 
-## 步骤（Windows）
+
+
+## 部署步骤
+
+以下仅提供 Windows 上的大致步骤，详细步骤或其他平台请参考 [Lagrange官方文档](https://lagrangedev.github.io/Lagrange.Doc/Lagrange.OneBot/)
 
 ### 环境配置
 
@@ -43,13 +47,21 @@ Lagrange 是一个 QQNT 协议逆向工程框架，比 Shamrock 或 Mirai 更加
 ### 尾声
 
 解压你所下载的zip，打开到有Lagrange.OneBot.exe的目录，在此目录下打开cmd命令提示符，输入
+
 ```bash
 .\Lagrange.OneBot
 ```
-此时如果你的环境已配置好，应该会出现填写配置文件后按任意键进入Qrcode登录，否则按输出的文字重新安装.NET 8
 
-配置文件填写示例：
+运行一次，如果输出了一个二维码，即可直接用机器人号扫码登录（若二维码显示不清楚，可以到lagrange的data目录下寻找图片文件）。  
 
-![data/platform.json](https://cos.thelazy.cn/pictures/202405292250017.jpeg)
+若无法登录，请检查是否正常填写了lagrange配置文件appsettings.json中的签名地址 SignServerUrl ，签名地址请到lagrange文档中寻找。  
+
+## 修改配置
+
+需要配置 Lagrange 以让其连接上 QChatGPT，请编辑 Lagrange 的配置文件 appsettings.json，确保 Implementations 中的连接配置符合下图内容：
 
 ![Lagrange.OneBot的配置文件](https://cos.thelazy.cn/pictures/202405030020679.png)
+
+其中 Type 必须为 `ReverseWebSocket`;  
+Host 为 QChatGPT 运行的主机 IP，若在同一主机上，可以写 `127.0.0.1`;  
+Suffix 必须为 `/ws`

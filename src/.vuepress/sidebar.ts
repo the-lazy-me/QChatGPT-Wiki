@@ -47,14 +47,14 @@ export default sidebar({
               link: "aiocqhttp/",
               children: [
                 {
-                  text: "Shamrock",
-                  icon: "mobile",
-                  link: "shamrock",
-                },
-                {
                   text: "Lagrange",
                   icon: "support",
                   link: "lagrange",
+                },
+                {
+                  text: "LLOneBot",
+                  icon: "more",
+                  link: "llonebot",
                 },
                 {
                   text: "NapCat",
@@ -62,9 +62,9 @@ export default sidebar({
                   link: "napcat",
                 },
                 {
-                  text: "LLOneBot",
-                  icon: "more",
-                  link: "llonebot",
+                  text: "Shamrock",
+                  icon: "mobile",
+                  link: "shamrock",
                 },
               ],
             },

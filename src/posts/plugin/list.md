@@ -11,7 +11,7 @@ date: 2023-09-30
 category:
   - 插件介绍
 ---
-插件列表
+以下是部分插件列表，所有插件请查看[RockChinQ的Star集](https://github.com/stars/RockChinQ/lists/qchatgpt-%E6%8F%92%E4%BB%B6)
 
 - [revLibs](https://github.com/RockChinQ/revLibs) - 将ChatGPT网页版、Claude、Bard、Hugging Chat等破解版接入此项目，关于[官方接口和网页版有什么区别](https://github.com/RockChinQ/QChatGPT/wiki/8-%E5%AE%98%E6%96%B9%E6%8E%A5%E5%8F%A3%E3%80%81ChatGPT%E7%BD%91%E9%A1%B5%E7%89%88%E3%80%81ChatGPT-API%E5%8C%BA%E5%88%AB)
 
@@ -61,27 +61,3 @@ category:
 - [ElvisChenML/Waifu](https://github.com/ElvisChenML/Waifu) - 一个QChatGPT的插件，旨在利用程式逻辑搭配LLM创建真实感聊天机器人，探索真实的聊天体验。
 
 - [Pevernow/QChatGPT_Plugin_Emoticon_v3](https://github.com/Pevernow/QChatGPT_Plugin_Emoticon_v3) - QChatGPT v3可用，基于在线api的表情包插件。
-
-- [查看更多插件](https://github.com/stars/RockChinQ/lists/qchatgpt-%E6%8F%92%E4%BB%B6)这里列出了更多插件
-
-
-
-> 没有我想要的插件？
->
-> 填写此问卷调查：
->
-> 之后保持持续关注，你提出的插件需求将有可能实现
->
-> 你也可以加入交流群来询问更多
->
-> 社区群：
->
-> Lazy的交流群一：891448839（已满）
->
-> Lazy的交流群二：738382634（已满）
->
-> Lazy的交流群三：248432104
->
-> 官方群（官方群不解答部署问题）：
->
-> 四群：195992197

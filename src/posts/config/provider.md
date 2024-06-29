@@ -120,7 +120,7 @@ category:
 1. 通过 OneAPI 等中转服务接入了 OpenAI 的 `gpt-4` 模型，由于 `gpt-4` 也是使用 ChatCompletion 接口格式进行请求，则可以直接填入 `gpt-4`；  
 2. 通过 OneAPI 等中转服务接入了 Google 的 `gemini-pro` 模型，由于 `gemini-pro` 原生接口格式并非 ChatCompletion，因此需要填入 `OneAPI/gemini-pro`。
 
-具体支持的模型列表和各个模型对应的请求器和密钥组，请查看元数据板块。
+具体支持的模型列表和各个模型对应的请求器和密钥组，请查看元数据板块 llm-models.json 。
 
 ## 情景预设（人格） prompt
 
