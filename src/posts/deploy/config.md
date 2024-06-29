@@ -134,9 +134,9 @@ date: 2024-02-18
 
 修改此配置文件以设置所连接的 AI 提供商的相关信息，目前支持 `openai(GPT)`, `anthropic(claude)`, `moonshot(月之暗面)` 三种接口及对应模型。
 
-> 如果你没有OpenAI API Key，你可以[在此获取](https://thelazy.cn/2024/02/08/%E5%A6%82%E4%BD%95%E8%8E%B7%E5%8F%96%E5%A5%BD%E7%94%A8%E7%A8%B3%E5%AE%9A%E7%9A%84OpenAI%20API%20Key/)
+> 如果你没有OpenAI API Key，你可以[在此获取](https://ai.lazyshare.top/)
 
-以下仅讲解启用 OpenAI 接口的方式，具体设置方法请查看 [配置详解模块的`provider.json` 页](../config/provider)。
+以下仅讲解启用 OpenAI 接口的方式，具体设置方法请查看 [配置详解模块的`provider.json` 页](../config/provider.md)。
 
 编辑 `data/provider.json`，在`keys`->`openai`中添加你的 OpenAI API Key，例如：
 
