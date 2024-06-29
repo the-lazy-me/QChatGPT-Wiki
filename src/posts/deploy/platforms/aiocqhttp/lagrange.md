@@ -38,11 +38,11 @@ Lagrange 是一个 QQNT 协议逆向工程框架，比 Shamrock 或 Mirai 更加
 
 看图进行下载:
 
-![图片1](https://cos.thelazy.cn/pictures/202405051146016.png)
+![图片1](/assets/image/dl_lgr_1.png)
 
-![图片2](https://cos.thelazy.cn/pictures/202405051146016.png)
+![图片2](/assets/image/dl_lgr_2.png)
 
-![图片3](https://cos.thelazy.cn/pictures/202405051151432.png)
+![图片3](/assets/image/dl_lgr_3.png)
 
 ### 尾声
 
@@ -60,7 +60,7 @@ Lagrange 是一个 QQNT 协议逆向工程框架，比 Shamrock 或 Mirai 更加
 
 需要配置 Lagrange 以让其连接上 QChatGPT，请编辑 Lagrange 的配置文件 appsettings.json，确保 Implementations 中的连接配置符合下图内容：
 
-![Lagrange.OneBot的配置文件](https://cos.thelazy.cn/pictures/202405030020679.png)
+![配置连接](/assets/image/config_lgr.png)
 
 其中 Type 必须为 `ReverseWebSocket`;  
 Host 为 QChatGPT 运行的主机 IP，若在同一主机上，可以写 `127.0.0.1`;  

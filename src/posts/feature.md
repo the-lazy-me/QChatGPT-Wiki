@@ -120,7 +120,7 @@ category:
 2. 发送消息给机器人，机器人即会自动回复
 3. 可以通过`!help`查看帮助信息
 
-![屏幕截图 1](https://cos.thelazy.cn/pictures/qchatgpt%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D202312201453499.png)
+![私聊使用](/assets/image/private_chat.png)
 
 #### 群聊使用
 
@@ -128,4 +128,4 @@ category:
 2. at机器人并发送消息，机器人即会自动回复
 3. at机器人并发送`!help`查看帮助信息
 
-![屏幕截图 2](https://cos.thelazy.cn/pictures/qchatgpt%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D202312201454898.png)
+![群聊使用](/assets/image/group_chat.png)
