@@ -5,7 +5,7 @@ head:
       content: OpenShamrock的部署教程
 title: 部署消息平台shamrock的教程
 icon: mobile
-order: 3
+order: 4
 author: ikun
 date: 2023-12-21
 ---
@@ -14,7 +14,7 @@ date: 2023-12-21
 
 ::: warning 
 
-OpenShamrock已归档
+OpenShamrock已归档，停止维护。
 
 :::
 

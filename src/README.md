@@ -57,20 +57,21 @@ highlights:
     # bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
     # bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     features:
-      - title: 代码贡献者
-        icon: github
-        details: QChatGPT 项目的开发者
-        link: https://github.com/RockChinQ/QChatGPT/graphs/contributors
 
       - title: 源码仓库
-        icon: home
+        icon: github
         details: QChatGPT 的仓库页
         link: https://github.com/RockChinQ/QChatGPT
 
-      - title: 文档贡献者
-        icon: group
-        details: 此文档贡献者
+      - title: 文档仓库
+        icon: file
+        details: 此文档的仓库页
         link: https://github.com/the-lazy-me/QChatGPT-Wiki/graphs/contributors
+
+      - title: 插件列表
+        icon: plugin
+        details: QChatGPT 插件列表
+        link: https://github.com/stars/RockChinQ/lists/qchatgpt-%E6%8F%92%E4%BB%B6
 
 copyright: false
 footer: <a href="https://github.com/RockChinQ/QChatGPT" target="_blank">QChatGPT</a> 项目的Wiki页&nbsp;&nbsp;|&nbsp;&nbsp;MIT 协议, 版权所有 © 2023-present Lazy  <br/> <br/> <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">津 ICP 备 2023007711 号</a>&nbsp;&nbsp;<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12011102001610" rel="nofollow noopener" class="beian-police" target="_blank">津公网安备12011102001610号</a>
