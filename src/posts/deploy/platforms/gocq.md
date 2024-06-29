@@ -24,7 +24,7 @@ gocq未归档，但官方表示：[https://github.com/Mrs4s/go-cqhttp/issues/247
 
 从[go-cqhttp的Release](https://github.com/Mrs4s/go-cqhttp/releases/latest)下载最新的go-cqhttp可执行文件（建议直接下载可执行文件压缩包，而不是安装器）
 
-![image-20231220210632911](https://cos.thelazy.cn/pictures/qchatgpt%E6%89%8B%E5%8A%A8%E9%83%A8%E7%BD%B2202312202106952.png)
+![下载gocq](/assets/image/dl_gocq.png)
 
 ## 运行并配置go-cqhttp
 
@@ -105,17 +105,17 @@ default-middlewares: &default
 
 双击登录脚本，一段时间后，可以看到提示
 
-![image-20231220211135776](https://cos.thelazy.cn/pictures/qchatgpt%E6%89%8B%E5%8A%A8%E9%83%A8%E7%BD%B2202312202111807.png)
+![登录gocq](/assets/image/first_launch.png)
 
 把`Captcha link: `后边的链接复制下来，用Chrome或者Edge浏览器打开，按F12打开开发者工具
 
 点开 `Network`
 
-![img5](https://docs.mirai.mamoe.net/assets/img5.9c53babb.png)
+![过验证码](/assets/image/get_captcha.png)
 
 在浏览器中完成验证, 在 `Network` 中找到名为 `cap_union_new_verify` 的请求, 在最下面
 
-![img6](https://docs.mirai.mamoe.net/assets/img6.2c4cf2d2.png)
+![获取token](/assets/image/get_gocq_login_token.png)
 
 ticket 后那一坨就是要输入回 mirai 的内容，但不包括首尾的双引号
 
@@ -127,7 +127,7 @@ ticket 后那一坨就是要输入回 mirai 的内容，但不包括首尾的双
 
 把复制下来的东西，粘贴到运行go-cq的终端中
 
-![image-20231220211712572](https://cos.thelazy.cn/pictures/qchatgpt%E6%89%8B%E5%8A%A8%E9%83%A8%E7%BD%B2202312202117600.png)
+![粘贴token](/assets/image/paste_token.png)
 
 > 若启动后登录不成功，请尝试根据[此文档](https://docs.go-cqhttp.org/guide/config.html#%E8%AE%BE%E5%A4%87%E4%BF%A1%E6%81%AF)修改`device.json`的协议编号。
 
