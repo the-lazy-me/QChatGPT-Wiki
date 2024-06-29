@@ -13,6 +13,7 @@ date: 2024-02-18
 
 - `data/config/platform.json`
 - `data/config/provider.json`
+- `data/config/system.json`
 
 ## platform.json
 
@@ -166,6 +167,16 @@ date: 2024-02-18
 
 ```json
     "model": "gpt-4o",
+```
+
+## system.json
+
+在 `data/system.json` 中修改 `admin-sessions`，添加 `person_你的QQ号` 把你设置为管理员，例如：
+
+```json
+    "admin-sessions": [
+        "person_1010553892"
+    ],
 ```
 
 ::: tip 
