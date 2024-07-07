@@ -162,18 +162,6 @@ export default sidebar({
       collapsible: true,
       link: "posts/error/",
       prefix: "posts/error/",
-      children: [
-        {
-          text: "QChatGPT常见报错",
-          icon: "notice",
-          link: "qchatgpt",
-        },
-        {
-          text: "消息平台常见报错",
-          icon: "list",
-          link: "platform",
-        }
-      ],
     },
     {
       text: "规模使用和商用",

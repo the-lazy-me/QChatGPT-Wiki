@@ -2,18 +2,13 @@
 head:
   - - meta
     - name: keywords
-      content: 部署QChatGPT的常见问题
-title: 部署QChatGPT的常见问题
+      content: QChatGPT的常见问题
+title: QChatGPT的常见问题
 icon: info
 author: Lazy
 date: 2024-06-10
 ---
 
-# 部署QChatGPT的常见问题
+## Q：如何接入 OneAPI、LinkAI 等第三方 OpenAI 格式接口？
 
-常见问题主要来自两个部分：
-
-- 消息平台报错
-- QChatGPT的报错
-
-两者可在左侧查看各自内容
+文章：[📖 QChatGPT 实践：接入 OneAPI、LinkAI、中转站 等第三方 OpenAI 格式接口以使用 Gemini、Qwen 等模型](https://rockchin.top/?p=295)
