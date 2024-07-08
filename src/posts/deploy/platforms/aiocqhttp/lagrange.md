@@ -20,6 +20,8 @@ Lagrange 是一个 QQNT 协议逆向工程框架，比 Shamrock 或 Mirai 更加
 - Linux Ubuntu 22.04，Debian 12应该都可以
 - Windows 10,11,Server2019及以上
 
+> 注意：
+> 要使用NT QQ发信息，旧版QQ无法正常使用
 
 
 ## 部署步骤
