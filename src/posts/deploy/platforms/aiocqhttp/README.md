@@ -33,4 +33,4 @@ OneBot 是用于接入多种消息平台的标准化协议，详细介绍：[htt
 - [Lagrange.OneBot的教程](lagrange.md)
 - [LiteLoaderQQNT的教程](llonebot.md)
 - [NapCat的教程](napcat.md)
-- [OpenShamrock的教程](shamrock.md)
+- [shamrock的教程](shamrock.md)

@@ -28,5 +28,5 @@ QChatGPT 需要一个中间程序，处理 QQ 等 IM 的协议（大部分是逆
 
 以前流行的框架，现在长期不再维护或被腾讯严重围追堵截，不推荐使用：
 
-- Mirai（QQ）：[Mirai部署教程](mirai.md) (使用旧版协议，风控严重，胜似停止维护，千万别特么用)
-- go-cqhttp（QQ）：[go-cqhttp部署教程](gocq.md)（使用旧版协议，但仍有新的非功能commit）
+- Mirai（QQ）：[Mirai部署教程](mirai.md) (使用旧版协议，风控严重)
+- go-cqhttp（QQ）：[go-cqhttp部署教程](gocq.md)（使用旧版协议，[官方停止维护](https://github.com/Mrs4s/go-cqhttp?tab=readme-ov-file#%E9%87%8D%E8%A6%81%E4%BF%A1%E6%81%AF)）

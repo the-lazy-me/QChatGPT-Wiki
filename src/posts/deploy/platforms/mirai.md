@@ -3,9 +3,9 @@ head:
   - - meta
     - name: keywords
       content: Yiri-mirai的部署教程
-title: Mirai的部署（别用mirai，出问题不予解答）
+title: 部署消息平台mirai的教程
 icon: support
-order: 4
+order: 3
 author: Lazy
 date: 2023-12-18
 category:
@@ -14,33 +14,9 @@ category:
 
 > 本文档仅为基本步骤，详细操作、答疑解惑及最新信息请前往[Mirai官方代码库](https://github.com/mamoe/mirai)、[Mirai官方论坛](https://mirai.mamoe.net/)
 
-::: warning
+::: tip 
 
-此消息平台不要使用，否则地球爆炸
-
-:::
-
-::: warning
-
-此消息平台不要使用，否则地球爆炸
-
-:::
-
-::: warning
-
-此消息平台不要使用，否则地球爆炸
-
-:::
-
-::: warning
-
-此消息平台不要使用，否则地球爆炸
-
-:::
-
-::: warning
-
-此消息平台不要使用，否则地球爆炸
+此消息平台不稳定
 
 :::
 
