@@ -70,7 +70,7 @@ export default sidebar({
             },
             {
               text: "yiri-mirai",
-              icon: "support",
+              icon: "warn",
               link: "mirai",
             },
             {

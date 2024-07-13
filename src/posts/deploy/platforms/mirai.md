@@ -4,7 +4,7 @@ head:
     - name: keywords
       content: Yiri-mirai的部署教程
 title: 部署消息平台mirai的教程
-icon: support
+icon: warn
 order: 3
 author: Lazy
 date: 2023-12-18
@@ -16,7 +16,7 @@ category:
 
 ::: tip 
 
-此消息平台不稳定
+此消息平台不稳定，不推荐使用
 
 :::
 

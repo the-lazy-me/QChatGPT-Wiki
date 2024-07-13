@@ -12,9 +12,9 @@ date: 2023-12-21
 
 > 本文档仅为基本步骤，详细操作、答疑解惑及最新信息请前往[OpenShamrock官方文档](https://whitechi73.github.io/OpenShamrock/)。
 
-::: warning 
+::: tip
 
-OpenShamrock已归档，停止维护。
+此项目部署稍微复杂，可以看看aiocqhttp下面其他的
 
 :::
 
