@@ -3,7 +3,7 @@ head:
   - - meta
     - name: keywords
       content: Go-cqhttp的部署教程
-title: 部署消息平台go-cqhttp的教程
+title: Go-cqhttp的部署（也别用了）
 icon: state
 order: 3
 author: Anonymous
@@ -16,7 +16,7 @@ category:
 
 ::: warning 
 
-gocq未归档，但官方表示：[https://github.com/Mrs4s/go-cqhttp/issues/2471](https://github.com/Mrs4s/go-cqhttp/issues/2471)
+gocq未归档，但主开发者表示：[https://github.com/Mrs4s/go-cqhttp/issues/2471](https://github.com/Mrs4s/go-cqhttp/issues/2471)
 
 :::
 

@@ -12,11 +12,6 @@ date: 2023-12-21
 
 > 本文档仅为基本步骤，详细操作、答疑解惑及最新信息请前往[OpenShamrock官方文档](https://whitechi73.github.io/OpenShamrock/)。
 
-::: warning 
-
-OpenShamrock已归档，停止维护。
-
-:::
 
 ## OpenShamrock简介
 

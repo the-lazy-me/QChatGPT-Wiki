@@ -3,16 +3,16 @@ head:
   - - meta
     - name: keywords
       content: NapCat的部署教程
-title: 部署消息平台NapCat的教程
+title: 部署消息平台NapCatQQ的教程
 icon: software
 order: 3
 author: Lazy
 date: 2024-05-13
 ---
 
-## NapCat介绍
+## NapCatQQ介绍
 
-NapCat 是一个 QQNT 协议逆向工程框架。
+NapCatQQ 是一个 QQNT 协议逆向工程框架。中文名：瞌睡猫QQ
 
 可选平台：
 
@@ -20,13 +20,13 @@ NapCat 是一个 QQNT 协议逆向工程框架。
 - Linux Docker
 - Linux 非 Docker
 
-## NapCat安装教程
+## NapCatQQ安装教程
 
-按照 [NapCat 官方文档安装](https://napneko.github.io/zh-CN/guide/getting-started)
+按照 [NapCatQQ 官方文档安装](https://napneko.github.io/zh-CN/guide/getting-started)
 
 运行后扫码登录
 
-## NapCat配置教程
+## NapCatQQ配置教程
 
 登录后，可以在config文件夹中，找到并修改文件（数字对应机器人QQ号）：![image-20240514231529613](/assets/image/napcat_cfg_1.png)
 
