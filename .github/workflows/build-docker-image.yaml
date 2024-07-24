@@ -1,9 +1,10 @@
 name: 构建文档Docker镜像
 
 on:
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
+  workflow_dispatch:
 
 permissions:
   contents: write

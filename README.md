@@ -33,6 +33,10 @@ pnpm docs:dev
 ![image](/assets/image/xxx.png)
 ```
 
+### 部署细节
+
+现在使用 Cloudflare Pages 托管，提交后自动部署。
+
 ### 推荐环境
 
 推荐使用 GitHub Codespaces 编写，仓库页面点击 "Code" -> "Codespaces" -> 直接创建一个 Codespace  
