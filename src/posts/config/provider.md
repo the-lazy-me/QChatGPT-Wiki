@@ -88,6 +88,11 @@ category:
             "base-url": "https://api.deepseek.com",
             "args": {},
             "timeout": 120
+        },
+        "ollama-chat": {
+            "base-url": "http://127.0.0.1:11434",
+            "args": {},
+            "timeout": 600
         }
     },
 ```
@@ -100,6 +105,7 @@ category:
 - `anthropic-messages`：Anthropic 请求器（Claude）
 - `moonshot-chat-completions`：Moonshot 请求器（月之暗面）
 - `deepseek-chat-completions`：Deepseek 请求器（深度求索）
+- `ollama-chat`：Ollama 请求器，不需要密钥，直接请求目标地址的 Ollama 服务
 
 `base-url`：设置接口地址。
 

@@ -13,33 +13,26 @@ category:
 index: false
 ---
 
-暂时未设计独立 API 层，本页面讲解了一些常用的功能的调用方法。
-以下提到的对象及访问方式均在前文有所提及，请先阅读插件开发教程。
+以下 API 仅针对 事件插件 可用，组件扩展形式请自行阅读源码。
 
 ## 消息处理
 
 ### 回复消息
 
-切入方法：`pkg.platform.adapter.MessageSourceAdapter.reply_message`
+ctx.reply(message_chain: mirai.MessageChain)
 
-由于程序中可能同时运行多个 消息平台适配器（MessageSourceAdapter），故在`query: pkg.core.entities.Query` 对象中包含了 `adapter` 对象，保存了此次请求对应的适配器，通过这个对象可以调用适配器的回复消息方法。
+回复此次事件的发起会话。
 
-需要传入：
-- `message_source`本次消息的来源事件，可以从`query`对象中获取。
-- `message`回复的消息内容，YiriMirai 的 MessageChain对象
-- `quote_origin: bool`是否引用原消息
+- `message_chain`：[YiriMirai 的 MessageChain 对象](https://yiri-mirai.wybxc.cc/docs/basic/message-chain)，若用户使用的不是 YiriMirai 适配器，程序也能自动转换为目标消息链
 
 ### 发送主动消息
 
-不推荐。
+> 由于 QQ 官方 API 对主动消息的支持性很差，故若用户使用的是 QQ 官方 API，发送主动消息可能会失败
 
-切入方法：`pkg.platform.adapter.MessageSourceAdapter.send_message`
+ctx.send_message(target_type: str, target_id: str, message_chain: mirai.MessageChain)
 
-需要自己找到一个适配器对象，然后调用此方法。
-`ap: pkg.core.app.Application`的`platform_mgr: pkg.platform.manager.PlatformManager`对象中保存了所有适配器对象：`adapters`，从中取出一个即可调用`send_message`方法。
+发送主动消息给目标。
 
-需要传入：
-
-- `target_type`目标类型，可以是`group`或`person`
-- `target_id`目标id
-- `message`消息内容，YiriMirai 的 MessageChain对象
+- `target_type`：目标类型，可选值：`"person"`、`"group"`
+- `target_id`：目标 ID（QQ 号或群号）
+- `message_chain`：[YiriMirai 的 MessageChain 对象](https://yiri-mirai.wybxc.cc/docs/basic/message-chain)，若用户使用的不是 YiriMirai 适配器，程序也能自动转换为目标消息链
