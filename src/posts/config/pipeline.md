@@ -143,16 +143,6 @@ category:
 
 *`API_KEY`与`SECRET_KEY`是在创建完毕应用后，系统分配给用户的，均为字符串，用于标识用户，为访问做签名验证，可在AI服务控制台中的**应用列表**中查看*
 
-## 传入消息长度设置 submit-messages-tokens
-
-```json
-"submit-messages-tokens": 3072,
-```
-
-`submit-messages-tokens`：传给模型的消息长度限制，不同模型有不同的token数限制，QChatGPT 内部会保存各个模型的（约）最大token数限制
-
-   与此值取最小值，在传给模型API之前对当前会话的历史消息进行截断
-
 ## 请求限速规则 rate-limit
 
 ```json
