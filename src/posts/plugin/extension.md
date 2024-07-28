@@ -104,3 +104,12 @@ index: false
 - 装饰器：`pkg.pipeline.msgtrun.truncator.truncator_class(name: str)`
 - 参考实现：`pkg.pipeline.msgtrun.truncators/`
 - 使用方式：需要在`data/config/pipeline.json`的`msg-truncate`字段中设置需要使用的截断器`method`为新增的截断器名称。
+
+### Chat 请求运行器
+
+新增一个聊天消息运行器，默认的是 local-agent，提供了基本的 Prompt 组合、Agent 编排、多轮请求等功能。如果需要接入知识库或者本地 RAG，请在这里实现。
+
+- 基类：`pkg.provider.runner.RequesterRunner`
+- 装饰器：`pkg.provider.runner.runner_class(name: str)`
+- 参考实现：`pkg.provider.runners/`
+- 使用方式：需要在`data/config/provider.json`的`runner`字段中设置需要使用的运行器`runner`为新增的运行器名称。
