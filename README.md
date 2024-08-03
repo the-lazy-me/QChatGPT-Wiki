@@ -1,8 +1,4 @@
 # [QChatGPT](https://github.com/RockChinQ/QChatGPT) 官方文档
-www
-
-wwd
-wwd
 
 > 此分支是 QChatGPT 3.x 的文档  
 > [QChatGPT 代码仓库](https://github.com/RockChinQ/QChatGPT)  
