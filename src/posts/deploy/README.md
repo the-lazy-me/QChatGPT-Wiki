@@ -21,7 +21,8 @@ index: false
 完成以上三个步骤后，你接下来应该仔细阅读左栏中的[配置详解](../config/README.md)和[元数据配置](../metadata/README.md)，实现更多样化的配置需求
 
 ## 社区资源
- ### 视频教程
+
+### 视频教程
 
  [QChatGPT+NewChatVoice语音插件整合包(20240730)](https://www.bilibili.com/video/BV1iLvyePE8x/?share_source=copy_web&vd_source=596e7910a78045e2636e7b25e3618120)
 
@@ -51,14 +52,13 @@ index: false
    然后再发送：
    !reset
 
-谨慎使用，内含大量(R18+，你懂的)
-注意：model应该使用claude系列或Gemini系列
+注意：
+1. 内含大量 NSFW 内容，请注意使用环境  
+2. model应该使用claude系列或Gemini系列
 
 最好的：claude-3-opus-20240229
 
 一般的：claude-3-sonnet-20240229，gemini-1.5-pro-latest，gemini-1.5-flash-latest
-
-那样的预设(R18+，你懂的)请勿使用OpenAI系列
 
 如何使用相关模型：[https://thelazy.cn/2024/06/27/AIGC/](https://thelazy.cn/2024/06/27/AIGC/)
 

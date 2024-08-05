@@ -10,62 +10,28 @@ date: 2024-06-10
 ---
 
 ## Q1：如何接入 OneAPI、LinkAI 等第三方 OpenAI 格式接口？
-## Q1：如何接入 OneAPI、LinkAI 等第三方 OpenAI 格式接口？
 
 文章：[📖 QChatGPT 实践：接入 OneAPI、LinkAI、中转站 等第三方 OpenAI 格式接口以使用 Gemini、Qwen 等模型](https://rockchin.top/?p=295)
 
-## Q2：怎么切换模型？
+## Q2：官方机器人 IP 白名单怎么填？
 
-[每个模型的区别](https://thelazy.cn/2024/06/27/AIGC/) 点击查看
+如果你是在自己电脑上运行机器人：打开[IP138](https://ip38.com/) 这个网址获取自己网络的出网 IP，填写这个 IP 如图
 
-在这个 provider.json 配置项页脚如图所示，修改你想要的模型,比如你想用月之暗面的，那他支持的模型只有 moonshot-v1-8k， moonshot-v1-32k， moonshot-v1-128k，你只能改为这三个
+![](/assets/image/error_q3.png)
 
-![image](/assets/image/error_q2_1.png)
+如果不是在自己电脑上（如云服务器），请自行检查主机的公网 IP。
 
-支持的模型有：
+## Q3：各种请求失败报错案例：
 
-```[bot] 模型列表:
 
-名称: default
-请求器: openai-chat-completions
+1. 你的模型 api key 未填或者不正确
 
-名称: gpt-3.5-turbo-0125
-请求器: openai-chat-completions
+![](/assets/image/error_q4.png)
 
-名称: gpt-3.5-turbo
-请求器: openai-chat-completions
+2. 中转站没有额度了
 
-名称: gpt-3.5-turbo-1106
-请求器: openai-chat-completions
+![](/assets/image/error_q5.png)
 
-```
+## Q4：插件安装失败？
 
-具体可以去 llm-models.json 查看具体支持的模型
-
-### 指令切换
-
-启动机器人后用指令修改如图
-
-![image](/assets/image/error_q2_2.png)
-
-## Q3：官方机器人 IP 白名单怎么填？
-
-打开[IP138](https://ip38.com/) 这个网址，填写这个 IP 如图
-
-![image](/assets/image/error_q4.png)
-
-## Q4：无效令牌如图所示：
-
-![image](/assets/image/error_q4.png)
-
-你的模型 api key 未填或者不正确
-
-## Q5：请求失败如图所示
-
-![image](/assets/image/error_q5.png)
-
-是因为你没有额度了，请充值
-
-## Q6：插件安装失败
-
-#### 请打开梯子试试！
+尝试在主机上开启网络代理，Linux 需要设置环境变量 http_proxy 和 https_proxy。
