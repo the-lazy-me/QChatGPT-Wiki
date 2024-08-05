@@ -30,10 +30,10 @@ index: false
 一个人格预设集合(测试版，不保证完全可用性和效果)，内含1000+预设
 
 <details>
-
 <summary>展开查看详细使用</summary>
 
-下载链接： https://drive.lazyshare.top/s/kzNzEyO
+下载链接： [https://drive.lazyshare.top/s/kzNzEyO](https://drive.lazyshare.top/s/kzNzEyO)
+
 密码：6Vc5lojxAozX10Ub
 
 使用方式： 
@@ -53,8 +53,11 @@ index: false
 
 谨慎使用，内含大量(R18+，你懂的)
 注意：model应该使用claude系列或Gemini系列
+
 最好的：claude-3-opus-20240229
+
 一般的：claude-3-sonnet-20240229，gemini-1.5-pro-latest，gemini-1.5-flash-latest
+
 那样的预设(R18+，你懂的)请勿使用OpenAI系列
 
 如何使用相关模型：[https://thelazy.cn/2024/06/27/AIGC/](https://thelazy.cn/2024/06/27/AIGC/)
