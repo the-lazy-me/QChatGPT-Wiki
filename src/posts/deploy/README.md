@@ -33,9 +33,9 @@ index: false
 <details>
 <summary>展开查看详细使用</summary>
 
-下载链接： [https://drive.lazyshare.top/s/kzNzEyO](https://drive.lazyshare.top/s/kzNzEyO)
+下载链接： [http://pan.lazyshare.top/s/mOsK](http://pan.lazyshare.top/s/mOsK)
 
-密码：6Vc5lojxAozX10Ub
+密码：20240804
 
 使用方式： 
 
