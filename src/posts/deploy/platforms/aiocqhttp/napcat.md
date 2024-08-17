@@ -10,6 +10,13 @@ author: Lazy
 date: 2024-05-13
 ---
 
+::: warning
+
+NapCatQQ已于2024-08-17停止维护  
+不建议继续使用
+
+:::
+
 ## NapCat介绍
 
 NapCat 是一个 QQNT 协议逆向工程框架。

@@ -14,9 +14,9 @@ category:
 
 > 本文档仅为基本步骤，详细操作、答疑解惑及最新信息请前往[Mirai官方代码库](https://github.com/mamoe/mirai)、[Mirai官方论坛](https://mirai.mamoe.net/)
 
-::: tip 
+::: warning
 
-此消息平台不稳定，不推荐使用
+此消息平台不稳定，不要使用
 
 :::
 

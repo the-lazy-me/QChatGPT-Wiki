@@ -66,6 +66,11 @@ export default sidebar({
                   icon: "mobile",
                   link: "shamrock",
                 },
+                {
+                  text: "Go-cqhttp",
+                  icon: "support",
+                  link: "gocq",
+                },
               ],
             },
             {
@@ -74,9 +79,9 @@ export default sidebar({
               link: "mirai",
             },
             {
-              text: "nakuru",
+              text: "Go-cqhttp（nakuru）",
               icon: "state",
-              link: "gocq",
+              link: "nakuru",
             },
 
             {
