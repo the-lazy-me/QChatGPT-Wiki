@@ -16,7 +16,7 @@ category:
 
 ::: warning 
 
-gocq未归档，但官方表示：[https://github.com/Mrs4s/go-cqhttp/issues/2471](https://github.com/Mrs4s/go-cqhttp/issues/2471)
+gocq未归档，但原开发者表示：[https://github.com/Mrs4s/go-cqhttp/issues/2471](https://github.com/Mrs4s/go-cqhttp/issues/2471)
 
 :::
 
@@ -160,4 +160,4 @@ ticket 后那一坨就是要输入回 mirai 的内容，但不包括首尾的双
 
 ## 后续步骤
 
-查看填写配置信息页，通过 Nakuru 或 aiocqhttp 适配器接入。
+查看填写配置信息页，通过 Nakuru 适配器接入。

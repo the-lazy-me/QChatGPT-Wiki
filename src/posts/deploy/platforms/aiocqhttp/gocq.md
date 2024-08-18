@@ -6,8 +6,8 @@ head:
 title: 部署消息平台go-cqhttp的教程
 icon: state
 order: 3
-author: Anonymous
-date: 2023-12-21
+author: ikun0014
+date: 2024-08-18
 category:
   - 部署教程
 ---
@@ -66,7 +66,7 @@ account: # 账号相关
 
 按照如下填写，
 
-```yam
+```yaml
   sign-servers: 
     - url: 'https://qsign.trpgbot.com/'  # 主签名服务器地址， 必填
       key: 'selfshare' 
@@ -102,7 +102,16 @@ account: # 账号相关
 
 感谢zhaodice大佬带来的QQ 9.0.56签名服务器
 
-3. 若您的服务器位于公网，强烈建议您填写`access-token` (可选)
+3.修改反向Websocket连接地址
+```yaml
+  - ws-reverse:
+      # 反向WS Universal 地址
+      # 注意 设置了此项地址后下面两项将会被忽略
+      universal: ws://localhost:8080/ws
+```
+如果端口不同请自行修改
+
+4. 若您的服务器位于公网，强烈建议您填写`access-token` (可选)
 
 ```yaml
 # 默认中间件锚点
@@ -111,7 +120,7 @@ default-middlewares: &default
     access-token: ''
 ```
 
-4. 配置完成，重新启动go-cqhttp
+5. 配置完成，重新启动go-cqhttp
 
 ## 登录
 
