@@ -24,45 +24,7 @@ index: false
 
 ### 视频教程
 
- [QChatGPT+NewChatVoice语音插件整合包(20240730)](https://www.bilibili.com/video/BV1iLvyePE8x/?share_source=copy_web&vd_source=596e7910a78045e2636e7b25e3618120)
-
-### 人格预设合集
-
-一个人格预设集合(测试版，不保证完全可用性和效果)，内含1000+预设
-
-<details>
-<summary>展开查看详细使用</summary>
-
-下载链接： [http://pan.lazyshare.top/s/mOsK](http://pan.lazyshare.top/s/mOsK)
-
-密码：20240804
-
-使用方式： 
-
-1. 下载解压，将里面你想要的人格预设文件，记得先解压，解压后里面的1000多个json文件，复制放入data/scenario文件夹，一个json文件就是一个预设(比如说：理塘丁真.json就是一个预设)
-
-2. 修改配置文件：
-
-   - 修改`pipeline.json`将`income-msg-check`和`[check-sensitive-words`字段设为`false`
-   - 修改`provider.json`将`prompt-mode`字段设为`full-scenario`，`model`字段要特别设置一下，参考下面或这篇教程[https://thelazy.cn/2024/06/27/AIGC/](https://thelazy.cn/2024/06/27/AIGC/)
-
-3. 对话中发送：!default set <预设名>`指令将其设为默认（将<预设名>整体替换为文件名）
-   例如：!default set 理塘丁真
-
-   然后再发送：
-   !reset
-
-注意：
-1. 内含大量 NSFW 内容，请注意使用环境  
-2. model应该使用claude系列或Gemini系列
-
-最好的：claude-3-opus-20240229
-
-一般的：claude-3-sonnet-20240229，gemini-1.5-pro-latest，gemini-1.5-flash-latest
-
-如何使用相关模型：[https://thelazy.cn/2024/06/27/AIGC/](https://thelazy.cn/2024/06/27/AIGC/)
-
-</details>
+ [【8月最新】5min部署 最强AI语音聊天+酒馆角色扮演+QQ机器人，全新角色扮演语音聊天QQ机器人](https://www.bilibili.com/video/BV1vypZeBEW1/?share_source=copy_web&vd_source=1335a044d4fd926920999a0e3ba0a731)
 
 
 ## 本项目交流 QQ 群
