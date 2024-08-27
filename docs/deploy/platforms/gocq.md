@@ -68,7 +68,7 @@ account: # 账号相关
 
 按照如下填写，
 
-```yam
+```yaml
   sign-servers: 
     - url: 'https://qsign.trpgbot.com/'  # 主签名服务器地址， 必填
       key: 'selfshare' 

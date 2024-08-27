@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "QChatGPT 文档",
   description:
-    "😎高稳定性、🧩支持扩展、🦄多模态的 ChatGPT QQ / QQ频道 / One Bot 机器人🤖 | 支持 OpenAI GPT、GPT 4o、Claude、Gemini Pro、DeepSeek、Moonshot（Kimi）、gpt4free、One API、Ollama 的 QQ / QQ频道 / OneBot 机器人 / Agent 平台",
+    "😎高稳定性、🧩支持插件、🦄多模态的 LLM QQ / QQ频道 / OneBot 机器人 / Agent 平台",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/assets/icon/chrome-192.png",
@@ -13,6 +13,7 @@ export default defineConfig({
       { text: "首页", link: "/" },
       { text: "概述", link: "/insight/intro" },
       { text: "部署", link: "/deploy/" },
+      { text: "开发", link: "/develop/tech-info" },
     ],
 
     sidebar: [
