@@ -11,9 +11,9 @@ export default defineConfig({
 
     nav: [
       { text: "首页", link: "/" },
-      { text: "概述", link: "/insight/intro" },
-      { text: "部署", link: "/deploy/" },
-      { text: "开发", link: "/develop/tech-info" },
+      { text: "概述", link: "/insight/guide" },
+      { text: "部署", link: "/deploy/qchatgpt/manual" },
+      { text: "开发", link: "/develop/plugin-intro" },
     ],
 
     sidebar: [
@@ -26,7 +26,6 @@ export default defineConfig({
       },
       {
         text: "部署",
-        link: "/deploy/",
         items: [
           {
             text: "部署 QChatGPT",
@@ -128,11 +127,11 @@ export default defineConfig({
         text: "开发",
         // collapsed: true,
         items: [
-          { text: "技术信息", link: "/develop/tech-info" },
           { text: "插件介绍", link: "/develop/plugin-intro" },
           { text: "插件开发", link: "/develop/plugin-dev" },
           { text: "组件拓展", link: "/develop/extension" },
           { text: "API参考", link: "/develop/api-ref" },
+          { text: "技术信息", link: "/develop/tech-info" },
         ],
       },
       // {
