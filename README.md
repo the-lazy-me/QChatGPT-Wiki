@@ -22,7 +22,7 @@ npm install
 完成后即可修改文档，修改完后使用以下命令本地启动：
 
 ```bash
-npm docs:dev
+npm run docs:dev
 ```
 
 ### 使用图片

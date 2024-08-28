@@ -9,11 +9,11 @@
 ## platform.json
 
 修改此配置文件以指定需要连接的消息平台，只需要关注`platform-adapters`字段。
-目前支持 `mirai`、`go-cqhttp`、`aiocqhttp`、`qq-botpy` 四种消息平台适配器，也可以同时启用多个同种类或不同种类的平台适配器
+目前支持 `mirai`、`go-cqhttp`、`aiocqhttp`、`qq-botpy` 四种消息平台适配器，也可以同时启用多个同种类或不同种类的平台适配器。  
+请根据你部署的消息平台的情况选择填写。
 
 ### aiocqhttp 适配器
 
-如果你刚刚已经在 QChatGPT 的配置文件中启用了 aiocqhttp 适配器，那么你可以跳过这一步。  
 用于接入 Lagrange 等兼容 OneBot 协议的机器人框架（仅支持反向ws）。
 
 ```json
@@ -48,12 +48,13 @@
     "secret": "",
     "intents": [
         "public_guild_messages",
-        "direct_message"
+        "direct_message",
+        "public_messages"
     ]
 }
 ```
 
-`"adapter": "qq-botpy"`，无需动，表明是接入`QQ官方机器人`的配置
+`"adapter": "qq-botpy"`，无需改动。
 
 `enable`：是否启用，配置完成后请将其设为`true`
 
@@ -65,7 +66,7 @@
 
 - `public_guild_messages` QQ 频道消息
 - `direct_message` QQ 频道私聊消息
-- `public_messages` Q群消息（需要权限，具体请查看[QQ官方机器人API文档](https://q.qq.com/)）
+- `public_messages` Q群 和 列表私聊消息
 
 ### YiriMirai 适配器
 
@@ -82,7 +83,7 @@
 },
 ```
 
-`"adapter": "yiri-mirai"`，无需动，表明是接入`mirai`的配置
+`"adapter": "yiri-mirai"`，无需改动。
 
 `enable`：是否启用，配置完成后请将其设为`true`
 
@@ -109,7 +110,7 @@
 },
 ```
 
-`"adapter": "nakuru"`，无需动，表明是接入`go-cqhttp`的配置
+`"adapter": "nakuru"`，无需改动。
 
 `enable`：是否启用，配置完成后请将其设为`true`
 
@@ -127,7 +128,7 @@
 
 > 如果你没有OpenAI API Key，你可以[在此获取](https://ai.lazyshare.top/)
 
-以下仅讲解启用 OpenAI 接口的方式，具体设置方法请查看 [配置详解模块的`provider.json` 页](../config/provider.md)。
+以下仅讲解启用 OpenAI 接口的方式，具体设置方法请查看 [功能配置`provider.json` 页](/config/function/provider.html)。
 
 编辑 `data/provider.json`，在`keys`->`openai`中添加你的 OpenAI API Key，例如：
 
@@ -172,6 +173,6 @@
 
 ::: tip 
 
-阅读并完成以上教程后，你应该可以成功使用QChatGPT了，如果不能请再次阅读（你或许漏做或错做某些步骤），如果完全阅读并充分理解本文档后仍然确实无法使用，你可以在[这里](./README.md)找到交流群
+阅读并完成以上教程后，你应该可以成功使用QChatGPT了，如果不能请再次阅读（你或许漏做或错做某些步骤），如果完全阅读并充分理解本文档后仍然确实无法使用，你可以在[这里](/deploy/qchatgpt/community.html)找到交流群
 
 :::

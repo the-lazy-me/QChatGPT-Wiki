@@ -1,4 +1,4 @@
-# 部署消息平台LiteLoaderQQNT的教程
+# 部署消息平台 LiteLoaderQQNT
 
 # LiteLoaderQQNT
 

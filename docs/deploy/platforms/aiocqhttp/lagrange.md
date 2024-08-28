@@ -1,18 +1,12 @@
-# 部署消息平台Lagrange的教程
+# 部署消息平台 Lagrange
 
 ## Lagrange介绍
 
 Lagrange 是一个 QQNT 协议逆向工程框架，比 Shamrock 或 Mirai 更加轻便，在目前也较为稳定。通过 OneBot 11 协议接入，需选择使用`aiocqhttp`作为适配器，填写配置时可参考 Shamrock 的方式。
 
-可选平台（需要.NET 8 or 7支持）：
-
-- Mac OS 也可使用
-- Linux Ubuntu 22.04，Debian 12应该都可以
-- Windows 10,11,Server2019及以上
-
-> 注意：
-> 要使用NT QQ发信息，旧版QQ无法正常使用
-
+::: warning
+需要使用 NT QQ 与机器人交互，旧版QQ无法正常使用
+:::
 
 ## 部署步骤
 

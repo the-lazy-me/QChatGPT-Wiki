@@ -1,9 +1,5 @@
 # Docker部署(仅推荐在Linux上使用)
 
-:::info 目录
-[[toc]]
-:::
-
 :::warning 
 请您确保您**确实**需要 Docker 部署，您**必须**具有以下能力：  
  - 了解 `Docker` 和 `Docker Compose` 的使用  
@@ -16,7 +12,7 @@
  **不建议**您在除 Linux 之外的系统上使用 Docker 进行部署。
 ::: 
 
-:::note
+:::info
 请先确保 Docker 和 Docker Compose 已安装
 :::
 

@@ -20,8 +20,8 @@ export default defineConfig({
       {
         text: "概述",
         items: [
+          { text: "新手指引（必看）", link: "/insight/guide" },
           { text: "项目介绍", link: "/insight/intro" },
-          { text: "新手指引", link: "/insight/guide" },
         ],
       },
       {
@@ -34,17 +34,18 @@ export default defineConfig({
             items: [
               { text: "手动部署", link: "/deploy/qchatgpt/manual" },
               { text: "Dokcer部署", link: "/deploy/qchatgpt/docker" },
+              { text: "社区资源", link: "/deploy/qchatgpt/community" }
             ],
           },
           {
             text: "部署消息平台",
             collapsed: true,
-            link: "/deploy/platforms/",
+            // link: "/deploy/platforms/",
             items: [
               {
                 text: "aiocqhttp(推荐)",
                 collapsed: true,
-                link: "/deploy/platforms/aiocqhttp/",
+                // link: "/deploy/platforms/aiocqhttp/",
                 items: [
                   {
                     text: "Lagrange",
@@ -125,7 +126,7 @@ export default defineConfig({
       },
       {
         text: "开发",
-        collapsed: true,
+        // collapsed: true,
         items: [
           { text: "技术信息", link: "/develop/tech-info" },
           { text: "插件介绍", link: "/develop/plugin-intro" },
@@ -134,16 +135,16 @@ export default defineConfig({
           { text: "API参考", link: "/develop/api-ref" },
         ],
       },
-      {
-        text: "规模化和商用",
-        collapsed: true,
-        link: "/tob/",
-        items: [
-          { text: "消息平台误导性", link: "/tob/platform" },
-          { text: "AI内容合规性", link: "/tob/provider" },
-          { text: "咨询方式", link: "/tob/contact" },
-        ],
-      },
+      // {
+      //   text: "规模化和商用",
+      //   // collapsed: true,
+      //   // link: "/tob/",
+      //   items: [
+      //     { text: "消息平台误导性", link: "/tob/platform" },
+      //     { text: "AI内容合规性", link: "/tob/provider" },
+      //     { text: "咨询方式", link: "/tob/contact" },
+      //   ],
+      // },
     ],
 
     // 编辑链接
