@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 查看文档
-      link: /insight/intro
+      link: /insight/guide
     - theme: alt
       text: 代码仓库
       link: https://github.com/RockChinQ/QChatGPT
