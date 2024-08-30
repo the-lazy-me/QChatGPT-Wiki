@@ -1,6 +1,6 @@
 # 填写配置信息
 
-修改以下配置文件即可启用 QChatGPT 的基本功能，当你阅读完此页面后，建议查看[配置详解](../config/)，以了解更多的配置项详解
+修改以下配置文件即可启用 QChatGPT 的基本功能，当你阅读完此页面后，建议查看[配置详解](../../config/function/platform.md)，以了解更多的配置项详解
 
 - `data/config/platform.json`
 - `data/config/provider.json`
