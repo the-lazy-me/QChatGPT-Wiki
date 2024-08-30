@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "QChatGPT"
   image:
-    src: /assets/image/chrome-512.png
+    src: /chrome-512.png
     alt: QChatGPT-logo
   text: ""
   tagline: "😎高稳定性、🧩支持插件、🦄多模态的 LLM QQ / QQ频道 / OneBot 机器人 / Agent 平台"

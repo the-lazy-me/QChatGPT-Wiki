@@ -7,7 +7,7 @@ export default defineConfig({
     "😎高稳定性、🧩支持插件、🦄多模态的 LLM QQ / QQ频道 / OneBot 机器人 / Agent 平台",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "/assets/image/chrome-192.png",
+    logo: "/chrome-192.png",
 
     nav: [
       { text: "首页", link: "/" },
