@@ -1,6 +1,6 @@
 # [QChatGPT](https://github.com/RockChinQ/QChatGPT) 官方文档
 
-> 此分支是 QChatGPT 3.x 的文档  
+> 此仓库是 QChatGPT 的文档仓库，代码仓库：  
 > [QChatGPT 代码仓库](https://github.com/RockChinQ/QChatGPT)  
 
 ## 参与编写

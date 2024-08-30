@@ -1,6 +1,6 @@
 # 组件扩展
 
-> 请先阅读[插件介绍页](../plugin/intro.md)  
+> 请先阅读[插件介绍页](./plugin-intro.md)  
 
 :::info 目录
 [[toc]]
