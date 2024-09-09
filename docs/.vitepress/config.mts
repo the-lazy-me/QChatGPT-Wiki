@@ -109,7 +109,7 @@ export default defineConfig({
             items: [
               {
                 text: "敏感词sensitive-words.json",
-                link: "/config/metadata/adapter-qq-botpy",
+                link: "/config/metadata/sensitive-words",
               },
               {
                 text: "模型列表llm-models.json",
@@ -117,7 +117,7 @@ export default defineConfig({
               },
               {
                 text: "qq-botpy ID 映射 adapter-qq-botpy.json",
-                link: "/config/metadata/sensitive-words",
+                link: "/config/metadata/adapter-qq-botpy",
               },
             ],
           },
