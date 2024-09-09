@@ -23,6 +23,10 @@
 
 ![](/assets/image/error_q5.png)
 
+3. 检查 provider 的地址是否正确（末尾加了 /v1 吗？）
+
+![](/assets/image/error_q6.png)
+
 ## Q4：插件安装失败？
 
 尝试在主机上开启网络代理，Linux 需要设置环境变量 http_proxy 和 https_proxy。
