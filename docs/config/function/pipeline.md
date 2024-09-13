@@ -41,13 +41,13 @@
 },
 ```
 
-`at`：`true`或`false`，设置@响应
+`at`：`true`或`false`，为true时，所有at机器人的消息都会被响应
 
-`prefix`：设置响应前缀
+`prefix`：设置响应前缀，带有指定前缀的消息即使没有at机器人也会被响应
 
-`regexp`：正则匹配
+`regexp`：正则匹配，[正则表达式教程](https://www.runoob.com/regexp/regexp-syntax.html)
 
-`random`：随机匹配，为1时所有消息都响应
+`random`：随机匹配概率，数值范围是0.0-1.0，对应概率0%-100%，为1.0时所有消息都响应
 
 你可以为单个群聊设置特定的响应规则，例如
 
