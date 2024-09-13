@@ -45,11 +45,11 @@
 
 `prefix`：设置响应前缀，带有指定前缀的消息即使没有at机器人也会被响应，发送给AI时会删除前缀。例如：
 
-    ```json
-    "prefix": ["/ai", "!ai", "！ai", "ai"]
+```json
+"prefix": ["/ai", "!ai", "！ai", "ai"]
 
-    此时，消息"ai 你好"就会被响应，发送给AI时会删除前缀"ai"，即"你好"
-    ```
+此时，消息"ai 你好"就会被响应，发送给AI时会删除前缀"ai"，即"你好"
+```
 
 `regexp`：正则匹配，[正则表达式教程](https://www.runoob.com/regexp/regexp-syntax.html)
 
