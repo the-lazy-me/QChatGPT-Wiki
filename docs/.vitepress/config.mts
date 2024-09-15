@@ -32,7 +32,7 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: "手动部署", link: "/deploy/qchatgpt/manual" },
-              { text: "Dokcer部署", link: "/deploy/qchatgpt/docker" },
+              { text: "Docker部署", link: "/deploy/qchatgpt/docker" },
               { text: "社区资源", link: "/deploy/qchatgpt/community" }
             ],
           },
