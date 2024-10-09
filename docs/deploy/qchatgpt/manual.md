@@ -7,32 +7,46 @@
 
 ## 安装主程序
 
-1. 克隆此项目（按照下方命令，需要安装 Git） 或 前往[Release](https://github.com/RockChinQ/QChatGPT/releases)页面下载最新版本的压缩包（推荐）并解压
+1. 前往[Release](https://github.com/RockChinQ/QChatGPT/releases)页面下载最新版本的压缩包（推荐）并解压，在解压目录打开命令行（终端）
+
+![下载Release](/assets/image/dl_release.png)
+
+:::info
+
+您也可以使用以下命令克隆最新代码（有可能包含不稳定的代码）并使用：
 
 ```bash
 git clone https://github.com/RockChinQ/QChatGPT
 cd QChatGPT
 ```
+:::
 
-2. 安装依赖
+2. （建议）创建虚拟环境
+
+在一些使用系统包管理器管理 Python 依赖的 Linux 系统上，可能会出现依赖冲突，故请使用 venv 创建虚拟环境。Windows 用户可以跳过此步骤。
 
 ```bash
-pip3 install -r requirements.txt
+python -m venv venv
+source venv/bin/activate
+```
+
+3. 安装依赖
+
+```bash
+pip install -r requirements.txt
 ```
 
 或者使用清华源
 
 ```bash
-pip3 install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple 
 ```
 
 3. 运行一次主程序，生成配置文件
 
 ```bash
-python3 main.py
+python main.py
 ```
-
-> 如果输入上面的指令无反应，并且你确认你已经装了python，则可以尝试使用`python main.py`，总之`python`是你启动的python的命令，可以使用 `python --version` 查看你的python版本。下同。
 
 提示如下信息
 
@@ -58,9 +72,9 @@ python3 main.py
 - data/scenario/default.json
 ```
 
-接下来请查看[部署消息平台](/deploy/platforms/aiocqhttp/lagrange.html)页。
+接下来可以使用 Ctrl+C 退出程序，继续查看[部署消息平台](/deploy/platforms/aiocqhttp/lagrange.html)页。
 
 当你部署消息平台和填写配置文件后，再次运行
 ```bash
-python3 main.py
+python main.py
 ```
