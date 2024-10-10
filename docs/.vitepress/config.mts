@@ -87,6 +87,9 @@ export default defineConfig({
           { text: "命令用法", link: "/usage/command" },
           { text: "插件列表", link: "/usage/plugin-list" },
           { text: "常见问题", link: "/usage/faq" },
+          { text: "实践案例", collapsed: true, items: [
+            { text: "如何在 QChatGPT 上接入 Dify？", link: "/usage/practice/dify-integration" },
+          ] },
         ],
       },
       {
