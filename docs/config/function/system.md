@@ -20,6 +20,11 @@
 "admin-sessions": ["group_123456789", "person_123456789"],
 ```
 
+::: info
+1. 如果你使用的是 QQ 官方的 API，session id 为映射之后的值，具体可以查看 [qq-botpy 元数据](https://qchatgpt.rockchin.top/config/metadata/adapter-qq-botpy.html)，或者查看程序处理消息时的控制台输出。
+2. 如果 session 指定了一个群，那么群内所有人的所有消息都会被认为是管理员消息。
+:::
+
 ## 网络代理 network-proxies
 
 ```json
