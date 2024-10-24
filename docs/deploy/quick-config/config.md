@@ -163,7 +163,7 @@
 
 ## system.json
 
-在 `data/system.json` 中修改 `admin-sessions`，添加 `person_你的QQ号` 把你设置为管理员，例如：
+在 `data/system.json` 中修改 `admin-sessions`，添加 `person_你的QQ号` 把你与机器人的会话设置为管理员（仅 person 会话私聊有效），例如：
 
 ```json
     "admin-sessions": [
