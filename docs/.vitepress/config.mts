@@ -87,9 +87,6 @@ export default defineConfig({
           { text: "命令用法", link: "/usage/command" },
           { text: "插件列表", link: "/usage/plugin-list" },
           { text: "常见问题", link: "/usage/faq" },
-          { text: "实践案例", collapsed: true, items: [
-            { text: "如何在 QChatGPT 上接入 Dify？", link: "/usage/practice/dify-integration" },
-          ] },
         ],
       },
       {
@@ -147,6 +144,12 @@ export default defineConfig({
       //     { text: "咨询方式", link: "/tob/contact" },
       //   ],
       // },
+
+      { text: "实践", items: [
+          { text: "如何在 QChatGPT 上接入 Dify？", link: "/workshop/dify-integration" },
+          { text: "如何接入 OneAPI、LinkAI 等第三方 OpenAI 格式接口？", link: "/workshop/one-api" },
+        ]
+      },
     ],
 
     // 编辑链接

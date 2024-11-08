@@ -1,4 +1,4 @@
-# 在 QChatGPT 上接入 Dify
+# 在 QChatGPT 上接入 Dify（NewAPI 中转方案）
 
 ::: info 
 本文由社区贡献者编写。
