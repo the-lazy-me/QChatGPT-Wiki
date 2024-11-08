@@ -13,7 +13,7 @@ export default defineConfig({
       { text: "首页", link: "/" },
       { text: "概述", link: "/insight/guide" },
       { text: "部署", link: "/deploy/qchatgpt/manual" },
-      { text: "开发", link: "/develop/plugin-intro" },
+      { text: "插件", link: "/plugin/plugin-intro" },
     ],
 
     sidebar: [
