@@ -124,14 +124,14 @@ export default defineConfig({
         ],
       },
       {
-        text: "开发",
+        text: "插件",
         // collapsed: true,
         items: [
-          { text: "插件介绍", link: "/develop/plugin-intro" },
-          { text: "插件开发", link: "/develop/plugin-dev" },
-          { text: "组件拓展", link: "/develop/extension" },
-          { text: "API参考", link: "/develop/api-ref" },
-          { text: "技术信息", link: "/develop/tech-info" },
+          { text: "插件介绍", link: "/plugin/plugin-intro" },
+          { text: "插件开发", link: "/plugin/plugin-dev" },
+          { text: "组件拓展", link: "/plugin/extension" },
+          { text: "API参考", link: "/plugin/api-ref" },
+          { text: "技术信息", link: "/plugin/tech-info" },
         ],
       },
       // {

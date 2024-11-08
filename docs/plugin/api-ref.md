@@ -28,6 +28,8 @@ ctx.send_message(target_type: str, target_id: str, message_chain: mirai.MessageC
 - `target_id`：目标 ID（QQ 号或群号）
 - `message_chain`：[YiriMirai 的 MessageChain 对象](https://yiri-mirai.wybxc.cc/docs/basic/message-chain)，若用户使用的不是 YiriMirai 适配器，程序也能自动转换为目标消息链
 
+## 事件处理
+
 ### 阻止事件默认行为
 
 ```python
@@ -50,4 +52,4 @@ ctx.prevent_postorder()
 ctx.add_return(name: str, value: Any)
 ```
 
-添加返回值，返回值可在事件监听器中通过`ctx.returns[name]`访问。事件返回值均为**可选**的，每个事件支持的返回值请查看`pkg.plugin.events`中的每个事件的注释。
+添加返回值，事件返回值均为**可选**的，每个事件支持的返回值请查看`pkg.plugin.events`中的每个事件的注释。
