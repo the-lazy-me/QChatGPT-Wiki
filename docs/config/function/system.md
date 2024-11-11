@@ -27,6 +27,11 @@
 
 ## 网络代理 network-proxies
 
+::: info
+建议通过环境变量设置代理，配置文件的设置**会覆盖环境变量**  
+环境变量设置：`http_proxy` 和 `https_proxy`
+:::
+
 ```json
 "network-proxies": {
     "http": null,
@@ -42,8 +47,6 @@
     "https": "http://127.0.0.1:7890"
 },
 ```
-
-正向代理也可以用环境变量设置：http_proxy 和 https_proxy
 
 ## 上报遥测数据 report-usage
 
