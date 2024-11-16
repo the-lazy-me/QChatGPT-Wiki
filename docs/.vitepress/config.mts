@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "LangBot 文档",
   description:
-    "😎高稳定性、🧩支持插件、🦄多模态的 LLM QQ / QQ频道 / OneBot 机器人 / Agent 平台",
+    "原名 QChatGPT；😎高稳定、🧩支持插件、🦄多模态的 LLM QQ / QQ频道 / OneBot 机器人 / Agent 平台",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/langbot-logo-0.5x.png",
