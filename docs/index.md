@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "QChatGPT"
+  name: "LangBot"
   image:
     src: /langbot-logo-block.png
     alt: LangBot-logo
@@ -15,7 +15,7 @@ hero:
       link: /insight/guide
     - theme: alt
       text: 代码仓库
-      link: https://github.com/RockChinQ/QChatGPT
+      link: https://github.com/RockChinQ/LangBot
 
 features:
     - title: 丰富生态

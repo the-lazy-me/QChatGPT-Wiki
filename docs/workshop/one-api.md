@@ -1,12 +1,12 @@
-# 在 QChatGPT 上接入 OneAPI、LinkAI 等第三方 OpenAI 格式接口
+# 在 LangBot 上接入 OneAPI、LinkAI 等第三方 OpenAI 格式接口
 
 ::: info 
 转载自：[https://rockchin.top/?p=295](https://rockchin.top/?p=295)
 :::
 
-自从 OneAPI 流行之后，各种“牛鬼蛇神”模型都能以 OpenAI 的格式访问了，还有中转站也开始流行，OpenAI 的格式也成为了 AI App 平台等各种 AI 工具的访问格式，本文介绍如何将上述的支持 OpenAI 格式的接口接入 QChatGPT。
+自从 OneAPI 流行之后，各种“牛鬼蛇神”模型都能以 OpenAI 的格式访问了，还有中转站也开始流行，OpenAI 的格式也成为了 AI App 平台等各种 AI 工具的访问格式，本文介绍如何将上述的支持 OpenAI 格式的接口接入 LangBot。
 
-首先我们先按照 QChatGPT 的文档，部署好 消息平台、QChatGPT 主程序，并将其连接上，进行到 provider.json 配置这一步时，看此文档。
+首先我们先按照 LangBot 的文档，部署好 消息平台、LangBot 主程序，并将其连接上，进行到 provider.json 配置这一步时，看此文档。
 
 以下我们不再区分 LinkAI、OneAPI、中转站，统一以 OneAPI接口 代指 第三方OpenAI接口。
 
@@ -30,23 +30,23 @@
 
 其他的中转站请看其文档或咨询负责人。
 
-## 填写到 QChatGPT 配置文件
+## 填写到 LangBot 配置文件
 
 修改 data/config/provider.json 中的 provider 配置，使用 openai-chat-completions 请求器：
 
-![填写到 QChatGPT 配置文件](/assets/image/one-api-03.png)
+![填写到 LangBot 配置文件](/assets/image/one-api-03.png)
 
 把你刚刚的地址填写到图中显示位置的 base-url 中，本例是我的 OneAPI 站（自用）。
 
 接着把你刚刚的密钥填写到 keys 的 openai 组中：
 
-![填写到 QChatGPT 配置文件](/assets/image/one-api-04.png)
+![填写到 LangBot 配置文件](/assets/image/one-api-04.png)
 
 请注意符合 JSON 语法。
 
 最后配置所使用的模型，填写你 OneAPI 上提供的模型名称。
 
-![填写到 QChatGPT 配置文件](/assets/image/one-api-05.png)
+![填写到 LangBot 配置文件](/assets/image/one-api-05.png)
 
 
 注意，可用的模型名称已经预设了一些在 data/metadata/llm-models.json 元数据里，如果你使用的模型没有相应的元数据，需要自己添加。

@@ -1,4 +1,4 @@
-# QChatGPT的常见问题
+# LangBot 常见问题
 
 ## Q：官方机器人 IP 白名单怎么填？
 

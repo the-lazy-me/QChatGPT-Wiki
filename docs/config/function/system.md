@@ -21,7 +21,7 @@
 ```
 
 ::: info
-1. 如果你使用的是 QQ 官方的 API，session id 为映射之后的值，具体可以查看 [qq-botpy 元数据](https://qchatgpt.rockchin.top/config/metadata/adapter-qq-botpy.html)，或者查看程序处理消息时的控制台输出。
+1. 如果你使用的是 QQ 官方的 API，session id 为映射之后的值，具体可以查看 [qq-botpy 元数据](https://docs.langbot.app/config/metadata/adapter-qq-botpy.html)，或者查看程序处理消息时的控制台输出。
 2. 如果 session 指定了一个群，那么群内所有人的所有消息都会被认为是管理员消息。
 :::
 
@@ -84,7 +84,7 @@
 
 ## 遥测服务器url qcg-center-url
 
-QChatGPT 运行期间推送遥测数据的目标地址，默认为官方地址，若您自己部署了[qcg-center](https://github.com/RockChinQ/qcg-center)，可以改为你的地址。
+LangBot 运行期间推送遥测数据的目标地址，默认为官方地址，若您自己部署了[qcg-center](https://github.com/RockChinQ/qcg-center)，可以改为你的地址。
 
 ```json
 "qcg-center-url": "https://api.qchatgpt.rockchin.top/api/v2"
@@ -93,7 +93,7 @@ QChatGPT 运行期间推送遥测数据的目标地址，默认为官方地址�
 ## 帮助消息 help-message
 
 ```json
-"help-message": "QChatGPT - 😎高稳定性、🧩支持插件、🦄多模态的 ChatGPT QQ 机器人🤖\n链接：https://q.rkcn.top"
+"help-message": "LangBot - 😎高稳定性、🧩支持插件、🦄多模态的 ChatGPT QQ 机器人🤖\n链接：https://langbot.app"
 ```
 
 `help-message`：帮助消息，用户发送 !help 命令时的输出

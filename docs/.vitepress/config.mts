@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "QChatGPT 文档",
+  title: "LangBot 文档",
   description:
     "😎高稳定性、🧩支持插件、🦄多模态的 LLM QQ / QQ频道 / OneBot 机器人 / Agent 平台",
   themeConfig: {
@@ -12,7 +12,7 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "概述", link: "/insight/guide" },
-      { text: "部署", link: "/deploy/qchatgpt/manual" },
+      { text: "部署", link: "/deploy/langbot/manual" },
       { text: "插件", link: "/plugin/plugin-intro" },
     ],
 
@@ -28,12 +28,12 @@ export default defineConfig({
         text: "部署",
         items: [
           {
-            text: "部署 QChatGPT",
+            text: "部署 LangBot",
             collapsed: true,
             items: [
-              { text: "手动部署", link: "/deploy/qchatgpt/manual" },
-              { text: "Docker部署", link: "/deploy/qchatgpt/docker" },
-              { text: "社区资源", link: "/deploy/qchatgpt/community" }
+              { text: "手动部署", link: "/deploy/langbot/manual" },
+              { text: "Docker部署", link: "/deploy/langbot/docker" },
+              { text: "社区资源", link: "/deploy/langbot/community" }
             ],
           },
           {
@@ -146,7 +146,7 @@ export default defineConfig({
       // },
 
       { text: "实践", items: [
-          { text: "如何在 QChatGPT 上接入 Dify？", link: "/workshop/dify-integration" },
+          { text: "如何在 LangBot 上接入 Dify？", link: "/workshop/dify-integration" },
           { text: "如何接入 OneAPI、LinkAI 等第三方 OpenAI 格式接口？", link: "/workshop/one-api" },
         ]
       },

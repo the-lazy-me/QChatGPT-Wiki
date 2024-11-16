@@ -1,18 +1,18 @@
-# 在 QChatGPT 上接入 Dify（NewAPI 中转方案）
+# 在 LangBot 上接入 Dify（NewAPI 中转方案）
 
 ::: info 
 本文由社区贡献者编写。
 :::
 
-[Dify](https://dify.ai/) 是一个开源的 AI 应用开发平台，支持多种 AI 模型和丰富的插件，用于快速搭建 AI Agent、Workflow 等应用。通过中间件，我们可以在 QChatGPT 上使用 Dify 功能。
+[Dify](https://dify.ai/) 是一个开源的 AI 应用开发平台，支持多种 AI 模型和丰富的插件，用于快速搭建 AI Agent、Workflow 等应用。通过中间件，我们可以在 LangBot 上使用 Dify 功能。
 
 ::: warning 
-本教程使用的为 Linux 系统且已配置好 QChatGPT 的消息平台为前提，如您完全没有听说过 Linux 或者没有听说过 Debian 请不要使用此教程。如 QChatGPT 没部署，请先配置好 QChatGPT 再来参考此教程。
+本教程使用的为 Linux 系统且已配置好 LangBot 的消息平台为前提，如您完全没有听说过 Linux 或者没有听说过 Debian 请不要使用此教程。如 LangBot 没部署，请先配置好 LangBot 再来参考此教程。
 :::
 
 ## 安装并配置 Docker
 
-Dify 推荐使用 Docker 安装，如果你已经使用 Docker 启动 QChatGPT，那么你可以跳过此步骤。
+Dify 推荐使用 Docker 安装，如果你已经使用 Docker 启动 LangBot，那么你可以跳过此步骤。
 
 ```bash
 # Debian使用：
@@ -227,10 +227,10 @@ http://你的服务器地址:3000/
 
 new-api基本配置完成其余内容自行根据需要配置。
 
-## 配置 QChatGPT
+## 配置 LangBot
 
 使用 OpenAI provider，将 NewAPI 的 地址作为 API 地址，将 NewAPI 的 key 作为 API Key。
 
-![QChatGPT 修改 key](/assets/image/dify_14.png)
+![LangBot 修改 key](/assets/image/dify_14.png)
 
-重启 QChatGPT 项目，接入 dify 已完成。
+重启 LangBot 项目，接入 dify 已完成。

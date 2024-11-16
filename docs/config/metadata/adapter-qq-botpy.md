@@ -1,6 +1,6 @@
 # adapter-qq-botpy.json 元数据
 
-`data/metadata/adapter-qq-botpy.json`，QQ 官方 API 适配器元数据。官方 API 在使用群聊接口时，群id和成员id为字符串，而 QChatGPT 内部只支持整型 id，为使重启后仍然是相同的对应关系，因此需要保存到一个文件中。
+`data/metadata/adapter-qq-botpy.json`，QQ 官方 API 适配器元数据。官方 API 在使用群聊接口时，群id和成员id为字符串，而 LangBot 内部只支持整型 id，为使重启后仍然是相同的对应关系，因此需要保存到一个文件中。
 
 ## 格式
 

@@ -1,6 +1,6 @@
 # 填写配置信息
 
-修改以下配置文件即可启用 QChatGPT 的基本功能，当你阅读完此页面后，建议查看[配置详解](../../config/function/platform.md)，以了解更多的配置项详解
+修改以下配置文件即可启用 LangBot 的基本功能，当你阅读完此页面后，建议查看[配置详解](../../config/function/platform.md)，以了解更多的配置项详解
 
 - `data/config/platform.json`
 - `data/config/provider.json`
@@ -21,7 +21,7 @@
     "adapter": "aiocqhttp",
     "enable": false,
     "host": "0.0.0.0",
-    "port": 8080,
+    "port": 2280,
     "access-token": ""
 },
 ```
@@ -30,11 +30,11 @@
 
 `enable`：是否启用，配置完成后请将其设为`true`
 
-`host`：监听的 IP 地址，一般就保持 0.0.0.0 就可以了。使用 aiocqhttp 时，QChatGPT 作为服务端被动等待框架连接，请在 Shamrock 等框架中设置`被动 ws 地址`或者`反向 ws 地址`（具体视框架而定）为 QChatGPT 监听的地址，且路径为`/ws`，例如：`ws://127.0.0.1:8080/ws`。
+`host`：监听的 IP 地址，一般就保持 0.0.0.0 就可以了。使用 aiocqhttp 时，LangBot 作为服务端被动等待框架连接，请在 Shamrock 等框架中设置`被动 ws 地址`或者`反向 ws 地址`（具体视框架而定）为 LangBot 监听的地址，且路径为`/ws`，例如：`ws://127.0.0.1:2280/ws`。
 
-`port`：设置监听的端口，默认8080，需在 Shamrock 等框架中设置为与此处一致的端口
+`port`：设置监听的端口，默认2280，需在 Napcat 等框架中设置为与此处一致的端口
 
-`access-token`：设置访问密钥，与 Shamrock 等框架中设置的保持一致
+`access-token`：设置访问密钥，与 Napcat 等框架中设置的保持一致
 
 ### qq-botpy 适配器
 
@@ -173,6 +173,6 @@
 
 ::: tip 
 
-阅读并完成以上教程后，请根据你部署 QChatGPT 的方式重启，你应该可以成功使用QChatGPT了，如果不能请再次阅读（你或许漏做或错做某些步骤），如果完全阅读并充分理解本文档后仍然确实无法使用，你可以在[这里](/deploy/qchatgpt/community.html)找到交流群。
+阅读并完成以上教程后，请根据你部署 LangBot 的方式重启，你应该可以成功使用了，如果不能请再次阅读（你或许漏做或错做某些步骤），如果完全阅读并充分理解本文档后仍然确实无法使用，你可以在[这里](/deploy/langbot/community.html)找到交流群。
 
 :::
