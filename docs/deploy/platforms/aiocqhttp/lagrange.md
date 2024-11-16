@@ -49,5 +49,6 @@ Lagrange 是一个 QQNT 协议逆向工程框架，比 Shamrock 或 Mirai 更加
 ![配置连接](/assets/image/config_lgr.png)
 
 其中 Type 必须为 `ReverseWebSocket`;  
-Host 为 LangBot 运行的主机 IP，若在同一主机上，可以写 `127.0.0.1`;  
-Suffix 必须为 `/ws`
+Host 为 LangBot 运行的主机 IP，若在同一主机上，可以写 `127.0.0.1`；   
+Suffix 必须为 `/ws`；  
+Port 必须与 LangBot 消息平台配置中的 aiocqhttp 适配器监听的端口相同。

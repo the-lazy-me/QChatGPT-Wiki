@@ -131,7 +131,7 @@ export default defineConfig({
           { text: "插件开发", link: "/plugin/plugin-dev" },
           { text: "组件拓展", link: "/plugin/extension" },
           { text: "API参考", link: "/plugin/api-ref" },
-          { text: "技术信息", link: "/plugin/tech-info" },
+          // { text: "技术信息", link: "/plugin/tech-info" },
         ],
       },
       {

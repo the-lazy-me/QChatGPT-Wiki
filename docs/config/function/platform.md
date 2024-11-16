@@ -11,14 +11,6 @@
 ```json
 "platform-adapters": [
     {
-        "adapter": "yiri-mirai",
-        "enable": false,
-        "host": "127.0.0.1",
-        "port": 8080,
-        "verifyKey": "yirimirai",
-        "qq": 123456789
-    },
-    {
         "adapter": "nakuru",
         "enable": false,
         "host": "127.0.0.1",
@@ -30,7 +22,7 @@
         "adapter": "aiocqhttp",
         "enable": false,
         "host": "0.0.0.0",
-        "port": 8080,
+        "port": 2280,
         "access-token": "",
     },
     {
@@ -46,7 +38,7 @@
 ],
 ```
 
-目前支持 `mirai`、`go-cqhttp`、`aiocqhttp`、`qq-botpy` 四种消息平台适配器，也可以同时启用多个同种类或不同种类的平台适配器。  
+目前支持 `go-cqhttp`、`aiocqhttp`、`qq-botpy` 四种消息平台适配器，也可以同时启用多个同种类或不同种类的平台适配器。  
 各个消息平台的配置方式请查看部署文档。
 
 ### 多开示例
@@ -54,12 +46,11 @@
 ```json
 "platform-adapters": [
     {
-        "adapter": "yiri-mirai",
-        "enable": true,
-        "host": "127.0.0.1",
-        "port": 8080,
-        "verifyKey": "yirimirai",
-        "qq": 123456789
+        "adapter": "aiocqhttp",
+        "enable": false,
+        "host": "0.0.0.0",
+        "port": 2280,
+        "access-token": "",
     },
     {
         "adapter": "nakuru",
