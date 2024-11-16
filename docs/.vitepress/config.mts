@@ -128,9 +128,15 @@ export default defineConfig({
         // collapsed: true,
         items: [
           { text: "插件介绍", link: "/plugin/plugin-intro" },
-          { text: "插件开发", link: "/plugin/plugin-dev" },
-          { text: "组件拓展", link: "/plugin/extension" },
-          { text: "API参考", link: "/plugin/api-ref" },
+          {
+            text: "插件开发",
+            collapsed: true,
+            items: [
+              { text: "基础教程", link: "/plugin/dev/tutor" },
+              { text: "组件扩展", link: "/plugin/dev/extension" },
+              { text: "API 参考", link: "/plugin/dev/api-ref" },
+            ]
+          },
           // { text: "技术信息", link: "/plugin/tech-info" },
         ],
       },
@@ -153,7 +159,8 @@ export default defineConfig({
       //   ],
       // },
 
-      { text: "实践", items: [
+      {
+        text: "实践", items: [
           { text: "如何在 LangBot 上接入 Dify？", link: "/workshop/dify-integration" },
           { text: "如何接入 OneAPI、LinkAI 等第三方 OpenAI 格式接口？", link: "/workshop/one-api" },
         ]
