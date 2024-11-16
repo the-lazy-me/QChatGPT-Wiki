@@ -131,7 +131,7 @@ default-middlewares: &default
 
 ![获取token](/assets/image/get_gocq_login_token.png)
 
-ticket 后那一坨就是要输入回 mirai 的内容，但不包括首尾的双引号
+ticket 后那一坨就是要输入回 go-cqhttp 的内容，但不包括首尾的双引号
 
 **注意**
 

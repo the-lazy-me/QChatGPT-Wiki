@@ -64,10 +64,10 @@ export default defineConfig({
                   },
                 ],
               },
-              {
-                text: "mirai",
-                link: "/deploy/platforms/mirai",
-              },
+              // {
+              //   text: "mirai",
+              //   link: "/deploy/platforms/mirai",
+              // },
               {
                 text: "go-cqhttp",
                 link: "/deploy/platforms/gocq",

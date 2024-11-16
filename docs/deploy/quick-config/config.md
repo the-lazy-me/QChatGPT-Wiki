@@ -9,7 +9,7 @@
 ## platform.json
 
 修改此配置文件以指定需要连接的消息平台，只需要关注`platform-adapters`字段。
-目前支持 `mirai`、`go-cqhttp`、`aiocqhttp`、`qq-botpy` 四种消息平台适配器，也可以同时启用多个同种类或不同种类的平台适配器。  
+目前支持 `go-cqhttp`、`aiocqhttp`、`qq-botpy` 消息平台适配器，也可以同时启用多个同种类或不同种类的平台适配器。  
 请根据你部署的消息平台的情况选择填写。
 
 ### aiocqhttp 适配器
@@ -67,33 +67,6 @@
 - `public_guild_messages` QQ 频道消息
 - `direct_message` QQ 频道私聊消息
 - `public_messages` Q群 和 列表私聊消息
-
-### YiriMirai 适配器
-
-用于接入 Mirai。
-
-```json
-{
-    "adapter": "yiri-mirai",
-    "enable": false,
-    "host": "127.0.0.1",
-    "port": 8080,
-    "verifyKey": "yirimirai",
-    "qq": 123456789
-},
-```
-
-`"adapter": "yiri-mirai"`，无需改动。
-
-`enable`：是否启用，配置完成后请将其设为`true`
-
-`host`：运行 mirai 的主机地址，一般不改动
-
-`port`：设置端口，默认8080，与`mirai-api-http`里面设置的保持一致
-
-`verifyKey`：密钥，默认yirimirai，与`mirai-api-http`里面设置的保持一致
-
-`qq`：设置机器人QQ号，与当前mirai登录的机器人的QQ号保持一致
 
 ### Nakuru 适配器
 

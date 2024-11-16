@@ -2,7 +2,7 @@
 
 ## Lagrange介绍
 
-Lagrange 是一个 QQNT 协议逆向工程框架，比 Shamrock 或 Mirai 更加轻便，在目前也较为稳定。通过 OneBot 11 协议接入，需选择使用`aiocqhttp`作为适配器，填写配置时可参考 Shamrock 的方式。
+Lagrange 是一个 QQNT 协议逆向工程框架，轻便且相对稳定。通过 OneBot 11 协议接入，需选择使用`aiocqhttp`作为适配器。
 
 ::: warning
 需要使用 NT QQ 与机器人交互，旧版QQ无法正常使用

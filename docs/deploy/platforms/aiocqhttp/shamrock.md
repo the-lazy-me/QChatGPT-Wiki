@@ -10,7 +10,7 @@
 
 ## OpenShamrock简介
 
-Mirai、go-cqhttp 之类的是模拟 QQ 的协议进行通信，而 Shamrock 使用的是 安卓的 Hook 来操作 QQ 模拟点击，稳定性较高。
+go-cqhttp 之类的是模拟 QQ 的协议进行通信，而 Shamrock 使用的是 安卓的 Hook 来操作 QQ 模拟点击，稳定性较高。
 
 可选平台(or设备)：
 
