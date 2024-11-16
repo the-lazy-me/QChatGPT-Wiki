@@ -1,7 +1,7 @@
-# [QChatGPT](https://github.com/RockChinQ/QChatGPT) 官方文档
+# [LangBot](https://github.com/RockChinQ/LangBot) 官方文档
 
-> 此仓库是 QChatGPT 的文档仓库，代码仓库：  
-> [QChatGPT 代码仓库](https://github.com/RockChinQ/QChatGPT)  
+> 此仓库是 LangBot 的文档仓库，代码仓库：  
+> [LangBot 代码仓库](https://github.com/RockChinQ/LangBot)  
 
 ## 参与编写
 
