@@ -134,6 +134,14 @@ export default defineConfig({
           { text: "技术信息", link: "/plugin/tech-info" },
         ],
       },
+      {
+        text: "管理面板（Beta测试）",
+        items: [
+          { text: "介绍 & 使用", link: "/webui/intro" },
+          { text: "系统操作", link: "/webui/system" },
+          { text: "设置项管理", link: "/webui/settings" },
+        ]
+      },
       // {
       //   text: "规模化和商用",
       //   // collapsed: true,
