@@ -22,6 +22,7 @@ export default defineConfig({
         items: [
           { text: "新手指引（必看）", link: "/insight/guide" },
           { text: "项目介绍", link: "/insight/intro" },
+          { text: "社区资源", link: "/insight/community" },
         ],
       },
       {
@@ -33,7 +34,6 @@ export default defineConfig({
             items: [
               { text: "手动部署", link: "/deploy/langbot/manual" },
               { text: "Docker部署", link: "/deploy/langbot/docker" },
-              { text: "社区资源", link: "/deploy/langbot/community" }
             ],
           },
           {
@@ -133,6 +133,7 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: "基础教程", link: "/plugin/dev/tutor" },
+              { text: "消息平台实体", link: "/plugin/dev/messages" },
               { text: "组件扩展", link: "/plugin/dev/extension" },
               { text: "API 参考", link: "/plugin/dev/api-ref" },
             ]
