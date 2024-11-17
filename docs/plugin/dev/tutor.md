@@ -208,7 +208,7 @@ async def access_web(self, query, url: str):
 
 若一个事件是一次请求（用户发送消息）中的事件，其事件对象中会含有`query`对象，这个对象中包含了此次请求（即用户发送一条消息的处理过程，一个请求过程可能会触发多个事件）处理过程中的上下文数据。  
 所有支持的事件，请查看`pkg.plugin.events`文件中的每个事件类的注释。  
-关于`YiriMirai`支持的消息链组件，请查看 [YiriMirai的文档](https://yiri-mirai.wybxc.cc/docs/basic/message-chain)
+关于`消息链组件`，请查看 [消息平台实体](./messages)
 
 ### BasePlugin 结构
 
@@ -219,3 +219,7 @@ async def access_web(self, query, url: str):
 #### self.host
 
 在插件的方法中访问`self.host`即为`pkg.plugin.context.APIHost`类的对象，提供了主程序的一些API，详细请查看其源码。
+
+### API 参考
+
+关于插件可以调用的 API，请查看 [API 参考](./api-ref)

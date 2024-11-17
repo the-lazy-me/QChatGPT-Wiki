@@ -134,8 +134,8 @@ export default defineConfig({
             items: [
               { text: "基础教程", link: "/plugin/dev/tutor" },
               { text: "消息平台实体", link: "/plugin/dev/messages" },
-              { text: "组件扩展", link: "/plugin/dev/extension" },
               { text: "API 参考", link: "/plugin/dev/api-ref" },
+              { text: "组件扩展", link: "/plugin/dev/extension" },
             ]
           },
           // { text: "技术信息", link: "/plugin/tech-info" },
