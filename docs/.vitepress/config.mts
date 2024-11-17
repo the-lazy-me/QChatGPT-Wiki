@@ -2,9 +2,9 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "QChatGPT 文档",
+  title: "LangBot 文档",
   description:
-    "😎高稳定性、🧩支持插件、🦄多模态的 LLM QQ / QQ频道 / OneBot 机器人 / Agent 平台",
+    "原名 QChatGPT；😎高稳定、🧩支持插件、🦄多模态的 LLM QQ / QQ频道 / OneBot 机器人 / Agent 平台",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/langbot-logo-0.5x.png",
@@ -12,7 +12,7 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "概述", link: "/insight/guide" },
-      { text: "部署", link: "/deploy/qchatgpt/manual" },
+      { text: "部署", link: "/deploy/langbot/manual" },
       { text: "插件", link: "/plugin/plugin-intro" },
     ],
 
@@ -22,18 +22,18 @@ export default defineConfig({
         items: [
           { text: "新手指引（必看）", link: "/insight/guide" },
           { text: "项目介绍", link: "/insight/intro" },
+          { text: "社区资源", link: "/insight/community" },
         ],
       },
       {
         text: "部署",
         items: [
           {
-            text: "部署 QChatGPT",
+            text: "部署 LangBot",
             collapsed: true,
             items: [
-              { text: "手动部署", link: "/deploy/qchatgpt/manual" },
-              { text: "Docker部署", link: "/deploy/qchatgpt/docker" },
-              { text: "社区资源", link: "/deploy/qchatgpt/community" }
+              { text: "手动部署", link: "/deploy/langbot/manual" },
+              { text: "Docker部署", link: "/deploy/langbot/docker" },
             ],
           },
           {
@@ -64,10 +64,10 @@ export default defineConfig({
                   },
                 ],
               },
-              {
-                text: "mirai",
-                link: "/deploy/platforms/mirai",
-              },
+              // {
+              //   text: "mirai",
+              //   link: "/deploy/platforms/mirai",
+              // },
               {
                 text: "go-cqhttp",
                 link: "/deploy/platforms/gocq",
@@ -128,11 +128,26 @@ export default defineConfig({
         // collapsed: true,
         items: [
           { text: "插件介绍", link: "/plugin/plugin-intro" },
-          { text: "插件开发", link: "/plugin/plugin-dev" },
-          { text: "组件拓展", link: "/plugin/extension" },
-          { text: "API参考", link: "/plugin/api-ref" },
-          { text: "技术信息", link: "/plugin/tech-info" },
+          {
+            text: "插件开发",
+            collapsed: true,
+            items: [
+              { text: "基础教程", link: "/plugin/dev/tutor" },
+              { text: "消息平台实体", link: "/plugin/dev/messages" },
+              { text: "API 参考", link: "/plugin/dev/api-ref" },
+              { text: "组件扩展", link: "/plugin/dev/extension" },
+            ]
+          },
+          // { text: "技术信息", link: "/plugin/tech-info" },
         ],
+      },
+      {
+        text: "管理面板（Beta测试）",
+        items: [
+          { text: "介绍 & 使用", link: "/webui/intro" },
+          { text: "系统操作", link: "/webui/system" },
+          { text: "设置项管理", link: "/webui/settings" },
+        ]
       },
       // {
       //   text: "规模化和商用",
@@ -145,8 +160,9 @@ export default defineConfig({
       //   ],
       // },
 
-      { text: "实践", items: [
-          { text: "如何在 QChatGPT 上接入 Dify？", link: "/workshop/dify-integration" },
+      {
+        text: "实践", items: [
+          { text: "如何在 LangBot 上接入 Dify？", link: "/workshop/dify-integration" },
           { text: "如何接入 OneAPI、LinkAI 等第三方 OpenAI 格式接口？", link: "/workshop/one-api" },
         ]
       },

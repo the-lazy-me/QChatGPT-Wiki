@@ -7,7 +7,7 @@
 
 ## 安装主程序
 
-1. 前往[Release](https://github.com/RockChinQ/QChatGPT/releases)页面下载最新版本的压缩包（推荐）并解压，在解压目录打开命令行（终端）
+1. 前往[Release](https://github.com/RockChinQ/LangBot/releases)页面下载最新版本的压缩包（推荐）`langbot-xxx-all.zip`（请勿下载 Source Code，因为其中不包含 WebUI）。解压，在解压目录打开命令行（终端）
 
 ![下载Release](/assets/image/dl_release.png)
 
@@ -16,8 +16,13 @@
 您也可以使用以下命令克隆最新代码（有可能包含不稳定的代码）并使用：
 
 ```bash
-git clone https://github.com/RockChinQ/QChatGPT
-cd QChatGPT
+git clone https://github.com/RockChinQ/LangBot
+cd LangBot
+
+# 构建前端，需要 NodeJS >= 22
+cd web
+npm install && npm run build
+cd ..
 ```
 :::
 
@@ -51,14 +56,14 @@ python main.py
 提示如下信息
 
 ```
+ _                   ___      _   
+| |   __ _ _ _  __ _| _ ) ___| |_ 
+| |__/ _` | ' \/ _` | _ \/ _ \  _|
+|____\__,_|_||_\__, |___/\___/\__|
+               |___/              
 
-  ___   ___ _         _    ___ ___ _____
- / _ \ / __| |_  __ _| |_ / __| _ \_   _|
-| (_) | (__| ' \/ _` |  _| (_ |  _/ | |
- \__\_\\___|_||_\__,_|\__|\___|_|   |_|
-
-⭐️开源地址: https://github.com/RockChinQ/QChatGPT
-📖文档地址: https://q.rkcn.top
+⭐️开源地址: https://github.com/RockChinQ/LangBot
+📖文档地址: https://docs.langbot.app
 
 以下文件不存在，已自动生成，请按需修改配置文件后重启：
 - plugins/__init__.py

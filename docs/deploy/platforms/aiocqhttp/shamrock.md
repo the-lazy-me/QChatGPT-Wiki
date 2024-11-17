@@ -10,7 +10,7 @@
 
 ## OpenShamrock简介
 
-Mirai、go-cqhttp 之类的是模拟 QQ 的协议进行通信，而 Shamrock 使用的是 安卓的 Hook 来操作 QQ 模拟点击，稳定性较高。
+go-cqhttp 之类的是模拟 QQ 的协议进行通信，而 Shamrock 使用的是 安卓的 Hook 来操作 QQ 模拟点击，稳定性较高。
 
 可选平台(or设备)：
 
@@ -43,13 +43,13 @@ Mirai、go-cqhttp 之类的是模拟 QQ 的协议进行通信，而 Shamrock 使
 
 1. 在 Shamrock 的设置页面修改设置如图：
 
-启用被动 Websocket，并填写 QChatGPT 的 aiocqhttp 适配器监听的地址和端口（详见填写配置信息页）。
+启用被动 Websocket，并填写 LangBot 的 aiocqhttp 适配器监听的地址和端口（详见填写配置信息页）。
 
 ![img](/assets/image/sham_cfg_1.png)
 
 ![img](/assets/image/sham_cfg_2.png)
 
-填写的被动 Websocket 地址为 QChatGPT 的 aiocqhttp 适配器监听的地址和端口，且路径必须为 `/ws`，例如 `ws://127.0.0.1:8080/ws`，详见填写配置信息页。
+填写的被动 Websocket 地址为 LangBot 的 aiocqhttp 适配器监听的地址和端口，且路径必须为 `/ws`，例如 `ws://127.0.0.1:2280/ws`，详见填写配置信息页。
 
 2. 并前往 LSPosed 的模块管理页面 启用模块 Shamrock
 

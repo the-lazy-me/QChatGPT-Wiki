@@ -1,5 +1,9 @@
 # API 参考
 
+:::info 目录
+[[toc]]
+:::
+
 以下 API 仅针对 事件插件 可用，组件扩展形式请自行阅读源码。
 
 ## 消息处理
@@ -7,26 +11,26 @@
 ### 回复消息
 
 ```python
-ctx.reply(message_chain: mirai.MessageChain)
+ctx.reply(message_chain: MessageChain)
 ```
 
 回复此次事件的发起会话。
 
-- `message_chain`：[YiriMirai 的 MessageChain 对象](https://yiri-mirai.wybxc.cc/docs/basic/message-chain)，若用户使用的不是 YiriMirai 适配器，程序也能自动转换为目标消息链
+- `message_chain`：[消息链对象](./messages.md)，程序能自动转换为目标消息平台消息链
 
 ### 发送主动消息
 
 > 由于 QQ 官方 API 对主动消息的支持性很差，故若用户使用的是 QQ 官方 API，发送主动消息可能会失败
 
 ```python
-ctx.send_message(target_type: str, target_id: str, message_chain: mirai.MessageChain)
+ctx.send_message(target_type: str, target_id: str, message_chain: MessageChain)
 ```
 
 发送主动消息给目标。
 
 - `target_type`：目标类型，可选值：`"person"`、`"group"`
 - `target_id`：目标 ID（QQ 号或群号）
-- `message_chain`：[YiriMirai 的 MessageChain 对象](https://yiri-mirai.wybxc.cc/docs/basic/message-chain)，若用户使用的不是 YiriMirai 适配器，程序也能自动转换为目标消息链
+- `message_chain`：[消息链对象](./messages.md)，程序能自动转换为目标消息平台消息链
 
 ## 事件处理
 

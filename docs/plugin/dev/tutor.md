@@ -1,6 +1,6 @@
-# 插件开发
+# 插件开发教程
 
-> 请先阅读[插件介绍页](./plugin-intro.md)  
+> 请先阅读[插件介绍页](/plugin/plugin-intro)  
 > 建议先阅读本项目源码，了解项目架构
 
 > 问题、需求请到仓库issue发起  
@@ -15,7 +15,7 @@
 本页讲解普通插件开发步骤，插件内部有两种方法：事件监听器、内容函数。  
 事件监听器能在某些事件触发时进行响应，更改行为。内容函数可供大语言模型调用，具体请查看插件介绍页。
 
-QChatGPT 还支持组件扩展，可以不局限于监听预定事件，做到整个组件替换，具体请阅读完此页后查看**组件扩展**页。
+LangBot 还支持组件扩展，可以不局限于监听预定事件，做到整个组件替换，具体请阅读完此页后查看**组件扩展**页。
 
 ## 💻快速开始
 
@@ -208,7 +208,7 @@ async def access_web(self, query, url: str):
 
 若一个事件是一次请求（用户发送消息）中的事件，其事件对象中会含有`query`对象，这个对象中包含了此次请求（即用户发送一条消息的处理过程，一个请求过程可能会触发多个事件）处理过程中的上下文数据。  
 所有支持的事件，请查看`pkg.plugin.events`文件中的每个事件类的注释。  
-关于`YiriMirai`支持的消息链组件，请查看 [YiriMirai的文档](https://yiri-mirai.wybxc.cc/docs/basic/message-chain)
+关于`消息链组件`，请查看 [消息平台实体](./messages)
 
 ### BasePlugin 结构
 
@@ -219,3 +219,7 @@ async def access_web(self, query, url: str):
 #### self.host
 
 在插件的方法中访问`self.host`即为`pkg.plugin.context.APIHost`类的对象，提供了主程序的一些API，详细请查看其源码。
+
+### API 参考
+
+关于插件可以调用的 API，请查看 [API 参考](./api-ref)

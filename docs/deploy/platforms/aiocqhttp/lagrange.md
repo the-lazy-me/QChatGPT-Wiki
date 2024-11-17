@@ -2,7 +2,7 @@
 
 ## Lagrange介绍
 
-Lagrange 是一个 QQNT 协议逆向工程框架，比 Shamrock 或 Mirai 更加轻便，在目前也较为稳定。通过 OneBot 11 协议接入，需选择使用`aiocqhttp`作为适配器，填写配置时可参考 Shamrock 的方式。
+Lagrange 是一个 QQNT 协议逆向工程框架，轻便且相对稳定。通过 OneBot 11 协议接入，需选择使用`aiocqhttp`作为适配器。
 
 ::: warning
 需要使用 NT QQ 与机器人交互，旧版QQ无法正常使用
@@ -44,10 +44,11 @@ Lagrange 是一个 QQNT 协议逆向工程框架，比 Shamrock 或 Mirai 更加
 
 ## 修改配置
 
-需要配置 Lagrange 以让其连接上 QChatGPT，请编辑 Lagrange 的配置文件 appsettings.json，确保 Implementations 中的连接配置符合下图内容：
+需要配置 Lagrange 以让其连接上 LangBot，请编辑 Lagrange 的配置文件 appsettings.json，确保 Implementations 中的连接配置符合下图内容：
 
 ![配置连接](/assets/image/config_lgr.png)
 
 其中 Type 必须为 `ReverseWebSocket`;  
-Host 为 QChatGPT 运行的主机 IP，若在同一主机上，可以写 `127.0.0.1`;  
-Suffix 必须为 `/ws`
+Host 为 LangBot 运行的主机 IP，若在同一主机上，可以写 `127.0.0.1`；   
+Suffix 必须为 `/ws`；  
+Port 必须与 LangBot 消息平台配置中的 aiocqhttp 适配器监听的端口相同。

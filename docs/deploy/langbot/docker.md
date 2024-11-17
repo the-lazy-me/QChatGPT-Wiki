@@ -1,14 +1,12 @@
 # Docker部署(仅推荐在Linux上使用)
 
 :::warning 
-请您确保您**确实**需要 Docker 部署，您**必须**具有以下能力：  
+要使用 Docker 部署，请**确保**您具有以下能力：  
  - 了解 `Docker` 和 `Docker Compose` 的使用  
  - 了解容器间网络通信配置方式  
- - 了解容器文件挂载机制  
- - 了解容器调试操作
+ - 了解容器文件挂载机制
  - 动手能力强、资料查找能力强
 
- 若您不完全具有以上能力，请勿使用 Docker 部署，由于误操作导致的配置不正确，我们将不会解答您的问题并不负任何责任。  
  **不建议**您在除 Linux 之外的系统上使用 Docker 进行部署。
 ::: 
 
@@ -22,12 +20,15 @@
 version: "3"
 
 services:
-  qchatgpt:
-    image: rockchin/qchatgpt:latest
+  langbot:
+    image: rockchin/langbot:latest
     volumes:
       - ./data:/app/data
       - ./plugins:/app/plugins
     restart: on-failure
+    ports:
+      - 5300:5300  # 供 WebUI 使用
+      - 2280-2290:2280-2290  # 供消息平台适配器方向连接
     # 根据具体环境配置网络
 ```
 
