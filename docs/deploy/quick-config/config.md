@@ -101,7 +101,7 @@
 
 > 如果你没有OpenAI API Key，你可以[在此获取](https://ai.lazyshare.top/)
 
-以下仅讲解启用 OpenAI 接口的方式，具体设置方法请查看 [功能配置`provider.json` 页](/config/function/provider.html)。
+以下仅讲解启用 OpenAI 接口的方式，具体设置方法请查看 [功能配置`provider.json` 页](/config/function/provider)。
 
 编辑 `data/provider.json`，在`keys`->`openai`中添加你的 OpenAI API Key，例如：
 
@@ -146,6 +146,6 @@
 
 ::: tip 
 
-阅读并完成以上教程后，请根据你部署 LangBot 的方式重启，你应该可以成功使用了，如果不能请再次阅读（你或许漏做或错做某些步骤），如果完全阅读并充分理解本文档后仍然确实无法使用，你可以在[这里](/deploy/langbot/community.html)找到交流群。
+阅读并完成以上教程后，请根据你部署 LangBot 的方式重启，你应该可以成功使用了，如果不能请再次阅读（你或许漏做或错做某些步骤），如果完全阅读并充分理解本文档后仍然确实无法使用，你可以在[这里](/insight/community.html)找到交流群。
 
 :::
