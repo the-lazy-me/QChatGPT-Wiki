@@ -72,3 +72,6 @@ go-cqhttp 之类的是模拟 QQ 的协议进行通信，而 Shamrock 使用的�
 查看填写配置信息页，通过 aiocqhttp 适配器接入。
 
 ![img](https://cos.thelazy.cn/pictures/202405292250017.jpeg)
+
+
+接下来请阅读[填写配置信息](/deploy/quick-config/config)。

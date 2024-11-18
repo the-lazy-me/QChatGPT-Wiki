@@ -1,44 +1,34 @@
 # Docker部署(仅推荐在Linux上使用)
 
 :::warning 
-要使用 Docker 部署，请**确保**您具有以下能力：  
+请**确保**您具有以下能力：  
  - 了解 `Docker` 和 `Docker Compose` 的使用  
  - 了解容器间网络通信配置方式  
  - 了解容器文件挂载机制
  - 动手能力强、资料查找能力强
-
- **不建议**您在除 Linux 之外的系统上使用 Docker 进行部署。
 ::: 
 
 :::info
-请先确保 Docker 和 Docker Compose 已安装
+请先确保 Git、 Docker 和 Docker Compose 已安装
 :::
 
-以下是推荐的`docker-compose.yaml`模板，您可以根据自己的需求进行修改。
+Git 克隆本项目：
 
-```yaml
-version: "3"
-
-services:
-  langbot:
-    image: rockchin/langbot:latest
-    volumes:
-      - ./data:/app/data
-      - ./plugins:/app/plugins
-    restart: on-failure
-    ports:
-      - 5300:5300  # 供 WebUI 使用
-      - 2280-2290:2280-2290  # 供消息平台适配器方向连接
-    # 根据具体环境配置网络
+```bash
+git clone https://github.com/RockChinQ/LangBot
+cd LangBot
 ```
 
-保存到一个目录的`docker-compose.yaml`，运行命令:
+启动容器：
 
 ```bash
 docker compose up
 ```
 
-无报错即为启动成功，请查看`部署消息平台`部分以配置消息平台框架。
+首次启动会输出创建配置文件的提示，请继续按照文件配置。
+
+容器会映射`5300`端口供 WebUI 使用，您可以访问`http://127.0.0.1:5300`查看 WebUI。  
+还会映射`2280-2290`端口供使用 OneBot 协议的消息平台适配器反向连接，请继续阅读[消息平台接入文档](/deploy/platforms/aiocqhttp/napcat)。
 
 ## 注意
 

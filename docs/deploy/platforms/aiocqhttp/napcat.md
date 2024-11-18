@@ -1,15 +1,5 @@
 # 部署消息平台 NapCat
 
-## NapCat介绍
-
-NapCat 是一个 QQNT 协议逆向工程框架。
-
-可选平台：
-
-- Windows
-- Linux Docker
-- Linux 非 Docker
-
 ## NapCat安装教程
 
 按照 [NapCat 官方文档安装](https://napneko.com/guide/start-install)
@@ -33,3 +23,5 @@ NapCat 是一个 QQNT 协议逆向工程框架。
 然后重新运行登录即可，看到提示：
 
 ![image-20240514232647329](/assets/image/napcat_cfg_3.png)
+
+接下来请阅读[填写配置信息](/deploy/quick-config/config)。

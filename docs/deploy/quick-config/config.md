@@ -12,6 +12,10 @@
 目前支持 `go-cqhttp`、`aiocqhttp`、`qq-botpy` 消息平台适配器，也可以同时启用多个同种类或不同种类的平台适配器。  
 请根据你部署的消息平台的情况选择填写。
 
+::: info
+如果消息平台和 LangBot 均运行在 Docker 中，请先配置下方适配器设置，具体网络配置可参考[Docker 网络配置详解](/workshop/docker-network)
+:::
+
 ### aiocqhttp 适配器
 
 用于接入 NapCat/Lagrange/LLOneBot 等兼容 OneBot 协议的机器人端（仅支持反向ws）。

@@ -9,3 +9,5 @@
 ![image-20240515185909108](/assets/image/llob_cfg.png)
 
 确保地址中 IP地址 是 LangBot 运行的主机的地址（若在同一网络内运行则为 127.0.0.1），端口必须与 LangBot 消息平台配置中的 aiocqhttp 适配器监听的端口相同，后缀必须为`/ws`：
+
+接下来请阅读[填写配置信息](/deploy/quick-config/config)。

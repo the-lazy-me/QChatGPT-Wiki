@@ -52,3 +52,5 @@ Lagrange 是一个 QQNT 协议逆向工程框架，轻便且相对稳定。通�
 Host 为 LangBot 运行的主机 IP，若在同一主机上，可以写 `127.0.0.1`；   
 Suffix 必须为 `/ws`；  
 Port 必须与 LangBot 消息平台配置中的 aiocqhttp 适配器监听的端口相同。
+
+接下来请阅读[填写配置信息](/deploy/quick-config/config)。

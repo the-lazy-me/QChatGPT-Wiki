@@ -32,8 +32,8 @@ export default defineConfig({
             text: "部署 LangBot",
             collapsed: true,
             items: [
-              { text: "手动部署", link: "/deploy/langbot/manual" },
               { text: "Docker部署", link: "/deploy/langbot/docker" },
+              { text: "手动部署", link: "/deploy/langbot/manual" },
             ],
           },
           {
@@ -163,6 +163,7 @@ export default defineConfig({
         text: "实践", items: [
           { text: "如何在 LangBot 上接入 Dify？", link: "/workshop/dify-integration" },
           { text: "如何接入 OneAPI、LinkAI 等第三方 OpenAI 格式接口？", link: "/workshop/one-api" },
+          { text: "消息平台和 LangBot 均使用 Docker 时，如何配置网络连接？", link: "/workshop/docker-network" },
         ]
       },
     ],
