@@ -85,7 +85,6 @@ export default defineConfig({
         text: "使用",
         items: [
           { text: "命令用法", link: "/usage/command" },
-          { text: "插件列表", link: "/usage/plugin-list" },
           { text: "常见问题", link: "/usage/faq" },
         ],
       },
