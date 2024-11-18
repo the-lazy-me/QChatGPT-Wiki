@@ -77,7 +77,7 @@ python main.py
 - data/scenario/default.json
 ```
 
-接下来可以使用 Ctrl+C 退出程序，继续查看[部署消息平台](/deploy/platforms/aiocqhttp/lagrange.html)页。
+接下来可以使用 Ctrl+C 退出程序，继续查看[部署消息平台](/deploy/platforms/aiocqhttp/napcat.html)页。
 
 当你部署消息平台和填写配置文件后，再次运行
 ```bash

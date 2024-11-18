@@ -14,7 +14,7 @@
 
 ### aiocqhttp 适配器
 
-用于接入 Lagrange/NapCat/LLOneBot 等兼容 OneBot 协议的机器人端（仅支持反向ws）。
+用于接入 NapCat/Lagrange/LLOneBot 等兼容 OneBot 协议的机器人端（仅支持反向ws）。
 
 ```json
 {
@@ -30,11 +30,11 @@
 
 `enable`：是否启用，配置完成后请将其设为`true`
 
-`host`：监听的 IP 地址，一般就保持 0.0.0.0 就可以了。使用 aiocqhttp 时，LangBot 作为服务端被动等待框架连接，请在 Shamrock 等框架中设置`被动 ws 地址`或者`反向 ws 地址`（具体视框架而定）为 LangBot 监听的地址，且路径为`/ws`，例如：`ws://127.0.0.1:2280/ws`。
+`host`：监听的 IP 地址，一般就保持 0.0.0.0 就可以了。使用 aiocqhttp 时，LangBot 作为服务端被动等待框架连接，请在 NapCat/Lagrange/LLOneBot 等框架中设置`被动 ws 地址`或者`反向 ws 地址`（具体视框架而定）为 LangBot 监听的地址，且路径为`/ws`，例如：`ws://127.0.0.1:2280/ws`。
 
-`port`：设置监听的端口，默认2280，需在 Napcat 等框架中设置为与此处一致的端口。使用容器启动的 LangBot 默认暴露了 2280-2290 端口，请选用其中任意一个端口。
+`port`：设置监听的端口，默认2280，需在 NapCat/Lagrange/LLOneBot 等框架中设置为与此处一致的端口。使用容器启动的 LangBot 默认暴露了 2280-2290 端口，请选用其中任意一个端口。
 
-`access-token`：设置访问密钥，与 Napcat 等框架中设置的保持一致
+`access-token`：设置访问密钥，与 NapCat/Lagrange/LLOneBot 等框架中设置的保持一致
 
 ### qq-botpy 适配器
 

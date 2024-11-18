@@ -47,12 +47,12 @@ export default defineConfig({
                 // link: "/deploy/platforms/aiocqhttp/",
                 items: [
                   {
-                    text: "Lagrange",
-                    link: "/deploy/platforms/aiocqhttp/lagrange",
-                  },
-                  {
                     text: "NapCat",
                     link: "/deploy/platforms/aiocqhttp/napcat",
+                  },
+                  {
+                    text: "Lagrange",
+                    link: "/deploy/platforms/aiocqhttp/lagrange",
                   },
                   {
                     text: "llonebot",
