@@ -7,7 +7,7 @@
 LangBot 支持多种消息平台，但每个消息平台的`消息实体`格式均不相同，为了屏蔽这些差异，LangBot 具有一套统一的标准。插件开发者只需要掌握并在插件中使用此页所述的消息实体，LangBot 内部的消息处理逻辑能够自动完成消息的解析和转换。
 
 :::info
-LangBot 的消息平台实体是基于 [YiriMirai](https://github.com/YiriMiraiProject/YiriMirai) 的实现改造的
+LangBot 的消息平台实体是基于 [YiriMirai](https://github.com/YiriMiraiProject/YiriMirai) 的实现改造的。
 :::
 
 ## 消息链
@@ -72,3 +72,11 @@ msg_chain = MessageChain([
 
 除了上述实体之外，还有`好友 Friend`和`群 Group`等实体，这些实体的定义位于`pkg/platform/types/entities.py`中。
 他们一般被包含于上述事件对象中，可以从中取得一些未被包含在插件事件中的信息。
+
+## 向后兼容性
+
+以 3.x 版本为基础开发的插件，均可以无缝适配 3.4 版本。但 `import mirai` 在新版本已经不受支持，开发插件时编辑器会报错。请做如下修改：
+
+- `import mirai` 改为 `import pkg.platform.types as mirai`
+    - 不建议直接改成 `as mirai`，建议使用 `import pkg.platform.types as platform_types` 并将插件代码中对应的 `mirai.xxx` 替换为 `platform_types.xxx`
+- `from mirai import *` 改为 `from pkg.platform.types import *`
