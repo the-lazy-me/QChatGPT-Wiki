@@ -97,3 +97,37 @@ LangBot 运行期间推送遥测数据的目标地址，默认为官方地址，
 ```
 
 `help-message`：帮助消息，用户发送 !help 命令时的输出
+
+## HTTP 接口 http-api
+
+配置 HTTP 服务，需要启用才能访问 WebUI。
+
+```json
+"http-api": {
+    "enable": true,
+    "host": "0.0.0.0",
+    "port": 5300,
+    "jwt-expire": 604800
+},
+```
+
+`enable`：是否启用 HTTP 接口  
+`host`：HTTP 接口监听的地址  
+`port`：HTTP 接口监听的端口  
+`jwt-expire`：JWT 过期时间，单位为秒  
+
+## 持久化配置 persistence
+
+配置数据库信息。
+
+```json
+"persistence": {
+    "sqlite": {
+        "path": "data/persistence.db"
+    },
+    "use": "sqlite"
+}
+```
+
+`sqlite`：使用 SQLite 数据库，`path` 为数据库文件路径  
+`use`：使用哪种数据库，目前仅支持 `sqlite`
