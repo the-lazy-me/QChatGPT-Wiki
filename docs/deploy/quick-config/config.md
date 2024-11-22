@@ -114,9 +114,6 @@
         "openai": [
             "sk-AAAAAAAAAAAABBBBBBBBBBBBCCCCCCCCCCCCCDDDDDDDDD"
         ],
-        "anthropic": [],
-        "moonshot": [],
-        "deepseek": []
     },
 ```
 

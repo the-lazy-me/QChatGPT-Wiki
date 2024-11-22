@@ -24,6 +24,10 @@
 
 ## 模型接口密钥 keys
 
+::: info
+不同模型的提供商可能使用不同的接口格式，LangBot 通过每个模型的三元组（请求器、密钥组、模型名称）来确定模型的使用方式。查看已支持的模型或添加自定义模型，请查看元数据配置板块 `llm-models.json` 文件。
+:::
+
 ```json
 "keys": {
     "openai": [
@@ -37,18 +41,22 @@
     ],
     "deepseek": [
         "sk-1234567890"
+    ],
+    "gitee-ai": [
+        "XXXXX"
     ]
 },
 ```
 
-`keys`：设置密钥组，以字典的形式设置若干个密钥组，每个密钥组的键为密钥组名称，值为密钥列表。模型与密钥组的对应关系，请查看元数据板块。
+`keys`：设置密钥组，以字典的形式设置若干个密钥组，每个密钥组的键为密钥组名称，值为密钥列表。模型与密钥组的对应关系，请查看元数据板块 `llm-models.json` 文件。
 
 目前支持的密钥组：
 
-- `openai`：OpenAI 的密钥组，如果你没有OpenAI API Key，你可以[在此获取](https://ai.lazyshare.top/)
-- `anthropic`：Anthropic 的密钥组
-- `moonshot`：Moonshot（月之暗面 kimi）的密钥组
-- `deepseek`：Deepseek（深度求索）的密钥组
+- `openai`：[OpenAI](https://openai.com/) 的密钥组，如果你没有OpenAI API Key，你可以[在此获取](https://ai.lazyshare.top/)
+- `anthropic`：[Anthropic](https://anthropic.com/) 的密钥组
+- `moonshot`：[Moonshot](https://moonshot.cn/)（月之暗面 kimi）的密钥组
+- `deepseek`：[Deepseek](https://deepseek.com/)（深度求索）的密钥组
+- `gitee-ai`: [Gitee AI](https://ai.gitee.com/) Serverless API 的密钥组
 
 ## 大模型请求器 requester
 
@@ -80,25 +88,31 @@
             "base-url": "http://127.0.0.1:11434",
             "args": {},
             "timeout": 600
+        },
+        "gitee-ai-chat-completions": {
+            "base-url": "https://ai.gitee.com/v1",
+            "args": {},
+            "timeout": 120
         }
     },
 ```
 
-`requester`：设置请求器，以字典的形式设置若干个请求器，每个请求器的键为请求器名称，值为请求器配置。模型与请求器的对应关系，请查看元数据板块。实现请求器的方式，请查看插件编写教程。
+`requester`：设置请求器，每个请求器的键为请求器名称，值为请求器配置。模型与请求器的对应关系，请查看元数据板块 `llm-models.json` 文件。实现请求器的方式，请查看插件编写教程。
 
-目前支持的请求器有：
+目前支持的请求器有（除非编写插件实现了新的请求器，否则不支持在`requester`中添加新的请求器配置）：
 
-- `openai-chat-completions`：OpenAI 的 ChatCompletion 请求器
-- `anthropic-messages`：Anthropic 请求器（Claude）
-- `moonshot-chat-completions`：Moonshot 请求器（月之暗面）
-- `deepseek-chat-completions`：Deepseek 请求器（深度求索）
-- `ollama-chat`：Ollama 请求器，不需要密钥，直接请求目标地址的 Ollama 服务
+- `openai-chat-completions`：[OpenAI](https://openai.com/) 的 ChatCompletion 请求器
+- `anthropic-messages`：[Anthropic](https://anthropic.com/) 请求器（Claude）
+- `moonshot-chat-completions`：[Moonshot](https://moonshot.cn/) 请求器（月之暗面）
+- `deepseek-chat-completions`：[Deepseek](https://deepseek.com/) 请求器（深度求索）
+- `ollama-chat`：[Ollama](https://ollama.com/) 请求器，不需要密钥，直接请求目标地址的 Ollama 服务
+- `gitee-ai-chat-completions`：[Gitee AI](https://ai.gitee.com/) Serverless API 请求器（OpenAI 兼容接口）
 
 `base-url`：设置接口地址。
 
-`args`：请求时除了model之外的其他参数，以字典的形式设置。
+`args`：请求时除了model之外的其他参数，以字典的形式设置，具体请查看各个接口提供商的文档。
 
-`timeout`：设置请求超时时间，以秒为单位，对于耗时较长的模型，建议设置较大值
+`timeout`：设置请求超时时间，以秒为单位，对于耗时较长的模型，建议设置较大值。
 
 ## 使用的模型 model
 
@@ -106,14 +120,9 @@
 "model": "gpt-3.5-turbo",
 ```
 
-`model`：设置要使用的模型名称。通常来说直接填写模型名称即可，但如果要使用原生接口不是 ChatCompletion 但以 ChatCompletion 接口格式接入的模型，请在模型名称前方加一个 `OneAPI/` 前缀以进行区分。
-简单来说可以认为是：现阶段非 OpenAI 的模型接入都需要在模型名称前方加一个 `OneAPI/` 前缀。
+`model`：设置要使用的模型名称。此模型必须存在于 `llm-models.json` 元数据中。
 
-例如：  
-1. 通过 OneAPI 等中转服务接入了 OpenAI 的 `gpt-4` 模型，由于 `gpt-4` 也是使用 ChatCompletion 接口格式进行请求，则可以直接填入 `gpt-4`；  
-2. 通过 OneAPI 等中转服务接入了 Google 的 `gemini-pro` 模型，由于 `gemini-pro` 原生接口格式并非 ChatCompletion，因此需要填入 `OneAPI/gemini-pro`。
-
-具体支持的模型列表和各个模型对应的请求器和密钥组，请查看元数据板块 llm-models.json 。
+具体支持的模型列表和各个模型对应的请求器和密钥组，请查看元数据板块 `llm-models.json` 文件。
 
 ## 情景预设（人格） prompt
 

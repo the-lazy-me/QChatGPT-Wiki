@@ -25,7 +25,7 @@ features:
       details: 集成黑名单、限速、选择响应、上下文控制、Prompt 管理等多种常用功能
 
     - title: 多种模型
-      details: 适配 OpenAI、Moonshot、Anthropic 等多个提供商的接口，同时深度支持 OneAPI
+      details: 适配 OpenAI、Moonshot、Anthropic、Gitee AI 等多个提供商，同时深度支持 OneAPI
     - title: 高稳定性
       details: 采用主流的设计思想，架构清晰，具有高测试覆盖率
 
