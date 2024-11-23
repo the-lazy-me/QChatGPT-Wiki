@@ -4,8 +4,6 @@
 
 按照 [NapCat 官方文档安装](https://napcat.napneko.icu/guide/start-install)
 
-运行后扫码登录
-
 ## NapCat配置教程
 
 仅以 webui 操作为例，其他的配置方式请查看 NapCat 文档。
