@@ -80,6 +80,17 @@ export default defineConfig({
             ],
           },
           { text: "填写配置信息", link: "/deploy/quick-config/config" },
+          {
+            text: "网络配置详解",
+            link: "/deploy/network-details",
+            // collapsed: true,
+            // items: [
+            //   { text: "LangBot和消息平台均Docker", link: "/deploy/network/langbot-platform-docker" },
+            //   { text: "仅LangBot Docker", link: "/deploy/network/langbot-docker" },
+            //   { text: "仅消息平台 Docker（不建议）", link: "/deploy/network/platform-docker" },
+            //   { text: "LangBot和消息平台均非Docker", link: "/deploy/network/langbot-platform-manual" },
+            // ],
+          },
         ],
       },
       {
@@ -136,7 +147,7 @@ export default defineConfig({
               { text: "消息平台实体", link: "/plugin/dev/messages" },
               { text: "API 参考", link: "/plugin/dev/api-ref" },
               { text: "组件扩展", link: "/plugin/dev/extension" },
-            ]
+            ],
           },
           // { text: "技术信息", link: "/plugin/tech-info" },
         ],
@@ -147,7 +158,7 @@ export default defineConfig({
           { text: "介绍 & 使用", link: "/webui/intro" },
           { text: "系统操作", link: "/webui/system" },
           { text: "设置项管理", link: "/webui/settings" },
-        ]
+        ],
       },
       // {
       //   text: "规模化和商用",
@@ -161,22 +172,29 @@ export default defineConfig({
       // },
 
       {
-        text: "实践", items: [
-          { text: "如何在 LangBot 上接入 Dify？", link: "/workshop/dify-integration" },
-          { text: "如何接入 OneAPI、LinkAI 等第三方 OpenAI 格式接口？", link: "/workshop/one-api" },
-          { text: "消息平台和 LangBot 均使用 Docker 时，如何配置网络连接？", link: "/workshop/docker-network" },
-        ]
+        text: "实践",
+        items: [
+          {
+            text: "如何在 LangBot 上接入 Dify？",
+            link: "/workshop/dify-integration",
+          },
+          {
+            text: "如何接入 OneAPI、LinkAI 等第三方 OpenAI 格式接口？",
+            link: "/workshop/one-api",
+          },
+        ],
       },
     ],
 
     // 编辑链接
     editLink: {
-      pattern: "https://github.com/the-lazy-me/Langbot-Wiki/edit/main/docs/:path",
+      pattern:
+        "https://github.com/the-lazy-me/Langbot-Wiki/edit/main/docs/:path",
     },
 
     // 本地搜索
     search: {
-      provider: 'local'
+      provider: "local",
     },
 
     // 导航栏的社交图标

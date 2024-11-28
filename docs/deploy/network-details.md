@@ -1,0 +1,60 @@
+# 网络配置详解
+:::tip
+
+LangBot和消息平台均可采用Docker部署，
+
+进而产生了四种不同的方式：
+
+[[toc]]
+
+本文旨在介绍这四种情况下的网络配置
+:::
+
+## LangBot和消息平台都采用Docker
+
+如果消息平台（NapCat/Lagrange）和 LangBot 均使用 Docker 启动，那么你需要配置 Docker 的网络连接。
+
+新建一个网络：
+
+```bash
+docker network create langbot-network
+```
+
+在 LangBot 目录的 `docker-compose.yaml` 文件中添加网络配置(添加到 `services.langbot` 字段下，并在 `networks` 字段下添加 `langbot-network` 网络配置)：
+
+```yaml
+services:
+  langbot:
+    ...
+    networks:
+      - langbot-network
+    ...
+
+networks:
+  langbot-network:
+    driver: bridge
+```
+
+然后在消息平台的 `docker-compose.yaml` 文件中添加同样的网络配置（如果是直接 docker run 命令启动的，请在启动命令中添加 `--network langbot-network`）。接着在消息平台配置文件中，把 WS 反向连接地址中的 IP 地址修改为 `langbot`（例如：`ws://langbot:2280/ws`）。
+
+重启两个容器。
+
+
+
+## 仅LangBot使用使用Docker
+
+当只有LangBot采用Docker部署时，默认情况就已经映射了2280到2290这些端口给消息平台（因为只支持消息平台作为客户端连接）使用
+
+所以消息平台设置为ReverseWebSocket（反向ws），端口在2280到2290之间，连接本地127.0.0.1即可
+
+
+## LangBot和消息平台都不使用Docker部署
+
+直接看文档配置消息平台和设置platforms即可，两者端口设置为统一的不被占用的即可，都连接本地127.0.0.1
+
+
+## 仅消息平台使用Docker(这个不建议)
+
+:::warning
+这种情况不建议
+:::

@@ -20,7 +20,7 @@
 ::: info
 - 端口号取决于 `data/config/platform.json` 中 `aiocqhttp` 的 `port` 字段，默认是 2280，请查看[填写配置信息](/deploy/quick-config/config)继续配置。
 - 必须使用 WebSocket Client（反向 WS） 连接 LangBot，注意根据实际情况修改 IP 地址和端口，后缀必须为`/ws`。  
-- 如果 LangBot 和 NapCat 均运行在容器中，请参考[容器网络配置](/workshop/docker-network)。
+- 如果 LangBot 和 NapCat 均运行在容器中，请参考[容器网络配置](/deploy/network-details)。
 :::
 
 接下来请阅读[填写配置信息](/deploy/quick-config/config)。

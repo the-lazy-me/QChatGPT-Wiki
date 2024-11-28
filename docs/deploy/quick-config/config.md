@@ -1,6 +1,6 @@
 # 填写配置信息
 
-修改以下配置文件即可启用 LangBot 的基本功能，当你阅读完此页面后，建议查看[配置详解](../../config/function/platform.md)，以了解更多的配置项详解
+修改以下配置文件即可启用 LangBot 的基本功能，当你阅读完此页面后，建议查看[配置详解](/config/function/platform.md)，以了解更多的配置项详解
 
 - `data/config/platform.json`
 - `data/config/provider.json`
@@ -13,7 +13,7 @@
 请根据你部署的消息平台的情况选择填写。
 
 ::: info
-如果消息平台和 LangBot 均运行在 Docker 中，请先配置下方适配器设置，具体网络配置可参考[Docker 网络配置详解](/workshop/docker-network)
+如果消息平台和 LangBot 均运行在 Docker 中，请先配置下方适配器设置，具体网络配置可参考[Docker 网络配置详解](/deploy/network-details)
 :::
 
 ### aiocqhttp 适配器
