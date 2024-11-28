@@ -32,6 +32,7 @@ export default defineConfig({
             text: "部署 LangBot",
             collapsed: true,
             items: [
+              { text: "一键部署(宝塔版)", link: "/deploy/langbot/quick" },
               { text: "Docker部署", link: "/deploy/langbot/docker" },
               { text: "手动部署", link: "/deploy/langbot/manual" },
             ],
@@ -170,7 +171,7 @@ export default defineConfig({
 
     // 编辑链接
     editLink: {
-      pattern: "https://github.com/vuejs/vitepress/edit/main/docs/:path",
+      pattern: "https://github.com/the-lazy-me/Langbot-Wiki/edit/main/docs/:path",
     },
 
     // 本地搜索

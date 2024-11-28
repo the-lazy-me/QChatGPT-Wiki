@@ -52,7 +52,7 @@
 
 目前支持的密钥组：
 
-- `openai`：[OpenAI](https://openai.com/) 的密钥组，如果你没有OpenAI API Key，你可以[在此获取](https://ai.lazyshare.top/)
+- `openai`：[OpenAI](https://openai.com/) 的密钥组，如果你没有OpenAI API Key，你可以[在此中转站获取](https://api.qhaigc.net/)
 - `anthropic`：[Anthropic](https://anthropic.com/) 的密钥组
 - `moonshot`：[Moonshot](https://moonshot.cn/)（月之暗面 kimi）的密钥组
 - `deepseek`：[Deepseek](https://deepseek.com/)（深度求索）的密钥组

@@ -103,7 +103,7 @@
 
 修改此配置文件以设置所连接的 AI 提供商的相关信息，目前支持 `openai(GPT)`, `anthropic(claude)`, `moonshot(月之暗面)` 三种接口及对应模型。
 
-> 如果你没有OpenAI API Key，你可以[在此获取](https://ai.lazyshare.top/)
+> 如果你没有OpenAI API Key，你可以[在此获取](https://api.qhaigc.net/)
 
 以下仅讲解启用 OpenAI 接口的方式，具体设置方法请查看 [功能配置`provider.json` 页](/config/function/provider)。
 
