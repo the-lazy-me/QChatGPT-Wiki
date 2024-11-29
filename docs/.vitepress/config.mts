@@ -37,7 +37,7 @@ export default defineConfig({
               //     { text: "宝塔面板(推荐)", link: "/deploy/langbot/one-click/bt" },
               //   ],
               // },
-              { text: "宝塔一键部署", link: "/deploy/langbot/one-click/bt" },
+              { text: "宝塔面板部署", link: "/deploy/langbot/one-click/bt" },
               { text: "Docker部署", link: "/deploy/langbot/docker" },
               { text: "手动部署", link: "/deploy/langbot/manual" },
             ],

@@ -1,4 +1,4 @@
-# 一键部署(宝塔版)
+# 宝塔面板部署
 
 使用[宝塔面板](https://www.bt.cn/new/download.html?r=dk_LangBot)一键部署 LangBot。
 
