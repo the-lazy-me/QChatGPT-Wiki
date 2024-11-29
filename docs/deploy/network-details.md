@@ -1,16 +1,12 @@
 # 网络配置详解
-:::tip
 
-LangBot和消息平台均可采用Docker部署，
+LangBot 和部分消息平台均可采用 Docker 部署，以下是四种情况下的网络配置详解。
 
-进而产生了四种不同的方式：
-
+:::info 目录
 [[toc]]
-
-本文旨在介绍这四种情况下的网络配置
 :::
 
-## LangBot和消息平台都采用Docker
+## LangBot 和消息平台均运行在 Docker 容器中
 
 如果消息平台（NapCat/Lagrange）和 LangBot 均使用 Docker 启动，那么你需要配置 Docker 的网络连接。
 
@@ -41,20 +37,21 @@ networks:
 
 
 
-## 仅LangBot使用使用Docker
+## 仅 LangBot 运行在 Docker 容器中
 
-当只有LangBot采用Docker部署时，默认情况就已经映射了2280到2290这些端口给消息平台（因为只支持消息平台作为客户端连接）使用
+当只有 LangBot 采用 Docker 部署时，默认已经映射 2280 到 2290 端口到容器外。此时 LangBot 只能作为 WebSocket 服务器，接受消息平台作为客户端连接。
 
-所以消息平台设置为ReverseWebSocket（反向ws），端口在2280到2290之间，连接本地127.0.0.1即可
-
-
-## LangBot和消息平台都不使用Docker部署
-
-直接看文档配置消息平台和设置platforms即可，两者端口设置为统一的不被占用的即可，都连接本地127.0.0.1
+请把消息平台设置为 ReverseWebSocket（称为 `反向 ws` 或 `WebSocket 客户端`），端口对应 LangBot 的 aiocqhttp 适配器启用的端口，连接本地 127.0.0.1 即可。
 
 
-## 仅消息平台使用Docker(这个不建议)
+## LangBot 和消息平台都不使用 Docker 部署
+
+根据文档配置消息平台和 LangBot 设置，两者端口设置为统一的不被占用的即可，都连接本地 127.0.0.1。
+
+## 仅消息平台运行在 Docker 容器中（不建议）
 
 :::warning
-这种情况不建议
+仅支持 Linux ，或其他支持 host 模式 docker 网络的系统。
 :::
+
+目前 LangBot 的 aiocqhttp 适配器仅支持 反向 WebSocket 连接，当消息平台运行在 Docker 容器中而 LangBot 直接运行在宿主机时，必须由 消息平台作为客户端连接 LangBot。此时只能将 消息平台的 network 设置为 `host` 模式，再设置其 WS 连接地址为 127.0.0.1，端口对应 LangBot 的 aiocqhttp 适配器启用的端口。

@@ -32,11 +32,12 @@ export default defineConfig({
             text: "部署 LangBot",
             collapsed: true,
             items: [
-              { text: "一键部署", 
-                items: [
-                  { text: "宝塔面板(推荐)", link: "/deploy/langbot/one-click/bt" },
-                ],
-              },
+              // { text: "一键部署", 
+              //   items: [
+              //     { text: "宝塔面板(推荐)", link: "/deploy/langbot/one-click/bt" },
+              //   ],
+              // },
+              { text: "宝塔一键部署", link: "/deploy/langbot/one-click/bt" },
               { text: "Docker部署", link: "/deploy/langbot/docker" },
               { text: "手动部署", link: "/deploy/langbot/manual" },
             ],
