@@ -183,7 +183,7 @@
 - `local-agent`：LangBot 本地实现的一个 Agent 机制，实现会话管理、插件调用。需要设置为 local-agent 才能使用`内容函数`。
 - `dify-service-api`：使用 [Dify](https://dify.ai/) 的 Service API 机制，支持 聊天助手、Agent、工作流应用。
 
-## Dify Service API 配置
+## Dify Service API 配置 dify-service-api
 
 ```json
     "dify-service-api": {
@@ -202,7 +202,7 @@
 仅在 `runner` 设置为 `dify-service-api` 时，需要配置以下内容：
 
 - `base-url`：Dify Service API 的地址，默认是 `https://api.dify.ai/v1`，这是 Dify 官方云服务的地址，如果你使用的是自部署的社区版，请设置为你的自部署地址。
-- `app-type`：使用的 Dify 应用类型。支持 `chat` 和 `workflow`，`chat`：聊天助手（含高级编排）和 Agent；`workflow`：工作流；请填写下方对应的应用类型 API 参数
+- `app-type`：使用的 Dify 应用类型。支持 `chat`（聊天助手（含高级编排）和 Agent）和 `workflow`（工作流）；请填写下方对应的应用类型 API 参数
 - `chat`：Dify 聊天助手应用的配置
     - `api-key`：Dify 聊天助手应用的 API 密钥
 - `workflow`：Dify 工作流应用的配置
