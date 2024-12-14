@@ -1,7 +1,8 @@
 # 在 LangBot 上接入 Dify（NewAPI 中转方案）
 
 ::: info 
-本文由社区贡献者编写。
+本文由社区贡献者编写。  
+现已支持直接接入 Dify Service API 使用，请参考 [如何接入 Dify？](./dify-service-api)
 :::
 
 [Dify](https://dify.ai/) 是一个开源的 AI 应用开发平台，支持多种 AI 模型和丰富的插件，用于快速搭建 AI Agent、Workflow 等应用。通过中间件，我们可以在 LangBot 上使用 Dify 功能。

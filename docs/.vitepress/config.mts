@@ -180,7 +180,11 @@ export default defineConfig({
         text: "实践",
         items: [
           {
-            text: "如何在 LangBot 上接入 Dify？",
+            text: "如何接入 Dify？",
+            link: "/workshop/dify-service-api",
+          },
+          {
+            text: "如何接入 Dify？ - NewAPI 中转方案",
             link: "/workshop/dify-integration",
           },
           {
