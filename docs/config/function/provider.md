@@ -210,3 +210,11 @@
     - `output-key`：Dify 工作流应用的输出键，用于获取工作流应用的输出结果。默认为`summary`，对应工作流编排时，end节点的输出变量。
 
 ![Dify 工作流应用的输出键](/assets/image/config_provider_01.png)
+
+当使用工作流时，LangBot 会显式传入以下参数，您可以自行在 Dify 工作流的开始节点中添加：
+
+- `langbot_user_message_text`：用户消息的纯文本
+- `langbot_session_id`：用户会话id，私聊为 `person_<id>`，群聊为 `group_<id>`
+- `langbot_conversation_id`：用户会话id，由 LangBot 生成。用户重置会话后，会重新生成
+
+![Dify 工作流开始节点配置](/assets/image/config_provider_02.png)
