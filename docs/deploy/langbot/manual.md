@@ -2,7 +2,6 @@
 
 :::warning
 1. 请使用Python 3.10.1（不包含3.10.0）及以上版本，推荐3.10.14版本，没有Python的需自行安装。
-2. 使用WebUI配置页面时，需要安装NodeJS，且版本>=22，可参考此教程[安装Node.js](https://liaoxuefeng.com/books/javascript/nodejs/install/)
 ::: 
 
 
