@@ -190,11 +190,17 @@
         "base-url": "https://api.dify.ai/v1",
         "app-type": "chat",
         "chat": {
-            "api-key": "app-1234567890"
+            "api-key": "app-1234567890",
+            "timeout": 120
+        },
+        "agent": {
+            "api-key": "app-1234567890",
+            "timeout": 120
         },
         "workflow": {
             "api-key": "app-1234567890",
-            "output-key": "summary"
+            "output-key": "summary",
+            "timeout": 120
         }
     }
 ```
@@ -202,12 +208,17 @@
 仅在 `runner` 设置为 `dify-service-api` 时，需要配置以下内容：
 
 - `base-url`：Dify Service API 的地址，默认是 `https://api.dify.ai/v1`，这是 Dify 官方云服务的地址，如果你使用的是自部署的社区版，请设置为你的自部署地址。
-- `app-type`：使用的 Dify 应用类型。支持 `chat`（聊天助手（含高级编排）和 Agent）和 `workflow`（工作流）；请填写下方对应的应用类型 API 参数
+- `app-type`：使用的 Dify 应用类型。支持 `chat` - 聊天助手（含高级编排）、 `agent` - Agent、 `workflow` - 工作流；请填写下方对应的应用类型 API 参数
 - `chat`：Dify 聊天助手应用的配置
     - `api-key`：Dify 聊天助手应用的 API 密钥
+    - `timeout`：Dify 聊天助手应用的请求超时时间，以秒为单位，默认是 120 秒。
+- `agent`：Dify Agent 应用的配置
+    - `api-key`：Dify Agent 应用的 API 密钥
+    - `timeout`：Dify Agent 应用的请求超时时间，以秒为单位，默认是 120 秒。
 - `workflow`：Dify 工作流应用的配置
     - `api-key`：Dify 工作流应用的 API 密钥
     - `output-key`：Dify 工作流应用的输出键，用于获取工作流应用的输出结果。默认为`summary`，对应工作流编排时，end节点的输出变量。
+    - `timeout`：Dify 工作流应用的请求超时时间，以秒为单位，默认是 120 秒。
 
 ![Dify 工作流应用的输出键](/assets/image/config_provider_01.png)
 
@@ -218,3 +229,6 @@
 - `langbot_conversation_id`：用户会话id，由 LangBot 生成。用户重置会话后，会重新生成
 
 ![Dify 工作流开始节点配置](/assets/image/config_provider_02.png)
+
+使用 工作流 应用或 Agent 应用时，如果开启了`platform.json`中的`track-function-calls`，将会在 Dify 执行每个工具调用时，输出一个`调用函数xxx`的消息给用户。  
+但如果是使用`chat`应用下的`ChatFlow`（聊天助手->工作流编排），无论如何只会输出 Answer（直接回复）节点返回的文本。
