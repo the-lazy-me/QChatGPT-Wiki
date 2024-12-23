@@ -193,6 +193,12 @@ export default defineConfig({
           },
         ],
       },
+      {
+        text: "开发",
+        items: [
+          { text: "组件架构", link: "/develop/comp-arch" },
+        ],
+      },
     ],
 
     // 编辑链接
