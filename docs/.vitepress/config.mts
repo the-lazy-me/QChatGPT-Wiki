@@ -96,6 +96,10 @@ export default defineConfig({
             //   { text: "LangBot和消息平台均非Docker", link: "/deploy/network/langbot-platform-manual" },
             // ],
           },
+          {
+            text: "更新 LangBot",
+            link: "/deploy/update",
+          },
         ],
       },
       {
